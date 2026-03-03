@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📰 NewsRadar — Rassegna Settimanale</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d27;
+    --card2: #22263a;
+    --accent: #4f6ef7;
+    --accent2: #7c3aed;
+    --text: #e8eaf6;
+    --muted: #8892b0;
+    --green: #22c55e;
+    --orange: #f59e0b;
+    --red: #ef4444;
+    --border: #2d3250;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+
+  header {
+    background: linear-gradient(135deg, #1a1d27 0%, #22263a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 40px;
+    display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  }
+  .logo { font-size: 1.6rem; font-weight: 800; background: linear-gradient(90deg, #4f6ef7, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .week-badge { background: var(--card2); border: 1px solid var(--border); border-radius: 20px; padding: 6px 16px; font-size: 0.85rem; color: var(--muted); }
+
+  .filters { display: flex; gap: 10px; padding: 24px 40px 10px; flex-wrap: wrap; align-items: center; }
+  .filter-btn { background: var(--card); border: 1px solid var(--border); color: var(--muted); padding: 8px 18px; border-radius: 20px; cursor: pointer; font-size: 0.85rem; transition: all 0.2s; }
+  .filter-btn:hover, .filter-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+  .search-box { margin-left: auto; background: var(--card); border: 1px solid var(--border); color: var(--text); padding: 8px 16px; border-radius: 20px; font-size: 0.85rem; width: 220px; }
+  .search-box:focus { outline: none; border-color: var(--accent); }
+
+  .main { padding: 20px 40px; display: grid; grid-template-columns: 1fr 360px; gap: 28px; }
+
+  .news-grid { display: flex; flex-direction: column; gap: 16px; }
+
+  .news-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    display: flex; gap: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .news-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: 4px 0 0 4px; }
+  .news-card.green::before { background: var(--green); }
+  .news-card.orange::before { background: var(--orange); }
+  .news-card.red::before { background: var(--red); }
+  .news-card:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(79,110,247,0.15); border-color: var(--accent); }
+  .news-card.hidden { display: none; }
+
+  .score-badge {
+    min-width: 52px; height: 52px; border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem; font-weight: 900; flex-shrink: 0;
+  }
+  .score-badge.green { background: rgba(34,197,94,0.15); color: var(--green); border: 1.5px solid rgba(34,197,94,0.3); }
+  .score-badge.orange { background: rgba(245,158,11,0.15); color: var(--orange); border: 1.5px solid rgba(245,158,11,0.3); }
+  .score-badge.red { background: rgba(239,68,68,0.15); color: var(--red); border: 1.5px solid rgba(239,68,68,0.3); }
+
+  .news-body { flex: 1; }
+  .news-meta { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; flex-wrap: wrap; }
+  .tag { font-size: 0.72rem; font-weight: 700; padding: 2px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .tag.politica { background: rgba(79,110,247,0.2); color: #7c9ff7; }
+  .tag.economia { background: rgba(34,197,94,0.2); color: #4ade80; }
+  .tag.esteri { background: rgba(245,158,11,0.2); color: #fbbf24; }
+  .tag.cronaca { background: rgba(239,68,68,0.2); color: #f87171; }
+  .tag.tecnologia { background: rgba(124,58,237,0.2); color: #a78bfa; }
+  .tag.societa { background: rgba(20,184,166,0.2); color: #2dd4bf; }
+  .tag.ambiente { background: rgba(101,163,13,0.2); color: #a3e635; }
+  .tag.sport { background: rgba(249,115,22,0.2); color: #fb923c; }
+  .tag.campania { background: rgba(255,200,0,0.2); color: #fcd34d; }
+  .source-chip { font-size: 0.72rem; color: var(--muted); }
+
+  .news-title { font-size: 1rem; font-weight: 700; line-height: 1.4; margin-bottom: 6px; }
+  .news-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+  .news-footer { display: flex; gap: 12px; margin-top: 10px; align-items: center; }
+  .social-buzz { font-size: 0.78rem; color: var(--muted); display: flex; align-items: center; gap: 4px; }
+  .trending { color: var(--orange); font-size: 0.75rem; font-weight: 700; }
+
+  /* Sidebar */
+  .sidebar { display: flex; flex-direction: column; gap: 20px; }
+
+  .ai-panel {
+    background: linear-gradient(135deg, #1e1b4b 0%, #1a1d27 100%);
+    border: 1px solid #4f6ef7;
+    border-radius: 16px;
+    padding: 22px;
+    position: sticky; top: 90px;
+  }
+  .ai-title { font-size: 1rem; font-weight: 800; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
+  .ai-subtitle { font-size: 0.78rem; color: var(--muted); margin-bottom: 16px; }
+  .ai-rec { background: var(--card2); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; cursor: pointer; transition: border-color 0.2s; }
+  .ai-rec:hover { border-color: var(--accent); }
+  .ai-rec-num { font-size: 0.7rem; color: var(--accent); font-weight: 800; margin-bottom: 4px; }
+  .ai-rec-title { font-size: 0.85rem; font-weight: 700; line-height: 1.4; margin-bottom: 4px; }
+  .ai-rec-reason { font-size: 0.75rem; color: var(--muted); line-height: 1.4; }
+  .ai-badge { background: linear-gradient(90deg, #4f6ef7, #7c3aed); font-size: 0.65rem; font-weight: 700; padding: 2px 8px; border-radius: 20px; color: white; }
+
+  .stats-panel { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+  .stats-title { font-size: 0.9rem; font-weight: 700; margin-bottom: 14px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+  .stat-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .stat-row:last-child { border-bottom: none; }
+  .stat-label { font-size: 0.82rem; }
+  .stat-bar-wrap { flex: 1; margin: 0 12px; height: 6px; background: var(--border); border-radius: 3px; }
+  .stat-bar { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--accent), var(--accent2)); }
+  .stat-count { font-size: 0.82rem; font-weight: 700; color: var(--accent); min-width: 20px; text-align: right; }
+
+  .update-btn { width: 100%; background: linear-gradient(90deg, #4f6ef7, #7c3aed); border: none; color: white; padding: 12px; border-radius: 10px; font-size: 0.9rem; font-weight: 700; cursor: pointer; margin-top: 4px; transition: opacity 0.2s; }
+  .update-btn:hover { opacity: 0.85; }
+
+  .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .section-title { font-size: 1.2rem; font-weight: 800; }
+  .news-count { font-size: 0.82rem; color: var(--muted); }
+
+  @media (max-width: 900px) {
+    .main { grid-template-columns: 1fr; }
+    header { padding: 16px 20px; }
+    .filters { padding: 16px 20px 8px; }
+    .main { padding: 16px 20px; }
+    .ai-panel { position: static; }
+  }
+
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 200; align-items: center; justify-content: center; }
+  .modal-overlay.open { display: flex; }
+  .modal { background: var(--card); border: 1px solid var(--border); border-radius: 16px; max-width: 600px; width: 90%; padding: 28px; max-height: 80vh; overflow-y: auto; }
+  .modal-close { float: right; background: none; border: none; color: var(--muted); font-size: 1.4rem; cursor: pointer; }
+  .modal-tag { margin-bottom: 12px; }
+  .modal-title { font-size: 1.3rem; font-weight: 800; margin-bottom: 10px; line-height: 1.4; }
+  .modal-body { font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin-bottom: 16px; }
+  .modal-source-link { color: var(--accent); font-size: 0.85rem; text-decoration: none; }
+  .modal-source-link:hover { text-decoration: underline; }
+  .modal-score-row { display: flex; align-items: center; gap: 12px; margin-top: 14px; }
+  .modal-score-label { font-size: 0.82rem; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">📰 NewsRadar</div>
+  <div style="display:flex;gap:12px;align-items:center">
+    <div class="week-badge">📅 Settimana 3 — 3 marzo 2026</div>
+  </div>
+</header>
+
+<div class="filters">
+  <button class="filter-btn active" onclick="filterNews('all', this)">Tutte</button>
+  <button class="filter-btn" onclick="filterNews('politica', this)">🏛️ Politica</button>
+  <button class="filter-btn" onclick="filterNews('economia', this)">💶 Economia</button>
+  <button class="filter-btn" onclick="filterNews('esteri', this)">🌍 Esteri</button>
+  <button class="filter-btn" onclick="filterNews('cronaca', this)">🚨 Cronaca</button>
+  <button class="filter-btn" onclick="filterNews('tecnologia', this)">💻 Tecnologia</button>
+  <button class="filter-btn" onclick="filterNews('societa', this)">👥 Società</button>
+  <button class="filter-btn" onclick="filterNews('ambiente', this)">🌿 Ambiente</button>
+  <button class="filter-btn" onclick="filterNews('sport', this)">⚽ Sport</button>
+  <button class="filter-btn" onclick="filterNews('campania', this)">🌋 Campania</button>
+  <input class="search-box" type="text" placeholder="🔍  Cerca notizia..." oninput="searchNews(this.value)" />
+</div>
+
+<div class="main">
+  <div class="news-grid" id="newsGrid">
+    <div class="section-header">
+      <div class="section-title">Notizie della Settimana</div>
+      <div class="news-count" id="newsCount">20 notizie</div>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="ai-panel">
+      <div class="ai-title">🤖 AI Advisor <span class="ai-badge">BETA</span></div>
+      <div class="ai-subtitle">5 notizie consigliate per la tua trasmissione televisiva politica</div>
+      <div id="aiRecs"></div>
+      <button class="update-btn" onclick="refreshAI()">✨ Aggiorna selezione AI</button>
+    </div>
+
+    <div class="stats-panel">
+      <div class="stats-title">📊 Per Tematica</div>
+      <div id="statsPanel"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="modalContent">
+    <button class="modal-close" onclick="closeModalBtn()">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+const news = [
+  {
+    id: 1, score: 10, cat: "esteri", date: "01 mar 2026",
+    title: "Operazione USA-Israele in Iran: ucciso Khamenei, il Medio Oriente in fiamme",
+    desc: "USA e Israele lanciano un'operazione militare congiunta contro l'Iran. La Guida suprema Ali Khamenei viene uccisa nei raid. Esplosioni a Teheran, Dubai, Doha e Gerusalemme. Trump: 'L'operazione durerà 4 settimane o meno'.",
+    source: "Sky TG24 / AdnKronos", sourceUrl: "https://tg24.sky.it/mondo/2026/03/01/iran-usa-israele-diretta",
+    buzz: "📱 580.000 menzioni globali", buzzNum: 580000, trending: true,
+    socials: ["X/Twitter","TikTok","Instagram","YouTube","Facebook"],
+    detail: "I Pasdaran hanno minacciato 'l'offensiva più feroce della storia' contro USA e Israele, lanciando missili contro la portaerei USS Abraham Lincoln. Tre militari USA uccisi, cinque feriti. L'esercito israeliano ha sganciato 1.200 bombe su obiettivi iraniani e richiamato 100.000 riservisti. L'Iran ha nominato una nuova Guida Suprema in 1-2 giorni. Italiani bloccati a Dubai e nel Golfo. Il ministro Crosetto è rientrato in Italia."
+  },
+  {
+    id: 2, score: 9, cat: "esteri", date: "03 mar 2026",
+    title: "Libano: Netanyahu autorizza le truppe di terra israeliane ad avanzare nel Paese",
+    desc: "Dopo i raid aerei su Beirut, il premier Netanyahu e il ministro della Difesa Katz autorizzano operazioni terrestri israeliane in Libano. La regione è sull'orlo di un conflitto su più fronti simultanei.",
+    source: "Euronews", sourceUrl: "https://it.euronews.com/2026/03/03/netanyahu-e-katz-autorizzano-truppe-di-terra-israeliane-ad-avanzare-ed-entrare-in-libano",
+    buzz: "📱 210.000 menzioni globali", buzzNum: 210000, trending: true,
+    socials: ["X/Twitter","Facebook","YouTube","Threads"],
+    detail: "L'escalation militare israeliana coinvolge ora tre fronti: Gaza, Iran e Libano. La comunità internazionale, già sotto shock per l'attacco all'Iran, teme un conflitto regionale allargato. L'ONU ha convocato una seduta d'urgenza del Consiglio di Sicurezza. Il prezzo del petrolio è schizzato ai massimi degli ultimi anni."
+  },
+  {
+    id: 3, score: 8, cat: "esteri", date: "02 mar 2026",
+    title: "Guerra in Medio Oriente: prezzo del petrolio alle stelle, benzina cara in Italia",
+    desc: "L'attacco USA-Israele all'Iran fa impennare i prezzi del petrolio sui mercati globali. In Italia aumentano i listini di benzina e diesel. Le compagnie aeree rivedono i voli sul Golfo.",
+    source: "AdnKronos / TG LA7", sourceUrl: "https://tg.la7.it/esteri/iran-notizie-diretta-attacco-israele-stati-uniti-02-03-2026-253449",
+    buzz: "📱 145.000 menzioni", buzzNum: 145000, trending: true,
+    socials: ["Facebook","X/Twitter","LinkedIn","TikTok"],
+    detail: "Il greggio Brent ha superato i 95 dollari al barile nelle prime ore dopo l'attacco. Le compagnie aeree hanno sospeso o deviato i voli su Dubai e sul Golfo Persico. Decine di migliaia di italiani erano in viaggio nella regione. La Farnesina ha attivato l'unità di crisi per assistere i connazionali bloccati."
+  },
+  {
+    id: 4, score: 9, cat: "politica", date: "28 feb 2026",
+    title: "Referendum sulla Giustizia: si vota il 22-23 marzo, scontro politico totale",
+    desc: "L'Italia si prepara al referendum costituzionale confermativo sulla separazione delle carriere dei magistrati. Il quesito è stato riformulato dal Governo su ordine della Cassazione. La campagna referendaria si infiamma: Meloni per il SÌ, opposizioni divise.",
+    source: "Avvenire / FISCOeTASSE", sourceUrl: "https://www.avvenire.it/politica/referendum-integrato-il-quesito-la-data-resta-il-22-e-23-marzo_104290",
+    buzz: "📱 98.000 menzioni", buzzNum: 98000, trending: true,
+    socials: ["Facebook","X/Twitter","Threads","LinkedIn"],
+    detail: "Il referendum riguarda la riforma costituzionale che introduce la separazione delle carriere tra magistrati giudicanti e requirenti, e istituisce la Corte Disciplinare. La riforma è passata in Parlamento con 243 sì su 400, al di sotto della soglia dei due terzi, rendendo il referendum obbligatorio. Non è previsto quorum: vince chi prende più voti."
+  },
+  {
+    id: 5, score: 9, cat: "societa", date: "28 feb 2026",
+    title: "Sanremo 2026: vince Sal Da Vinci con 'Per sempre sì' — il napoletano conquista l'Ariston",
+    desc: "Sal Da Vinci trionfa alla 76ª edizione del Festival di Sanremo con il brano 'Per sempre sì'. Podio completato da Sayf (2°) e Ditonellapiaga (3°). Il cantautore napoletano supera al fotofinish Sayf con il 22,2% contro il 21,9%.",
+    source: "Sky TG24 / Il Fatto Quotidiano", sourceUrl: "https://tg24.sky.it/spettacolo/musica/2026/02/28/finale-sanremo-2026-scaletta-classifica-diretta",
+    buzz: "📱 92.000 menzioni", buzzNum: 92000, trending: true,
+    socials: ["TikTok","Instagram","X/Twitter","YouTube","Facebook"],
+    detail: "La serata finale ha visto una volata entusiasmante tra Sal Da Vinci e il giovane Sayf. Il voto combinato di televoto (34%), sala stampa (33%) e giuria demoscopica (33%) ha premiato il cantautore campano, figlio d'arte, con una ballad intensa che ha commosso il pubblico. Stefano De Martino ha già accettato di condurre Sanremo 2027."
+  },
+  {
+    id: 6, score: 7, cat: "campania", date: "28 feb 2026",
+    title: "Sanremo: Sal Da Vinci vince per la Campania — Napoli festeggia il suo 'figlio'",
+    desc: "Napoli esplode di gioia per la vittoria di Sal Da Vinci a Sanremo 2026. Il cantautore napoletano, figlio dell'indimenticato Mario Da Vinci, porta la canzone napoletana sul tetto d'Italia. Folla spontanea in piazza del Plebiscito.",
+    source: "Pupia TV / Napolitan", sourceUrl: "https://www.pupia.tv/2026/03/campania/vittoria-sal-da-vinci-a-sanremo-ditto-napoli-torna-sotto-attacco-con-pregiudizi-inaccettab",
+    buzz: "📱 71.000 menzioni", buzzNum: 71000, trending: true,
+    socials: ["TikTok","Instagram","Facebook","YouTube"],
+    detail: "La vittoria di Sal Da Vinci ha scatenato la polemica: il consigliere Ditto ha denunciato 'pregiudizi inaccettabili' di alcuni commenti social che attaccavano Napoli dopo il trionfo. La vittoria è stata celebrata come un riscatto culturale per la città. Sal Da Vinci ha dedicato il premio alla memoria del padre."
+  },
+  {
+    id: 7, score: 8, cat: "politica", date: "02 mar 2026",
+    title: "DL Bollette/Energia: alla Camera l'esame del decreto per ridurre le tariffe",
+    desc: "Entra nel vivo alla Camera l'esame del DL 21/2026 sulle bollette energetiche. Il decreto punta a ridurre il costo dell'energia elettrica e del gas per famiglie e imprese. Opposizioni chiedono misure più incisive.",
+    source: "QualEnergia / Camera dei Deputati", sourceUrl: "https://www.qualenergia.it/pro/articoli-pro/energia-in-parlamento-settimana-2-6-marzo-2026/",
+    buzz: "📱 54.000 menzioni", buzzNum: 54000, trending: true,
+    socials: ["Facebook","X/Twitter","LinkedIn"],
+    detail: "Il decreto interviene con misure di contenimento delle tariffe legate al caro-energia, aggravato dall'instabilità geopolitica nel Golfo. Le associazioni dei consumatori chiedono interventi strutturali e non solo bonus una tantum. La discussione parlamentare è prevista per l'intera settimana."
+  },
+  {
+    id: 8, score: 7, cat: "cronaca", date: "02 mar 2026",
+    title: "Incidente Ex Ilva di Taranto: operaio precipita da 10 metri e muore",
+    desc: "Tragedia nell'impianto ex Ilva di Taranto: un operaio perde la vita dopo essere precipitato da un'altezza di 10 metri. Si tratta dell'ennesimo incidente mortale sul lavoro nell'area industriale tarantina.",
+    source: "AdnKronos / ANSA", sourceUrl: "https://www.ansa.it",
+    buzz: "📱 41.000 menzioni", buzzNum: 41000, trending: true,
+    socials: ["Facebook","X/Twitter","Instagram"],
+    detail: "L'incidente riaccende il dibattito sulla sicurezza sul lavoro nell'area ex Ilva, già al centro di polemiche per la gestione dell'impianto. I sindacati proclamano uno sciopero di solidarietà e chiedono un'ispezione immediata. La Procura di Taranto ha aperto un fascicolo per omicidio colposo."
+  },
+  {
+    id: 9, score: 8, cat: "campania", date: "02 mar 2026",
+    title: "Campania: consigliere regionale Zannini indagato, divieto di dimora",
+    desc: "Il consigliere regionale della Campania Giovanni Zannini è tra i destinatari di un divieto di dimora notificato dai carabinieri di Aversa. Coinvolti anche gli imprenditori Luigi e Paolo Griffo. La vicenda scuote la politica regionale.",
+    source: "TG Campania", sourceUrl: "https://www.youtube.com/watch?v=37BeOXuL5aQ",
+    buzz: "📱 38.000 menzioni", buzzNum: 38000, trending: true,
+    socials: ["Facebook","X/Twitter","TikTok"],
+    detail: "L'inchiesta riguarda presunti rapporti illeciti tra esponenti politici e imprenditori locali. La notizia è rimbalzata su tutti i principali telegiornali campani e nazionali. Il governatore Roberto Fico ha dichiarato di aspettare gli sviluppi giudiziari prima di commentare."
+  },
+  {
+    id: 10, score: 6, cat: "campania", date: "02 mar 2026",
+    title: "Ischia: mareggiate continue devastano le spiagge, Casamicciola a rischio stagione",
+    desc: "Le continue mareggiate da maltempo mettono in ginocchio le mete turistiche di Ischia. A Casamicciola Terme la passeggiata è distrutta e le spiagge degli inglesi sono interdette all'accesso. Rischio chiusura per la stagione estiva 2026.",
+    source: "TG Campania / Prima Tivvù", sourceUrl: "https://www.youtube.com/watch?v=37BeOXuL5aQ",
+    buzz: "📱 29.000 menzioni", buzzNum: 29000, trending: true,
+    socials: ["Facebook","Instagram","TikTok"],
+    detail: "Le autorità del Comune di Barano segnalano danni ingenti alle strutture balneari. Gli operatori turistici temono un'ulteriore stagione estiva compromessa dopo il bradisismo e le frane degli anni precedenti. La Regione Campania sta valutando un piano straordinario di intervento."
+  },
+  {
+    id: 11, score: 7, cat: "esteri", date: "27 feb 2026",
+    title: "Guerra Pakistan-Afghanistan: Islamabad lancia attacchi oltre confine",
+    desc: "Il Pakistan ha condotto operazioni militari oltre il confine con l'Afghanistan, aggravando le tensioni nella regione. Centinaia di manifestanti assaltano il consolato americano a Karachi dopo la morte di Khamenei. Almeno sei vittime negli scontri.",
+    source: "Breaking Italy / AdnKronos", sourceUrl: "https://breakingitaly.it",
+    buzz: "📱 67.000 menzioni globali", buzzNum: 67000, trending: true,
+    socials: ["X/Twitter","YouTube","Facebook"],
+    detail: "La morte di Khamenei ha scatenato reazioni violente in diversi paesi a maggioranza musulmana. In Pakistan la situazione è particolarmente tesa con scontri tra manifestanti e forze dell'ordine. L'escalation rischia di aprire un nuovo fronte di instabilità in Asia meridionale."
+  },
+  {
+    id: 12, score: 6, cat: "cronaca", date: "03 mar 2026",
+    title: "Milano: aggrediti due turisti ebrei con insulti antisemiti fuori da supermercato",
+    desc: "Due turisti con la kippah vengono aggrediti con insulti antisemiti e pugni a Milano, in piazzale Siena. Un episodio che riaccende il dibattito sull'antisemitismo in Italia in un clima già infuocato dalla guerra in Medio Oriente.",
+    source: "Corriere della Sera", sourceUrl: "https://www.corriere.it",
+    buzz: "📱 52.000 menzioni", buzzNum: 52000, trending: true,
+    socials: ["X/Twitter","Facebook","Instagram","Threads"],
+    detail: "Le forze dell'ordine hanno avviato le indagini per risalire agli aggressori. La Comunità Ebraica di Milano ha espresso sdegno e chiesto pene esemplari. Il sindaco di Milano ha condannato fermamente l'episodio, chiedendo più presidio nelle zone sensibili della città."
+  },
+  {
+    id: 13, score: 7, cat: "societa", date: "01 mar 2026",
+    title: "Deliveroo Italia sotto indagine: caso rider riaccende il dibattito sul lavoro digitale",
+    desc: "Deliveroo Italia finisce sotto la lente degli ispettori del lavoro. Il caso alimenta il dibattito sulla tutela dei rider e dei lavoratori delle piattaforme digitali in Italia.",
+    source: "Breaking Italy", sourceUrl: "https://breakingitaly.it",
+    buzz: "📱 36.000 menzioni", buzzNum: 36000, trending: false,
+    socials: ["TikTok","Instagram","X/Twitter","LinkedIn"],
+    detail: "Il Ministero del Lavoro ha avviato una verifica sulla classificazione contrattuale dei rider Deliveroo, dopo analoghe azioni in altri paesi europei. Le associazioni sindacali chiedono da anni il riconoscimento del rapporto di lavoro subordinato per i fattorini delle app di consegna."
+  },
+  {
+    id: 14, score: 8, cat: "politica", date: "03 mar 2026",
+    title: "Referendum Giustizia: scontro Meloni-opposizioni sulla campagna per il Sì",
+    desc: "Si intensifica lo scontro politico sul referendum del 22-23 marzo sulla separazione delle carriere. PD e M5S invitano a votare No. FdI, Lega e FI spingono per il Sì. La CGIL schiera la sua campagna televisiva contro la riforma.",
+    source: "CGIL / Avvenire", sourceUrl: "https://www.cgil.it/referendum/referendum-giustizia-2026/referendum-giustizia-messaggio-autogestito-tv-n6asjaxf",
+    buzz: "📱 61.000 menzioni", buzzNum: 61000, trending: true,
+    socials: ["Facebook","X/Twitter","YouTube","Threads"],
+    detail: "Il quesito chiede agli italiani di approvare la riforma costituzionale che separa le carriere dei magistrati giudicanti e requirenti e istituisce la Corte Disciplinare. Essendo un referendum confermativo, non è previsto quorum: il risultato dipende dalla maggioranza dei voti validi espressi."
+  },
+  {
+    id: 15, score: 6, cat: "economia", date: "26 feb 2026",
+    title: "Rider Deliveroo, saldi forze dell'ordine e caro-prezzi: gli italiani sempre più arrabbiati",
+    desc: "Confesercenti lancia l'allarme: nel 2026 le famiglie italiane spenderanno dai 300 ai 500 euro in più pro capite per effetto di aumenti su energia, trasporti e servizi. Il governo prepara un pacchetto di misure.",
+    source: "Confesercenti / AdnKronos", sourceUrl: "https://www.confesercentibr.it/aumenti-nel-2026-lallarme-di-confesercenti-campania-da-300-a-500-euro-allanno-pro-capite-colpite",
+    buzz: "📱 33.000 menzioni", buzzNum: 33000, trending: false,
+    socials: ["Facebook","LinkedIn","X/Twitter"],
+    detail: "L'allarme di Confesercenti punta il dito su rincari strutturali che colpiscono soprattutto le famiglie a reddito medio-basso. L'instabilità geopolitica nel Golfo Persico rischia di aggravare ulteriormente la situazione, con effetti sull'inflazione già nelle prossime settimane."
+  },
+  {
+    id: 16, score: 7, cat: "societa", date: "03 mar 2026",
+    title: "Zendaya e Tom Holland si sono sposati: lo conferma lo stylist Law Roach",
+    desc: "Lo stylist Law Roach rivela che Zendaya e Tom Holland si sarebbero sposati in segreto. La notizia fa impazzire i social di tutto il mondo e domina le tendenze italiane.",
+    source: "AdnKronos", sourceUrl: "https://www.vivere.it/2026-03-03",
+    buzz: "📱 88.000 menzioni globali", buzzNum: 88000, trending: true,
+    socials: ["TikTok","Instagram","X/Twitter","Facebook"],
+    detail: "La coppia, tra le più seguite al mondo, non ha ancora né confermato né smentito ufficialmente la notizia. La rivelazione è arrivata da Law Roach, celebre costume designer e figura chiave nell'ascesa della carriera di Zendaya. Fan in delirio su tutti i social."
+  },
+  {
+    id: 17, score: 5, cat: "cronaca", date: "03 mar 2026",
+    title: "Roma: auto in fuga provoca incidente mortale, tre vittime della stessa famiglia",
+    desc: "Un'auto in fuga dalla polizia provoca un violento incidente a Roma in cui perdono la vita tre persone appartenenti alla stessa famiglia. La vicenda scuote l'opinione pubblica e riaccende il dibattito sulla sicurezza stradale.",
+    source: "AdnKronos / Corriere della Sera", sourceUrl: "https://www.vivere.it/2026-03-03",
+    buzz: "📱 47.000 menzioni", buzzNum: 47000, trending: true,
+    socials: ["Facebook","Instagram","TikTok","X/Twitter"],
+    detail: "Il conducente del veicolo in fuga era risultato positivo all'alcol test. Le tre vittime erano a bordo di un'utilitaria centrata in pieno all'incrocio. Il caso ha riacceso il dibattito sulle inseguimenti della polizia in area urbana e sulla necessità di protocolli più rigidi."
+  },
+  {
+    id: 18, score: 6, cat: "economia", date: "02 mar 2026",
+    title: "DL Sicurezza: saldi speciali per le forze dell'ordine, polemica sui costi",
+    desc: "Nell'ambito del DL Sicurezza viene inserita una norma che prevede agevolazioni speciali per l'acquisto di equipaggiamenti da parte dei corpi di polizia. L'opposizione contesta i costi e le modalità.",
+    source: "Breaking Italy", sourceUrl: "https://breakingitaly.it",
+    buzz: "📱 28.000 menzioni", buzzNum: 28000, trending: false,
+    socials: ["X/Twitter","Facebook","LinkedIn"],
+    detail: "La norma è stata ribattezzata dai critici come 'saldi di lusso' per le forze dell'ordine. Il governo risponde che si tratta di un aggiornamento necessario delle dotazioni operative, finanziato da fondi già stanziati nel bilancio della sicurezza."
+  },
+  {
+    id: 19, score: 7, cat: "politica", date: "01 mar 2026",
+    title: "Meloni e il video choc: 'ghigliottinata' dagli haters, FdI contro i social",
+    desc: "Un video di una sfilata con una scena che raffigura Giorgia Meloni ghigliottinata circola sui social, ripubblicato dai canali di Fratelli d'Italia come denuncia. Polemica trasversale sulla violenza online contro le donne in politica.",
+    source: "Secolo d'Italia / AdnKronos", sourceUrl: "https://www.vivere.it/2026-03-03",
+    buzz: "📱 55.000 menzioni", buzzNum: 55000, trending: true,
+    socials: ["X/Twitter","Facebook","Threads","TikTok"],
+    detail: "FdI ha utilizzato il video per chiedere al Parlamento interventi più severi contro i contenuti d'odio online. L'opposizione ha condannato il video ma ha accusato il governo di strumentalizzazione politica. Il dibattito ha coinvolto anche il tema più ampio della violenza contro le donne in politica."
+  },
+  {
+    id: 20, score: 8, cat: "societa", date: "03 mar 2026",
+    title: "8 Marzo in arrivo: cortei in tutta Italia, governo annuncia fondi antiviolenza",
+    desc: "A pochi giorni dall'8 Marzo, le organizzazioni femministe annunciano cortei nelle principali città italiane. Il governo risponde annunciando nuovi stanziamenti per i centri antiviolenza. Il clima è segnato dalla guerra in Medio Oriente.",
+    source: "ANSA / Il Fatto Quotidiano", sourceUrl: "https://www.ilfattoquotidiano.it",
+    buzz: "📱 44.000 menzioni", buzzNum: 44000, trending: true,
+    socials: ["Instagram","TikTok","X/Twitter","Threads"],
+    detail: "Le manifestazioni dell'8 Marzo si annunciano particolarmente partecipate quest'anno, anche in risposta ai recenti casi di femminicidio e all'aumento della violenza domestica. Il movimento Non Una Di Meno ha già comunicato i percorsi dei cortei a Roma, Milano e Napoli."
+  }
+];
+
+const aiRecommendations = [
+  {
+    num: 1, newsId: 1,
+    title: "L'attacco USA-Israele all'Iran: cosa rischia l'Italia?",
+    reason: "È la notizia globale più esplosiva della settimana. Impatto diretto su italiani nel Golfo, prezzo della benzina, sicurezza nazionale. Massima tensione emotiva e picco di ascolti garantito."
+  },
+  {
+    num: 2, newsId: 4,
+    title: "Referendum Giustizia 22-23 marzo: votiamo davvero per cambiare l'Italia?",
+    reason: "Appuntamento elettorale imminente. Dibattito su magistratura e separazione delle carriere: tema caldo, divisivo e perfetto per confronto governo-opposizione in studio."
+  },
+  {
+    num: 3, newsId: 5,
+    title: "Sal Da Vinci, il trionfo napoletano a Sanremo: quanto vale la cultura del Sud?",
+    reason: "La vittoria di un cantautore campano unisce orgoglio meridionale, cultura popolare e polemica social. Altissimo coinvolgimento emotivo del pubblico televisivo generalista."
+  },
+  {
+    num: 4, newsId: 7,
+    title: "Bollette ancora care: il decreto energia funzionerà davvero?",
+    reason: "Il tema energia tocca ogni famiglia italiana. Discussione parlamentare in corso: ideale per confronto tecnico-politico con esperti e rappresentanti di categorie produttive."
+  },
+  {
+    num: 5, newsId: 14,
+    title: "Referendum Giustizia: Sì o No? Il duello finale tra magistratura e politica",
+    reason: "Complementare al tema referendario, con focus sullo scontro CGIL vs centrodestra. Formato dibattito con ospiti da fronti opposti: formula classica vincente per il talk politico."
+  }
+];
+
+function getScoreClass(score) {
+  if (score >= 7) return 'green';
+  if (score >= 5) return 'orange';
+  return 'red';
+}
+
+function renderNews(items) {
+  const grid = document.getElementById('newsGrid');
+  const existing = grid.querySelectorAll('.news-card');
+  existing.forEach(e => e.remove());
+
+  document.getElementById('newsCount').textContent = items.length + ' notizie';
+
+  items.forEach(n => {
+    const cls = getScoreClass(n.score);
+    const card = document.createElement('div');
+    card.className = `news-card ${cls}`;
+    card.dataset.cat = n.cat;
+    card.dataset.id = n.id;
+    card.innerHTML = `
+      <div class="score-badge ${cls}">${n.score}</div>
+      <div class="news-body">
+        <div class="news-meta">
+          <span class="tag ${n.cat}">${n.cat.charAt(0).toUpperCase()+n.cat.slice(1)}</span>
+          <span class="source-chip">📰 ${n.source}</span>
+          ${n.trending ? '<span class="trending">🔥 TRENDING</span>' : ''}
+        </div>
+        <div class="news-title">${n.title}</div>
+        <div class="news-desc">${n.desc}</div>
+        <div class="news-footer">
+          <span class="social-buzz">${n.buzz}</span>
+          <span style="font-size:0.75rem;color:var(--muted);margin-left:auto;">📅 ${n.date}</span>
+        </div>
+        <div style="margin-top:6px;display:flex;gap:5px;flex-wrap:wrap;">
+          ${n.socials.map(s => `<span style="font-size:0.68rem;background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:2px 8px;color:var(--muted)">${s}</span>`).join('')}
+        </div>
+      </div>`;
+    card.addEventListener('click', () => openModal(n));
+    grid.appendChild(card);
+  });
+}
+
+function renderAI() {
+  const container = document.getElementById('aiRecs');
+  container.innerHTML = '';
+  aiRecommendations.forEach(rec => {
+    const div = document.createElement('div');
+    div.className = 'ai-rec';
+    div.innerHTML = `
+      <div class="ai-rec-num">📺 CONSIGLIO #${rec.num}</div>
+      <div class="ai-rec-title">${rec.title}</div>
+      <div class="ai-rec-reason">${rec.reason}</div>`;
+    div.addEventListener('click', () => {
+      const n = news.find(x => x.id === rec.newsId);
+      if (n) openModal(n);
+    });
+    container.appendChild(div);
+  });
+}
+
+function renderStats() {
+  const cats = {};
+  news.forEach(n => { cats[n.cat] = (cats[n.cat] || 0) + 1; });
+  const max = Math.max(...Object.values(cats));
+  const panel = document.getElementById('statsPanel');
+  panel.innerHTML = '';
+  const icons = {politica:'🏛️',economia:'💶',esteri:'🌍',cronaca:'🚨',tecnologia:'💻',societa:'👥',ambiente:'🌿',sport:'⚽',campania:'🌋'};
+  Object.entries(cats).sort((a,b)=>b[1]-a[1]).forEach(([cat, count]) => {
+    const pct = Math.round((count/max)*100);
+    panel.innerHTML += `<div class="stat-row">
+      <div class="stat-label">${icons[cat]||''} ${cat.charAt(0).toUpperCase()+cat.slice(1)}</div>
+      <div class="stat-bar-wrap"><div class="stat-bar" style="width:${pct}%"></div></div>
+      <div class="stat-count">${count}</div>
+    </div>`;
+  });
+}
+
+function filterNews(cat, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const filtered = cat === 'all' ? news : news.filter(n => n.cat === cat);
+  renderNews(filtered);
+}
+
+function searchNews(query) {
+  const q = query.toLowerCase().trim();
+  const filtered = q === '' ? news : news.filter(n =>
+    n.title.toLowerCase().includes(q) ||
+    n.desc.toLowerCase().includes(q) ||
+    n.cat.includes(q) ||
+    n.source.toLowerCase().includes(q)
+  );
+  renderNews(filtered);
+}
+
+function openModal(n) {
+  const cls = getScoreClass(n.score);
+  const scoreColors = {green: '#22c55e', orange: '#f59e0b', red: '#ef4444'};
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-tag"><span class="tag ${n.cat}">${n.cat.charAt(0).toUpperCase()+n.cat.slice(1)}</span></div>
+    <div class="modal-title">${n.title}</div>
+    <div class="modal-body">${n.desc}<br><br>${n.detail}</div>
+    <div style="margin-bottom:6px">📅 Pubblicata: <strong>${n.date}</strong></div>
+    <div style="margin-bottom:10px">📰 Fonte: <a href="${n.sourceUrl}" target="_blank" class="modal-source-link">${n.source} ↗</a></div>
+    <div style="margin-bottom:6px;font-size:0.82rem;color:var(--muted)">📲 Trending su:</div>
+    <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:4px">${n.socials.map(s => `<span style="font-size:0.78rem;background:var(--card2);border:1px solid var(--accent);border-radius:10px;padding:3px 10px;color:var(--text)">${s}</span>`).join('')}</div>
+    <div class="modal-score-row">
+      <div class="score-badge ${cls}" style="min-width:60px;height:60px;font-size:1.8rem;">${n.score}</div>
+      <div>
+        <div class="modal-score-label">Punteggio di rilevanza</div>
+        <div style="color:${scoreColors[cls]};font-weight:800;font-size:1.1rem">${cls==='green'?'Alta rilevanza':cls==='orange'?'Media rilevanza':'Bassa rilevanza'}</div>
+      </div>
+    </div>
+    <div style="margin-top:12px">${n.buzz}</div>`;
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('modalOverlay')) {
+    document.getElementById('modalOverlay').classList.remove('open');
+  }
+}
+function closeModalBtn() {
+  document.getElementById('modalOverlay').classList.remove('open');
+}
+
+function refreshAI() {
+  const btn = document.querySelector('.update-btn');
+  btn.textContent = '⏳ Analisi in corso...';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = '✨ Aggiorna selezione AI';
+    btn.disabled = false;
+    renderAI();
+    // Small shuffle effect
+    const recs = document.querySelectorAll('.ai-rec');
+    recs.forEach(r => { r.style.opacity = '0'; setTimeout(() => r.style.opacity = '1', 300); });
+  }, 1800);
+}
+
+renderNews(news);
+renderAI();
+renderStats();
+</script>
+</body>
+</html>
