@@ -12,7 +12,6 @@ RSS_FEEDS = [
     ("ANSA",           "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml"),
     ("Repubblica",     "https://www.repubblica.it/rss/homepage/rss2.0.xml"),
     ("Corriere",       "https://xml2.corriereobjects.it/rss/homepage.xml"),
-    ("Sky TG24",       "https://tg24.sky.it/rss.xml"),
     ("Il Fatto",       "https://www.ilfattoquotidiano.it/feed/"),
     ("ANSA Campania",  "https://www.ansa.it/campania/notizie/campania_rss.xml"),
     ("Pupia Campania", "https://www.pupia.tv/feed/"),
@@ -28,21 +27,19 @@ def fetch_rss():
                 title = item.findtext("title", "").strip()
                 desc  = item.findtext("description", "").strip()
                 link  = item.findtext("link", "").strip()
-                pub   = item.findtext("pubDate", today).strip()
                 if title:
                     articles.append({
-                        "title": title,
-                        "description": desc[:200],
+                        "title": title[:100],
+                        "description": desc[:150],
                         "url": link,
                         "source": source_name,
-                        "pubDate": pub
                     })
         except Exception as e:
             print(f"  Errore feed {source_name}: {e}")
-    print(f"  Raccolti {len(articles)} articoli dai feed RSS")
+    print(f"  Raccolti {len(articles)} articoli")
     return articles
 
-def call_groq(prompt, max_tokens=4000):
+def call_groq(prompt, max_tokens=8000):
     response = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
@@ -52,39 +49,47 @@ def call_groq(prompt, max_tokens=4000):
             "temperature": 0.2,
             "max_tokens": max_tokens
         },
-        timeout=60
+        timeout=90
     )
     raw = response.json()["choices"][0]["message"]["content"].strip()
+    # Rimuove code fences
     raw = re.sub(r"^```[a-z]*\n?", "", raw)
     raw = re.sub(r"```$", "", raw).strip()
+    # Se il JSON e' troncato, prova a chiuderlo
+    if not raw.endswith("]"):
+        last = raw.rfind("},")
+        if last != -1:
+            raw = raw[:last+1] + "]"
     return json.loads(raw)
 
 def rate_with_groq(articles):
     lines = []
-    for i, a in enumerate(articles[:50], 1):
-        lines.append(f"{i}. [{a['source']}] {a['title']} | {a['description'][:100]} | URL: {a['url']}")
+    for i, a in enumerate(articles[:40], 1):
+        lines.append(f"{i}. [{a['source']}] {a['title']} | URL: {a['url']}")
     news_text = "\n".join(lines)
+
+    # Chiediamo campi piu' essenziali per ridurre i token in output
     prompt = (
-        f"Sei un editor di un telegiornale italiano. Oggi e' {today}.\n"
-        f"Hai questi articoli raccolti dai principali giornali italiani:\n\n{news_text}\n\n"
-        "Seleziona le 20 notizie piu' rilevanti (includi ALMENO 3 di categoria campania).\n"
-        "Per ciascuna restituisci un array JSON con questi campi:\n"
-        "id (1-20), score (1-10), cat (politica/economia/esteri/cronaca/tecnologia/societa/ambiente/sport/campania), "
-        f"date ('{today}'), title (max 90 car), desc (max 200 car), source, sourceUrl, "
-        "buzz (es '📱 45.000 menzioni stimate'), buzzNum (intero), trending (bool), "
-        "socials (array stringhe), detail (3-4 righe).\n"
-        "Ordina dal buzzNum piu' alto al piu' basso.\n"
-        "Rispondi SOLO con il JSON array valido, senza testo prima o dopo, senza markdown."
+        f"Sei un editor TV italiano. Oggi e' {today}.\n"
+        f"Notizie disponibili:\n{news_text}\n\n"
+        "Seleziona le 20 piu' rilevanti (ALMENO 3 categoria campania).\n"
+        "Rispondi SOLO con un JSON array. Ogni oggetto ha ESATTAMENTE questi campi:\n"
+        'id (1-20), score (1-10), cat (politica|economia|esteri|cronaca|tecnologia|societa|ambiente|sport|campania), '
+        f'date ("{today}"), title (max 80 car), desc (max 150 car), source (nome testata), '
+        'sourceUrl (url articolo), buzz (es "45.000 menzioni"), buzzNum (intero), '
+        'trending (true|false), socials (array max 3 elementi), detail (max 200 car).\n'
+        "Ordina per buzzNum decrescente.\n"
+        "IMPORTANTE: JSON valido e completo, nessun testo fuori dal JSON."
     )
-    return call_groq(prompt, max_tokens=4000)
+    return call_groq(prompt, max_tokens=8000)
 
 def tv_recs_with_groq(news_list):
     top = "\n".join([f"ID {n['id']}: {n['title']} (score {n['score']}, cat: {n['cat']})" for n in news_list[:12]])
     prompt = (
-        f"Date queste notizie italiane di oggi:\n{top}\n\n"
-        "Scegli le 5 migliori per una trasmissione televisiva politica italiana.\n"
-        "Restituisci JSON array con: num (1-5), newsId, title (max 80 car), reason (1-2 frasi).\n"
-        "Rispondi SOLO con il JSON array valido, senza testo prima o dopo, senza markdown."
+        f"Notizie italiane di oggi:\n{top}\n\n"
+        "Scegli le 5 migliori per un talk show politico italiano.\n"
+        "JSON array con: num (1-5), newsId, title (max 80 car), reason (max 150 car).\n"
+        "SOLO JSON valido, nessun testo fuori."
     )
     return call_groq(prompt, max_tokens=1000)
 
@@ -99,31 +104,31 @@ def update_html(news_list, tv_recs):
     news_js = "const news = " + json.dumps(news_list, ensure_ascii=False, indent=2) + ";"
     ai_js   = "const aiRecommendations = " + json.dumps(tv_recs, ensure_ascii=False, indent=2) + ";"
 
-    news_start_marker = "const news = ["
-    news_end_marker   = "];\n\nconst aiRecommendations"
-    ai_start_marker   = "const aiRecommendations = ["
-    ai_end_marker     = "];\n\nfunction getScoreClass"
+    n_start = "const news = ["
+    n_end   = "];\n\nconst aiRecommendations"
+    a_start = "const aiRecommendations = ["
+    a_end   = "];\n\nfunction getScoreClass"
 
-    start_n = html.index(news_start_marker)
-    end_n   = html.index(news_end_marker) + 2
-    html    = html[:start_n] + news_js + "\n\n" + html[end_n:]
+    sn = html.index(n_start)
+    en = html.index(n_end) + 2
+    html = html[:sn] + news_js + "\n\n" + html[en:]
 
-    start_a = html.index(ai_start_marker)
-    end_a   = html.index(ai_end_marker) + 2
-    html    = html[:start_a] + ai_js + "\n\n" + html[end_a:]
+    sa = html.index(a_start)
+    ea = html.index(a_end) + 2
+    html = html[:sa] + ai_js + "\n\n" + html[ea:]
 
     with open(HTML_FILE, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"✅ newsradar.html aggiornato — {len(news_list)} notizie, {len(tv_recs)} consigli TV")
+    print(f"✅ Aggiornato — {len(news_list)} notizie, {len(tv_recs)} consigli TV")
 
 if __name__ == "__main__":
     print(f"🔄 Avvio NewsRadar — {today}")
-    print("📡 Recupero notizie dai feed RSS...")
+    print("📡 Recupero RSS...")
     articles = fetch_rss()
-    print("🤖 Rating con Groq AI...")
+    print("🤖 Rating Groq AI...")
     news_list = rate_with_groq(articles)
-    print(f"   {len(news_list)} notizie classificate")
-    print("📺 Generazione consigli TV...")
+    print(f"   {len(news_list)} notizie")
+    print("📺 Consigli TV...")
     tv_recs = tv_recs_with_groq(news_list)
     print("💾 Aggiornamento HTML...")
     update_html(news_list, tv_recs)
