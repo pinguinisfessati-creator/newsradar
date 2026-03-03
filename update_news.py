@@ -4,7 +4,7 @@ from datetime import datetime, timezone, timedelta
 from xml.etree import ElementTree as ET
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
-HTML_FILE    = "newsradar.html"
+HTML_FILE    = "index.html"
 CET          = timezone(timedelta(hours=1))
 today        = datetime.now(CET).strftime("%d %b %Y")
 
