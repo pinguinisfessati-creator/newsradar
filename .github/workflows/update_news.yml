@@ -2,15 +2,15 @@ name: NewsRadar Daily Update
 
 on:
   schedule:
-    # Every day at 07:00 UTC = 08:00 CET
+    # Ogni giorno alle 07:00 UTC = 08:00 CET
     - cron: "0 7 * * *"
-  workflow_dispatch:   # allows manual trigger from GitHub UI
+  workflow_dispatch:  # permette avvio manuale da GitHub
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to push the updated HTML
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -26,8 +26,7 @@ jobs:
 
       - name: Run NewsRadar updater
         env:
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python update_news.py
 
       - name: Commit & push updated HTML
@@ -35,5 +34,5 @@ jobs:
           git config user.name  "NewsRadar Bot"
           git config user.email "newsradar-bot@users.noreply.github.com"
           git add newsradar.html
-          git diff --staged --quiet || git commit -m "🗞️ Auto-update notizie $(date +'%d/%m/%Y %H:%M')"
+          git diff --staged --quiet || git commit -m "🗞️ Auto-update $(date +'%d/%m/%Y %H:%M')"
           git push
