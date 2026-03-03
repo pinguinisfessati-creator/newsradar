@@ -8,55 +8,19 @@ HTML_FILE    = "index.html"
 CET          = timezone(timedelta(hours=1))
 today        = datetime.now(CET).strftime("%d %b %Y")
 
-# Feed RSS per notizie Campania (non coperti da GDELT)
-RSS_CAMPANIA = [
+RSS_FEEDS = [
+    ("ANSA",           "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml"),
+    ("Repubblica",     "https://www.repubblica.it/rss/homepage/rss2.0.xml"),
+    ("Corriere",       "https://xml2.corriereobjects.it/rss/homepage.xml"),
+    ("Il Fatto",       "https://www.ilfattoquotidiano.it/feed/"),
     ("ANSA Campania",  "https://www.ansa.it/campania/notizie/campania_rss.xml"),
     ("Il Mattino",     "https://www.ilmattino.it/rss/home.xml"),
     ("Pupia Campania", "https://www.pupia.tv/feed/"),
 ]
 
-def fetch_gdelt_italy():
-    """
-    GDELT DOC 2.0 API — cerca notizie italiane degli ultimi 7 giorni.
-    Nessuna API key richiesta, completamente gratuito.
-    """
+def fetch_rss():
     articles = []
-    queries = [
-        "politica italiana",
-        "economia italia",
-        "governo italiano",
-        "cronaca italia",
-    ]
-    for q in queries:
-        try:
-            url = (
-                "https://api.gdeltproject.org/api/v2/doc/doc"
-                f"?query={requests.utils.quote(q + ' sourcelang:italian')}"
-                "&mode=ArtList&maxrecords=25&timespan=7d&format=json"
-            )
-            r = requests.get(url, timeout=15, headers={"User-Agent": "NewsRadar/1.0"})
-            data = r.json()
-            for art in data.get("articles", []):
-                title = art.get("title", "").strip()
-                url_a = art.get("url", "")
-                source = art.get("domain", "")
-                seendate = art.get("seendate", today)
-                if title and url_a:
-                    articles.append({
-                        "title": title[:100],
-                        "description": art.get("title", "")[:150],
-                        "url": url_a,
-                        "source": source,
-                        "pubDate": seendate
-                    })
-        except Exception as e:
-            print(f"  Errore GDELT query '{q}': {e}")
-    print(f"  GDELT: {len(articles)} articoli italiani (7 giorni)")
-    return articles
-
-def fetch_rss_campania():
-    articles = []
-    for source_name, url in RSS_CAMPANIA:
+    for source_name, url in RSS_FEEDS:
         try:
             r = requests.get(url, timeout=10, headers={"User-Agent": "NewsRadar/1.0"})
             root = ET.fromstring(r.content)
@@ -70,11 +34,10 @@ def fetch_rss_campania():
                         "description": desc[:150],
                         "url": link,
                         "source": source_name,
-                        "pubDate": today
                     })
         except Exception as e:
             print(f"  Errore feed {source_name}: {e}")
-    print(f"  RSS Campania: {len(articles)} articoli")
+    print(f"  Raccolti {len(articles)} articoli")
     return articles
 
 def call_groq(prompt, max_tokens=8000):
@@ -101,18 +64,17 @@ def call_groq(prompt, max_tokens=8000):
 def rate_with_groq(articles):
     lines = []
     for i, a in enumerate(articles[:60], 1):
-        lines.append(f"{i}. [{a['source']}] {a['title']} | URL: {a['url']}")
+        lines.append(f"{i}. [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']}")
     news_text = "\n".join(lines)
-
     prompt = (
-        f"Sei un editor TV italiano. Rassegna degli ultimi 7 giorni. Oggi e' {today}.\n"
+        f"Sei un editor TV italiano. Oggi e' {today}.\n"
         f"Articoli disponibili:\n{news_text}\n\n"
-        "Seleziona le 20 notizie PIU' RILEVANTI E DISCUSSE della settimana (ALMENO 3 categoria campania).\n"
-        "Per ciascuna restituisci un array JSON con ESATTAMENTE questi campi:\n"
+        "Seleziona le 20 notizie PIU' RILEVANTI (ALMENO 3 categoria campania).\n"
+        "JSON array con ESATTAMENTE questi campi:\n"
         "id (1-20), score (1-10), cat (politica|economia|esteri|cronaca|tecnologia|societa|ambiente|sport|campania), "
-        "date (data pubblicazione es '01 mar 2026'), title (max 80 car), desc (max 150 car), "
-        "source, sourceUrl, buzz (es '📱 45.000 menzioni stimate'), buzzNum (intero), "
-        "trending (true|false), socials (array max 3), detail (max 200 car).\n"
+        f"date ('{today}'), title (max 80 car), desc (max 150 car), source, sourceUrl, "
+        "buzz (es '📱 45.000 menzioni stimate'), buzzNum (intero), trending (true|false), "
+        "socials (array max 3), detail (max 200 car).\n"
         "Ordina per buzzNum decrescente.\n"
         "SOLO JSON valido e completo, nessun testo fuori."
     )
@@ -121,7 +83,7 @@ def rate_with_groq(articles):
 def tv_recs_with_groq(news_list):
     top = "\n".join([f"ID {n['id']}: {n['title']} (score {n['score']}, cat: {n['cat']})" for n in news_list[:12]])
     prompt = (
-        f"Notizie italiane della settimana:\n{top}\n\n"
+        f"Notizie italiane:\n{top}\n\n"
         "Scegli le 5 migliori per un talk show politico italiano.\n"
         "JSON array con: num (1-5), newsId, title (max 80 car), reason (max 150 car).\n"
         "SOLO JSON valido, nessun testo fuori."
@@ -139,29 +101,29 @@ def update_html(news_list, tv_recs):
     news_js = "const news = " + json.dumps(news_list, ensure_ascii=False, indent=2) + ";"
     ai_js   = "const aiRecommendations = " + json.dumps(tv_recs, ensure_ascii=False, indent=2) + ";"
 
-    sn = html.index("const news = [")
-    en = html.index("];\n\nconst aiRecommendations") + 2
-    html = html[:sn] + news_js + "\n\n" + html[en:]
-
-    sa = html.index("const aiRecommendations = [")
-    ea = html.index("];\n\nfunction getScoreClass") + 2
-    html = html[:sa] + ai_js + "\n\n" + html[ea:]
+    # Trova i marker con regex per essere robusti a variazioni di whitespace
+    html = re.sub(
+        r"const news = \[.*?\];(?=\s*const aiRecommendations)",
+        news_js,
+        html, flags=re.DOTALL
+    )
+    html = re.sub(
+        r"const aiRecommendations = \[.*?\];(?=\s*(?:function|//|renderNews|saveToday))",
+        ai_js,
+        html, flags=re.DOTALL
+    )
 
     with open(HTML_FILE, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"✅ Aggiornato — {len(news_list)} notizie, {len(tv_recs)} consigli TV")
 
 if __name__ == "__main__":
-    print(f"🔄 Avvio NewsRadar settimanale — {today}")
-    print("🌍 Recupero notizie GDELT (ultimi 7 giorni)...")
-    gdelt_articles = fetch_gdelt_italy()
-    print("🌋 Recupero notizie Campania (RSS)...")
-    campania_articles = fetch_rss_campania()
-    all_articles = gdelt_articles + campania_articles
-    print(f"   Totale: {len(all_articles)} articoli")
-    print("🤖 Selezione e rating con Groq AI...")
-    news_list = rate_with_groq(all_articles)
-    print(f"   {len(news_list)} notizie selezionate")
+    print(f"🔄 Avvio NewsRadar — {today}")
+    print("📡 Recupero RSS...")
+    articles = fetch_rss()
+    print("🤖 Rating con Groq AI...")
+    news_list = rate_with_groq(articles)
+    print(f"   {len(news_list)} notizie")
     print("📺 Consigli TV...")
     tv_recs = tv_recs_with_groq(news_list)
     print("💾 Aggiornamento HTML...")
