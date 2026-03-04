@@ -78,7 +78,7 @@ def rate_with_groq(articles):
     for i, a in enumerate(articles[:60], 1):
         lines.append(f"{i}. [ID:{i}] [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']} | DATA: {a['date']}")
 
-    news_text = "\n".join(lines)
+       news_text = "\n".join(lines)
     prompt = (
         f"Sei un editor TV italiano. Oggi e' {today}.\n"
         f"Articoli disponibili:\n{news_text}\n\n"
@@ -93,6 +93,7 @@ def rate_with_groq(articles):
         "Ordina per buzzNum decrescente.\n"
         "SOLO JSON valido e completo, nessun testo fuori."
     )
+
 
     date_map = {i: a['date'] for i, a in enumerate(articles[:60], 1)}
     result = call_groq(prompt, max_tokens=6000)
@@ -111,7 +112,7 @@ def rerate_archive(archive):
     for i, a in enumerate(archive, 1):
         lines.append(f"{i}. [ID:{i}] [{a.get('source','')}] {a.get('title','')} | {a.get('desc','')[:80]} | DATA: {a.get('date','')}")
 
-    news_text = "\n".join(lines)
+        news_text = "\n".join(lines)
     prompt = (
         f"Sei un editor TV italiano. Oggi e' {today}.\n"
         f"Notizie in archivio (ultimi 7 giorni):\n{news_text}\n\n"
@@ -120,6 +121,7 @@ def rerate_archive(archive):
         "Mantieni TUTTI gli altri campi invariati (id, date, title, desc, source, ecc.).\n"
         "SOLO JSON valido e completo, nessun testo fuori."
     )
+
 
     try:
         result = call_groq(prompt, max_tokens=6000)
@@ -134,13 +136,14 @@ def rerate_archive(archive):
         return archive
 
 def tv_recs_with_groq(news_list):
-    top = "\n".join([f"ID {n.get('id','')}: {n.get('title','')} (score {n.get('score',5)}, cat: {n.get('cat','cronaca')})" for n in news_list[:12]])
+        top = "\n".join([f"ID {n.get('id','')}: {n.get('title','')} (score {n.get('score',5)}, cat: {n.get('cat','cronaca')})" for n in news_list[:12]])
     prompt = (
         f"Notizie italiane:\n{top}\n\n"
         "Scegli le 5 migliori per un talk show politico italiano.\n"
         "JSON array con: num (1-5), newsId, title (max 80 car), reason (max 150 car).\n"
         "SOLO JSON valido, nessun testo fuori."
     )
+
     return call_groq(prompt, max_tokens=1000)
 
 def load_archive():
