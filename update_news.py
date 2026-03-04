@@ -129,7 +129,7 @@ def rerate_archive(archive):
         return archive
 
 def tv_recs_with_groq(news_list):
-    top = "\n".join([f"ID {n['id']}: {n['title']} (score {n['score']}, cat: {n['cat']})" for n in news_list[:12]])
+    top = "\n".join([f"ID {n.get('id','')}: {n.get('title','')} (score {n.get('score',5)}, cat: {n.get('cat','cronaca')})" for n in news_list[:12]])
     prompt = (
         f"Notizie italiane:\n{top}\n\n"
         "Scegli le 5 migliori per un talk show politico italiano.\n"
