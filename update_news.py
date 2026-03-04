@@ -78,7 +78,7 @@ def rate_with_groq(articles):
     for i, a in enumerate(articles[:60], 1):
         lines.append(f"{i}. [ID:{i}] [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']} | DATA: {a['date']}")
 
-       news_text = "\n".join(lines)
+    news_text = "\n".join(lines)
     prompt = (
         f"Sei un editor TV italiano. Oggi e' {today}.\n"
         f"Articoli disponibili:\n{news_text}\n\n"
@@ -94,7 +94,6 @@ def rate_with_groq(articles):
         "SOLO JSON valido e completo, nessun testo fuori."
     )
 
-
     date_map = {i: a['date'] for i, a in enumerate(articles[:60], 1)}
     result = call_groq(prompt, max_tokens=6000)
 
@@ -104,6 +103,7 @@ def rate_with_groq(articles):
             item["date"] = date_map[original_id]
 
     return result
+
 
 def rerate_archive(archive):
     if not archive:
