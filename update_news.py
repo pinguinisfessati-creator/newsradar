@@ -34,6 +34,7 @@ def fetch_rss():
                 desc  = item.findtext("description", "").strip()
                 link  = item.findtext("link", "").strip()
                 pub   = item.findtext("pubDate", "").strip()
+                print(f"  {source_name}: OK")
                 if title:
                     articles.append({
                         "title": title[:100],
