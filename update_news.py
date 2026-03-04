@@ -34,21 +34,20 @@ def fetch_rss():
                 desc  = item.findtext("description", "").strip()
                 link  = item.findtext("link", "").strip()
                 pub   = item.findtext("pubDate", "").strip()
-                print(f"  {source_name}: OK")
                 if title:
                     articles.append({
                         "title": title[:100],
                         "description": desc[:150],
                         "url": link,
                         "source": source_name,
-                        "date": pub[:16] if pub else ""
+                        "date": pub[:16] if pub else today
                     })
         except Exception as e:
             print(f"  Errore feed {source_name}: {e}")
     print(f"  Raccolti {len(articles)} articoli")
     return articles
 
-def call_groq(prompt, max_tokens=8000):
+def call_groq(prompt, max_tokens=6000):
     response = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
@@ -78,9 +77,11 @@ def rate_with_groq(articles):
     prompt = (
         f"Sei un editor TV italiano. Oggi e' {today}.\n"
         f"Articoli disponibili:\n{news_text}\n\n"
-        "Seleziona le 20 notizie PIU' RILEVANTI (ALMENO 3 categoria campania).\n"
+        "Seleziona ESATTAMENTE 10 notizie:\n"
+        "- 3 obbligatorie categoria 'campania'\n"
+        "- 7 scelte tra TUTTE le categorie, ordinate per buzzNum decrescente (menzioni social)\n"
         "JSON array con ESATTAMENTE questi campi:\n"
-        "id (1-20), score (1-10), cat (politica|economia|esteri|cronaca|tecnologia|societa|ambiente|sport|campania), "
+        "id (1-10), score (1-10), cat (politica|economia|esteri|cronaca|tecnologia|societa|ambiente|sport|campania), "
         "date, title (max 80 car), desc (max 150 car), source, sourceUrl, "
         "buzz (es '📱 45.000 menzioni stimate'), buzzNum (intero), trending (true|false), "
         "socials (array max 3), detail (max 200 car).\n"
@@ -89,7 +90,7 @@ def rate_with_groq(articles):
     )
 
     date_map = {i: a['date'] for i, a in enumerate(articles[:60], 1)}
-    result = call_groq(prompt, max_tokens=8000)
+    result = call_groq(prompt, max_tokens=6000)
 
     for item in result:
         original_id = item.get("id")
@@ -97,6 +98,35 @@ def rate_with_groq(articles):
             item["date"] = date_map[original_id]
 
     return result
+
+def rerate_archive(archive):
+    if not archive:
+        return archive
+    lines = []
+    for i, a in enumerate(archive, 1):
+        lines.append(f"{i}. [ID:{i}] [{a.get('source','')}] {a.get('title','')} | {a.get('desc','')[:80]} | DATA: {a.get('date','')}")
+
+    news_text = "\n".join(lines)
+    prompt = (
+        f"Sei un editor TV italiano. Oggi e' {today}.\n"
+        f"Notizie in archivio (ultimi 7 giorni):\n{news_text}\n\n"
+        "Rivaluta TUTTE le notizie aggiornando score e buzzNum in base alla rilevanza attuale.\n"
+        "Restituisci lo stesso JSON array con gli stessi campi, aggiornando solo: score, buzzNum, trending.\n"
+        "Mantieni TUTTI gli altri campi invariati (id, date, title, desc, source, ecc.).\n"
+        "SOLO JSON valido e completo, nessun testo fuori."
+    )
+
+    try:
+        result = call_groq(prompt, max_tokens=6000)
+        # Mantieni la data originale dall'archivio
+        date_map = {a.get("title"): a.get("date") for a in archive}
+        for item in result:
+            if item.get("title") in date_map:
+                item["date"] = date_map[item["title"]]
+        return result
+    except Exception as e:
+        print(f"  Errore rivalutazione: {e} — uso archivio originale")
+        return archive
 
 def tv_recs_with_groq(news_list):
     top = "\n".join([f"ID {n['id']}: {n['title']} (score {n['score']}, cat: {n['cat']})" for n in news_list[:12]])
@@ -122,8 +152,8 @@ def save_archive(all_news):
             seen.add(n["title"])
             unique.append(n)
     with open(ARCHIVE_FILE, "w", encoding="utf-8") as f:
-        json.dump(unique[-140:], f, ensure_ascii=False, indent=2)
-    return unique[-140:]
+        json.dump(unique[-70:], f, ensure_ascii=False, indent=2)
+    return unique[-70:]
 
 def update_html(news_list, tv_recs):
     with open(HTML_FILE, "r", encoding="utf-8") as f:
@@ -158,14 +188,17 @@ if __name__ == "__main__":
     print(f"🔄 Avvio NewsRadar — {today}")
     print("📡 Recupero RSS...")
     articles = fetch_rss()
-    print("🤖 Rating con Groq AI...")
+    print("🤖 Rating notizie di oggi...")
     news_list = rate_with_groq(articles)
-    print(f"   {len(news_list)} notizie")
+    print(f"   {len(news_list)} notizie selezionate")
     archive = load_archive()
     archive = save_archive(archive + news_list)
     print(f"   📦 Archivio: {len(archive)} notizie")
+    print("🔄 Rivalutazione archivio...")
+    archive = rerate_archive(archive)
+    archive = save_archive(archive)
     print("📺 Consigli TV...")
-    tv_recs = tv_recs_with_groq(archive[:20])
+    tv_recs = tv_recs_with_groq(archive[:12])
     print("💾 Aggiornamento HTML...")
     update_html(archive, tv_recs)
     print("🎉 Completato!")
