@@ -5,18 +5,18 @@ from xml.etree import ElementTree as ET
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 HTML_FILE    = "index.html"
+ARCHIVE_FILE = "archive.json"
 CET          = timezone(timedelta(hours=1))
 today        = datetime.now(CET).strftime("%d %b %Y")
 
 RSS_FEEDS = [
-    ("ANSA",           "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml"),
-    ("Repubblica",     "https://www.repubblica.it/rss/homepage/rss2.0.xml"),
-    ("Corriere",       "https://xml2.corriereobjects.it/rss/homepage.xml"),
-    ("Il Fatto",       "https://www.ilfattoquotidiano.it/feed/"),
-    ("ANSA Campania",  "https://www.ansa.it/campania/notizie/campania_rss.xml"),
-    ("Il Mattino",     "https://www.ilmattino.it/rss/home.xml"),
-    ("Pupia Campania", "https://www.pupia.tv/feed/"),
-    # Google News
+    ("ANSA",                "https://www.ansa.it/sito/notizie/topnews/topnews_rss.xml"),
+    ("Repubblica",          "https://www.repubblica.it/rss/homepage/rss2.0.xml"),
+    ("Corriere",            "https://xml2.corriereobjects.it/rss/homepage.xml"),
+    ("Il Fatto",            "https://www.ilfattoquotidiano.it/feed/"),
+    ("ANSA Campania",       "https://www.ansa.it/campania/notizie/campania_rss.xml"),
+    ("Il Mattino",          "https://www.ilmattino.it/rss/home.xml"),
+    ("Pupia Campania",      "https://www.pupia.tv/feed/"),
     ("Google News IT",      "https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it"),
     ("Google News Politica","https://news.google.com/rss/search?q=politica+italiana&hl=it&gl=IT&ceid=IT:it"),
     ("Google News Campania","https://news.google.com/rss/search?q=campania+napoli&hl=it&gl=IT&ceid=IT:it"),
@@ -87,12 +87,9 @@ def rate_with_groq(articles):
         "SOLO JSON valido e completo, nessun testo fuori."
     )
 
-    # Mappa ID → data reale RSS
     date_map = {i: a['date'] for i, a in enumerate(articles[:60], 1)}
-
     result = call_groq(prompt, max_tokens=8000)
 
-    # Forza la data reale su ogni notizia
     for item in result:
         original_id = item.get("id")
         if original_id and original_id in date_map:
@@ -110,6 +107,23 @@ def tv_recs_with_groq(news_list):
     )
     return call_groq(prompt, max_tokens=1000)
 
+def load_archive():
+    if os.path.exists(ARCHIVE_FILE):
+        with open(ARCHIVE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+def save_archive(all_news):
+    seen = set()
+    unique = []
+    for n in all_news:
+        if n["title"] not in seen:
+            seen.add(n["title"])
+            unique.append(n)
+    with open(ARCHIVE_FILE, "w", encoding="utf-8") as f:
+        json.dump(unique[-140:], f, ensure_ascii=False, indent=2)
+    return unique[-140:]
+
 def update_html(news_list, tv_recs):
     with open(HTML_FILE, "r", encoding="utf-8") as f:
         html = f.read()
@@ -121,7 +135,6 @@ def update_html(news_list, tv_recs):
         "<title>📰 NewsRadar — Rassegna Settimanale</title>",
         f"<title>📰 NewsRadar — Aggiornato {now_str}</title>"
     )
-
     html = re.sub(r"📅[^<]*</div>", f"📅 Aggiornato {date_label}</div>", html)
 
     news_js = "const news = " + json.dumps(news_list, ensure_ascii=False, indent=2) + ";"
@@ -139,6 +152,7 @@ def update_html(news_list, tv_recs):
     with open(HTML_FILE, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"✅ Aggiornato alle {now_str} — {len(news_list)} notizie, {len(tv_recs)} consigli TV")
+
 if __name__ == "__main__":
     print(f"🔄 Avvio NewsRadar — {today}")
     print("📡 Recupero RSS...")
@@ -146,8 +160,11 @@ if __name__ == "__main__":
     print("🤖 Rating con Groq AI...")
     news_list = rate_with_groq(articles)
     print(f"   {len(news_list)} notizie")
+    archive = load_archive()
+    archive = save_archive(archive + news_list)
+    print(f"   📦 Archivio: {len(archive)} notizie")
     print("📺 Consigli TV...")
-    tv_recs = tv_recs_with_groq(news_list)
+    tv_recs = tv_recs_with_groq(archive[:20])
     print("💾 Aggiornamento HTML...")
-    update_html(news_list, tv_recs)
+    update_html(archive, tv_recs)
     print("🎉 Completato!")
