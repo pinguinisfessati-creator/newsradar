@@ -59,7 +59,11 @@ def call_groq(prompt, max_tokens=6000):
         },
         timeout=90
     )
-    raw = response.json()["choices"][0]["message"]["content"].strip()
+    resp_json = response.json()
+    if "choices" not in resp_json:
+        print(f"  Errore Groq: {resp_json}")
+        raise Exception(f"Groq error: {resp_json}")
+    raw = resp_json["choices"][0]["message"]["content"].strip()
     raw = re.sub(r"^```[a-z]*\n?", "", raw)
     raw = re.sub(r"```$", "", raw).strip()
     if not raw.endswith("]"):
@@ -67,6 +71,7 @@ def call_groq(prompt, max_tokens=6000):
         if last != -1:
             raw = raw[:last+1] + "]"
     return json.loads(raw)
+
 
 def rate_with_groq(articles):
     lines = []
