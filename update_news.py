@@ -96,6 +96,9 @@ def update_html(news_list, tv_recs):
 
     date_label = datetime.now(CET).strftime("%-d %B %Y")
     html = re.sub(r"📅 Aggiornato.*?</div>", f"📅 Aggiornato {date_label}</div>", html)
+    now_str = datetime.now(CET).strftime("%d/%m/%Y %H:%M")
+html = re.sub(r"<!-- updated:.*?-->", f"<!-- updated: {now_str} -->", html)
+
     html = re.sub(r"📅 Settimana.*?</div>", f"📅 Aggiornato {date_label}</div>", html)
 
     news_js = "const news = " + json.dumps(news_list, ensure_ascii=False, indent=2) + ";"
