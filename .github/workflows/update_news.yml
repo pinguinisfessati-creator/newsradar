@@ -2,9 +2,8 @@ name: NewsRadar Daily Update
 
 on:
   schedule:
-    # Ogni giorno alle 07:00 UTC = 08:00 CET
     - cron: "0 7 * * *"
-  workflow_dispatch:  # permette avvio manuale da GitHub
+  workflow_dispatch:
 
 jobs:
   update-news:
@@ -34,6 +33,5 @@ jobs:
           git config user.name  "NewsRadar Bot"
           git config user.email "newsradar-bot@users.noreply.github.com"
           git add index.html
-          git commit -m "🗞️ Auto-update $(date +'%d/%m/%Y %H:%M')" || echo "Nessuna modifica"
-          git push || echo "Nessun push necessario"
-
+          git commit -m "Auto-update $(date +'%d/%m/%Y %H:%M')"
+          git push
