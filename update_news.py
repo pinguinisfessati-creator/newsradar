@@ -66,7 +66,7 @@ def call_groq(prompt, max_tokens=8000):
 def rate_with_groq(articles):
     lines = []
     for i, a in enumerate(articles[:60], 1):
-        lines.append(f"{i}. [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']} | DATA: {a['date']}")
+        lines.append(f"{i}. [ID:{i}] [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']} | DATA: {a['date']}")
 
     news_text = "\n".join(lines)
     prompt = (
@@ -75,14 +75,25 @@ def rate_with_groq(articles):
         "Seleziona le 20 notizie PIU' RILEVANTI (ALMENO 3 categoria campania).\n"
         "JSON array con ESATTAMENTE questi campi:\n"
         "id (1-20), score (1-10), cat (politica|economia|esteri|cronaca|tecnologia|societa|ambiente|sport|campania), "
-        "date (usa la DATA fornita nell'articolo dopo 'DATA:', formato 'DD Mon YYYY'), "
-        "title (max 80 car), desc (max 150 car), source, sourceUrl, "
+        "date, title (max 80 car), desc (max 150 car), source, sourceUrl, "
         "buzz (es '📱 45.000 menzioni stimate'), buzzNum (intero), trending (true|false), "
         "socials (array max 3), detail (max 200 car).\n"
         "Ordina per buzzNum decrescente.\n"
         "SOLO JSON valido e completo, nessun testo fuori."
     )
-    return call_groq(prompt, max_tokens=8000)
+
+    # Mappa ID → data reale RSS
+    date_map = {i: a['date'] for i, a in enumerate(articles[:60], 1)}
+
+    result = call_groq(prompt, max_tokens=8000)
+
+    # Forza la data reale su ogni notizia
+    for item in result:
+        original_id = item.get("id")
+        if original_id and original_id in date_map:
+            item["date"] = date_map[original_id]
+
+    return result
 
 def tv_recs_with_groq(news_list):
     top = "\n".join([f"ID {n['id']}: {n['title']} (score {n['score']}, cat: {n['cat']})" for n in news_list[:12]])
