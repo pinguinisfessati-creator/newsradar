@@ -612,5 +612,162 @@
       "Facebook"
     ],
     "detail": "Ridotto il traffico di petroliere nello stretto di Hormuz"
+  },
+  {
+    "id": 3,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Wed, 4 Mar 2026 ",
+    "title": "Casa Bianca: La Spagna ha accettato di collaborare con Usa sull'Iran",
+    "desc": "La portavoce della Casa Bianca ha annunciato che la Spagna ha accettato di collaborare con gli Stati Uniti sull'Iran",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/casa-bianca-la-spagna-ha-accettato-di-collaborare-con-usa-sulliran_11e801f2-9af4-4862-bb07-299b41234352.html",
+    "buzz": "📱 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook",
+      "Instagram"
+    ],
+    "detail": "La collaborazione tra Stati Uniti e Spagna sull'Iran è stata annunciata dalla portavoce della Casa Bianca"
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Wed, 4 Mar 2026 ",
+    "title": "Madrid smentisce la Casa Bianca: 'Nessun accordo sulle basi'",
+    "desc": "Il ministro degli Esteri spagnolo ha smentito la Casa Bianca, affermando che non c'è stato alcun accordo sulle basi",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/madrid-smentiamo-categoricamente-la-casa-bianca-nessun-accordo-sulle-basi_bd848d0b-9beb-4121-ba3b-01cb05fa3192.html",
+    "buzz": "📱 90.000 menzioni stimate",
+    "buzzNum": 90000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Il ministro degli Esteri spagnolo ha smentito la Casa Bianca, affermando che non c'è stato alcun accordo sulle basi"
+  },
+  {
+    "id": 59,
+    "score": 6,
+    "cat": "campania",
+    "date": "Wed, 4 Mar 2026 ",
+    "title": "Fs acquista Firema, storica fabbrica di treni campana",
+    "desc": "La Fs ha acquistato la Firema, storica fabbrica di treni campana",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/04/fs-acquista-firema-storica-fabbrica-di-treni-campana_ab59a6a1-d4dc-420e-b2ef-29a220c91e74.html",
+    "buzz": "📱 60.000 menzioni stimate",
+    "buzzNum": 60000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "La Fs ha acquistato la Firema, storica fabbrica di treni campana, per garantire la continuità industriale"
+  },
+  {
+    "id": 56,
+    "score": 5,
+    "cat": "campania",
+    "date": "Wed, 4 Mar 2026 ",
+    "title": "Morrone, nella Terra dei Fuochi intrapresa la strada giusta",
+    "desc": "Il commissario Morrone ha affermato che nella Terra dei Fuochi è stata intrapresa la strada giusta",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/04/morrone-nella-terra-dei-fuochi-intrapresa-la-strada-giusta_d1c750ab-fdf5-40a6-8033-28bc8ef85f8a.html",
+    "buzz": "📱 40.000 menzioni stimate",
+    "buzzNum": 40000,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Il commissario Morrone ha affermato che nella Terra dei Fuochi è stata intrapresa la strada giusta per risolvere il problema"
+  },
+  {
+    "id": 58,
+    "score": 5,
+    "cat": "campania",
+    "date": "Wed, 4 Mar 2026 ",
+    "title": "Garante disabili, 'solo Salerno ha adottato il piano di eliminazione barriere'",
+    "desc": "Il garante disabili ha affermato che solo Salerno ha adottato il piano di eliminazione barriere",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/04/garante-disabili-solo-salerno-ha-adottato-il-piano-di-eliminazione-barriere_98c2509c-f43c-4554-ab39-b984a38a724c.html",
+    "buzz": "📱 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Il garante disabili ha affermato che solo Salerno ha adottato il piano di eliminazione barriere, mentre gli altri comuni non hanno ancora agito"
+  },
+  {
+    "id": 1,
+    "score": 4,
+    "cat": "economia",
+    "date": "Wed, 4 Mar 2026 ",
+    "title": "Borsa: Avio entra nel Ftse Mib, esce Pop. Sondrio",
+    "desc": "Avio è entrata nel Ftse Mib, mentre Pop. Sondrio è uscita",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/borsa-avio-entra-nel-ftse-mib-esce-pop.-sondrio_8b09935b-1e96-4682-90ac-0300c232999f.html",
+    "buzz": "📱 20.000 menzioni stimate",
+    "buzzNum": 20000,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Avio è entrata nel Ftse Mib, mentre Pop. Sondrio è uscita, in seguito alla revisione del paniere"
+  },
+  {
+    "id": 6,
+    "score": 4,
+    "cat": "economia",
+    "date": "Wed, 4 Mar 2026 ",
+    "title": "I mercati rimbalzano, scommettono su un conflitto breve",
+    "desc": "I mercati hanno rimbalzato, scommettendo su un conflitto breve",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/i-mercati-rimbalzano-scommettono-su-un-conflitto-breve_03ccca92-fe66-4e65-a8dd-9f4af78bef86.html",
+    "buzz": "📱 15.000 menzioni stimate",
+    "buzzNum": 15000,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "I mercati hanno rimbalzato, scommettendo su un conflitto breve, in seguito alle notizie sulla crisi in Medio Oriente"
+  },
+  {
+    "id": 20,
+    "score": 3,
+    "cat": "politica",
+    "date": "Wed, 04 Mar 2026",
+    "title": "Iran, M5S attacca: 'Crosetto chiarisca sull’uso di Sigonella e Muos'",
+    "desc": "Il M5S ha attaccato il ministro della Difesa Crosetto, chiedendogli di chiarire sull'uso di Sigonella e Muos",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/politica/2026/03/04/news/m5s_attacca_crosetto_sigonella_muos_guerra_iran-425200064/",
+    "buzz": "📱 10.000 menzioni stimate",
+    "buzzNum": 10000,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Il M5S ha attaccato il ministro della Difesa Crosetto, chiedendogli di chiarire sull'uso di Sigonella e Muos in relazione alla crisi in Medio Oriente"
+  },
+  {
+    "id": 41,
+    "score": 2,
+    "cat": "esteri",
+    "date": "Wed, 04 Mar 2026",
+    "title": "La Casa Bianca: 'La Spagna ha accettato di cooperare sulle basi per l’Iran'. Ma Madrid smentisce",
+    "desc": "La Casa Bianca ha affermato che la Spagna ha accettato di cooperare sulle basi per l'Iran, ma Madrid ha smentito",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/04/usa-spagna-basi-militari-iran-news/8313864/",
+    "buzz": "📱 5.000 menzioni stimate",
+    "buzzNum": 5000,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "La Casa Bianca ha affermato che la Spagna ha accettato di cooperare sulle basi per l'Iran, ma Madrid ha smentito, creando confusione sulla questione"
   }
 ]
