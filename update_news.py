@@ -66,20 +66,23 @@ def call_groq(prompt, max_tokens=8000):
 def rate_with_groq(articles):
     lines = []
     for i, a in enumerate(articles[:60], 1):
-        lines.append(f"{i}. [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']}")
+    lines.append(f"{i}. [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']} | DATA: {a['date']}")
+
     news_text = "\n".join(lines)
-    prompt = (
+       prompt = (
         f"Sei un editor TV italiano. Oggi e' {today}.\n"
         f"Articoli disponibili:\n{news_text}\n\n"
         "Seleziona le 20 notizie PIU' RILEVANTI (ALMENO 3 categoria campania).\n"
         "JSON array con ESATTAMENTE questi campi:\n"
         "id (1-20), score (1-10), cat (politica|economia|esteri|cronaca|tecnologia|societa|ambiente|sport|campania), "
-        f"date ('{today}'), title (max 80 car), desc (max 150 car), source, sourceUrl, "
+        "date (usa la DATA fornita nell'articolo dopo 'DATA:', formato 'DD Mon YYYY'), "
+        "title (max 80 car), desc (max 150 car), source, sourceUrl, "
         "buzz (es '📱 45.000 menzioni stimate'), buzzNum (intero), trending (true|false), "
         "socials (array max 3), detail (max 200 car).\n"
         "Ordina per buzzNum decrescente.\n"
         "SOLO JSON valido e completo, nessun testo fuori."
     )
+
     return call_groq(prompt, max_tokens=8000)
 
 def tv_recs_with_groq(news_list):
