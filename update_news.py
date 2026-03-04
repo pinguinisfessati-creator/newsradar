@@ -16,6 +16,11 @@ RSS_FEEDS = [
     ("ANSA Campania",  "https://www.ansa.it/campania/notizie/campania_rss.xml"),
     ("Il Mattino",     "https://www.ilmattino.it/rss/home.xml"),
     ("Pupia Campania", "https://www.pupia.tv/feed/"),
+    # Google News
+    ("Google News IT",      "https://news.google.com/rss?hl=it&gl=IT&ceid=IT:it"),
+    ("Google News Politica","https://news.google.com/rss/search?q=politica+italiana&hl=it&gl=IT&ceid=IT:it"),
+    ("Google News Campania","https://news.google.com/rss/search?q=campania+napoli&hl=it&gl=IT&ceid=IT:it"),
+    ("Google News Economia","https://news.google.com/rss/search?q=economia+italia&hl=it&gl=IT&ceid=IT:it"),
 ]
 
 def fetch_rss():
