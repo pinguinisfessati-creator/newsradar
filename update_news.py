@@ -97,10 +97,12 @@ def update_html(news_list, tv_recs):
     now_str    = datetime.now(CET).strftime("%d/%m/%Y %H:%M")
     date_label = datetime.now(CET).strftime("%-d %B %Y")
 
-    html = re.sub(r"📅 Aggiornato.*?</div>", f"📅 Aggiornato {date_label}</div>", html)
-    html = re.sub(r"📅 Settimana.*?</div>",  f"📅 Aggiornato {date_label}</div>", html)
-    html = re.sub(r"<title>.*?</title>", f"<title>📰 NewsRadar — Aggiornato {now_str}</title>", html, flags=re.DOTALL)
+    html = html.replace(
+        "<title>📰 NewsRadar — Rassegna Settimanale</title>",
+        f"<title>📰 NewsRadar — Aggiornato {now_str}</title>"
+    )
 
+    html = re.sub(r"📅[^<]*</div>", f"📅 Aggiornato {date_label}</div>", html)
 
     news_js = "const news = " + json.dumps(news_list, ensure_ascii=False, indent=2) + ";"
     ai_js   = "const aiRecommendations = " + json.dumps(tv_recs, ensure_ascii=False, indent=2) + ";"
@@ -117,7 +119,6 @@ def update_html(news_list, tv_recs):
     with open(HTML_FILE, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"✅ Aggiornato alle {now_str} — {len(news_list)} notizie, {len(tv_recs)} consigli TV")
-
 if __name__ == "__main__":
     print(f"🔄 Avvio NewsRadar — {today}")
     print("📡 Recupero RSS...")
