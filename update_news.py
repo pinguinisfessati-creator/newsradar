@@ -94,31 +94,28 @@ def update_html(news_list, tv_recs):
     with open(HTML_FILE, "r", encoding="utf-8") as f:
         html = f.read()
 
+    now_str    = datetime.now(CET).strftime("%d/%m/%Y %H:%M")
     date_label = datetime.now(CET).strftime("%-d %B %Y")
-    html = re.sub(r"📅 Aggiornato.*?</div>", f"📅 Aggiornato {date_label}</div>", html)
-    now_str = datetime.now(CET).strftime("%d/%m/%Y %H:%M")
-html = re.sub(r"<!-- updated:.*?-->", f"<!-- updated: {now_str} -->", html)
 
-    html = re.sub(r"📅 Settimana.*?</div>", f"📅 Aggiornato {date_label}</div>", html)
+    html = re.sub(r"📅 Aggiornato.*?</div>", f"📅 Aggiornato {date_label}</div>", html)
+    html = re.sub(r"📅 Settimana.*?</div>",  f"📅 Aggiornato {date_label}</div>", html)
+    html = re.sub(r"<!-- updated:.*?-->", f"<!-- updated: {now_str} -->", html)
 
     news_js = "const news = " + json.dumps(news_list, ensure_ascii=False, indent=2) + ";"
     ai_js   = "const aiRecommendations = " + json.dumps(tv_recs, ensure_ascii=False, indent=2) + ";"
 
-    # Trova i marker con regex per essere robusti a variazioni di whitespace
     html = re.sub(
         r"const news = \[.*?\];(?=\s*const aiRecommendations)",
-        news_js,
-        html, flags=re.DOTALL
+        news_js, html, flags=re.DOTALL
     )
     html = re.sub(
         r"const aiRecommendations = \[.*?\];(?=\s*(?:function|//|renderNews|saveToday))",
-        ai_js,
-        html, flags=re.DOTALL
+        ai_js, html, flags=re.DOTALL
     )
 
     with open(HTML_FILE, "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"✅ Aggiornato — {len(news_list)} notizie, {len(tv_recs)} consigli TV")
+    print(f"✅ Aggiornato alle {now_str} — {len(news_list)} notizie, {len(tv_recs)} consigli TV")
 
 if __name__ == "__main__":
     print(f"🔄 Avvio NewsRadar — {today}")
