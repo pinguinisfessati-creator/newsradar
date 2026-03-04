@@ -99,7 +99,7 @@ def update_html(news_list, tv_recs):
 
     html = re.sub(r"📅 Aggiornato.*?</div>", f"📅 Aggiornato {date_label}</div>", html)
     html = re.sub(r"📅 Settimana.*?</div>",  f"📅 Aggiornato {date_label}</div>", html)
-    html = re.sub(r"<title>.*?</title>", f"<title>NewsRadar — {now_str}</title>", html)
+    html = re.sub(r"<title>.*?</title>", f"<title>📰 NewsRadar — Aggiornato {now_str}</title>", html, flags=re.DOTALL)
 
 
     news_js = "const news = " + json.dumps(news_list, ensure_ascii=False, indent=2) + ";"
