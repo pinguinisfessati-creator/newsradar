@@ -28,12 +28,14 @@ def fetch_rss():
                 title = item.findtext("title", "").strip()
                 desc  = item.findtext("description", "").strip()
                 link  = item.findtext("link", "").strip()
+                pub   = item.findtext("pubDate", "").strip()
                 if title:
                     articles.append({
                         "title": title[:100],
                         "description": desc[:150],
                         "url": link,
                         "source": source_name,
+                        "date": pub[:16] if pub else ""
                     })
         except Exception as e:
             print(f"  Errore feed {source_name}: {e}")
