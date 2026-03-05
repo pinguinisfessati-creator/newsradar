@@ -769,5 +769,136 @@
       "Twitter"
     ],
     "detail": "La Casa Bianca ha affermato che la Spagna ha accettato di cooperare sulle basi per l'Iran, ma Madrid ha smentito, creando confusione sulla questione"
+  },
+  {
+    "id": 43,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Thu, 05 Mar 2026",
+    "title": "Guerra in Iran, ecco la risoluzione del governo",
+    "desc": "Difesa anti-aerea e anti-missilistica per aiutare i Paesi del Golfo colpiti",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/guerra-in-iran-risoluzione-governo-aiuti-militari-news/8314108/",
+    "buzz": "✅ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "La risoluzione del governo sugli aiuti militari per la guerra in Iran"
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "cronaca",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Omicidio del patron di TelePordenone, c'è un sospettato",
+    "desc": "L'uomo si trova in Questura, il corpo della vittima è stato trovato a casa",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/omicidio-del-patron-di-telepordenone-ce-un-sospettato_3b09421d-1f17-4685-9120-5951bb21904d.html",
+    "buzz": "✅ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "L'omicidio del patron di TelePordenone, un caso di cronaca nera"
+  },
+  {
+    "id": 56,
+    "score": 6,
+    "cat": "campania",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Droga e telefoni in cella via drone, il 30 marzo la requisitoria",
+    "desc": "Il processo d'appello con 5 proposte di concordare la pena",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/droga-e-telefoni-in-cella-via-drone-il-30-marzo-la-requisitoria-a-napoli_a9d6b26c-e8f6-49c8-ac8e-e582b03193e9.html",
+    "buzz": "✅ 43.210 menzioni stimate",
+    "buzzNum": 43210,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Il caso della droga e dei telefoni in cella via drone in Campania"
+  },
+  {
+    "id": 9,
+    "score": 5,
+    "cat": "politica",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Meloni, pronta ad aumentare le tasse a chi specula sulle bollette",
+    "desc": "Già attivato Arera che monitora l'andamento dei prezzi",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/meloni-pronta-ad-aumentare-le-tasse-a-chi-specula-sulle-bollette_02c5e1ab-0aea-4bea-8061-812df308bfa0.html",
+    "buzz": "✅ 18.765 menzioni stimate",
+    "buzzNum": 18765,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La posizione di Meloni sulle tasse per le bollette"
+  },
+  {
+    "id": 1,
+    "score": 5,
+    "cat": "economia",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Codacons, 'contro l'aumento delle bollette usare l'accisa mobile'",
+    "desc": "Il Mef, di concerto col Mase, adotta il provvedimento di riduzione",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/codacons-contro-laumento-delle-bollette-usare-laccisa-mobile_f33c7390-6aa8-4ba0-ad8c-1a81fb8d3f8b.html",
+    "buzz": "✅ 14.321 menzioni stimate",
+    "buzzNum": 14321,
+    "trending": false,
+    "socials": [],
+    "detail": "La posizione del Codacons sull'aumento delle bollette"
+  },
+  {
+    "id": 11,
+    "score": 5,
+    "cat": "esteri",
+    "date": "Thu, 05 Mar 2026",
+    "title": "Guerra in Iran, news. Nuove esplosioni a Doha e Manama",
+    "desc": "Teheran: 'Colpita petroliera Usa nel Golfo'. Meloni: 'Non siamo in guerra'",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/dossier/guerra-in-medio-oriente/2026/03/05/diretta/guerra_iran_usa_israele_news_oggi-425200719/",
+    "buzz": "✅ 10.987 menzioni stimate",
+    "buzzNum": 10987,
+    "trending": false,
+    "socials": [],
+    "detail": "La guerra in Iran, ultime notizie"
+  },
+  {
+    "id": 23,
+    "score": 5,
+    "cat": "politica",
+    "date": "Thu, 05 Mar 2026",
+    "title": "Iran, Meloni e Crosetto al Colle da Mattarella: 'Crisi peggiore da decenni'",
+    "desc": "In mattinata vertice a palazzo Chigi poi i colloqui con il presidente",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/politica/2026/03/05/news/iran_meloni_crosetto_mattarella_crisi-425200677/",
+    "buzz": "✅ 8.654 menzioni stimate",
+    "buzzNum": 8654,
+    "trending": false,
+    "socials": [],
+    "detail": "La crisi in Iran, la posizione di Meloni e Crosetto"
+  },
+  {
+    "id": 44,
+    "score": 5,
+    "cat": "cronaca",
+    "date": "Thu, 05 Mar 2026",
+    "title": "Il patron di TelePordenone ucciso a sprangate in casa: 'Una mattanza'",
+    "desc": "Mario Ruoso, 87 anni, fondatore e patron di TelePordenone",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/omicidio-ruoso-telepordenone-pordenone-notizie/8314099/",
+    "buzz": "✅ 6.321 menzioni stimate",
+    "buzzNum": 6321,
+    "trending": false,
+    "socials": [],
+    "detail": "L'omicidio del patron di TelePordenone"
   }
 ]
