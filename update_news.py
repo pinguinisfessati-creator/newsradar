@@ -72,12 +72,10 @@ def call_groq(prompt, max_tokens=6000):
             raw = raw[:last+1] + "]"
     return json.loads(raw)
 
-
 def rate_with_groq(articles):
     lines = []
     for i, a in enumerate(articles[:60], 1):
         lines.append(f"{i}. [ID:{i}] [{a['source']}] {a['title']} | {a['description'][:80]} | URL: {a['url']} | DATA: {a['date']}")
-
     news_text = "\n".join(lines)
     prompt = (
         f"Sei un editor TV italiano. Oggi e' {today}.\n"
@@ -104,15 +102,13 @@ def rate_with_groq(articles):
 
     return result
 
-
 def rerate_archive(archive):
     if not archive:
         return archive
     lines = []
     for i, a in enumerate(archive, 1):
         lines.append(f"{i}. [ID:{i}] [{a.get('source','')}] {a.get('title','')} | {a.get('desc','')[:80]} | DATA: {a.get('date','')}")
-
-        news_text = "\n".join(lines)
+    news_text = "\n".join(lines)
     prompt = (
         f"Sei un editor TV italiano. Oggi e' {today}.\n"
         f"Notizie in archivio (ultimi 7 giorni):\n{news_text}\n\n"
@@ -121,7 +117,6 @@ def rerate_archive(archive):
         "Mantieni TUTTI gli altri campi invariati (id, date, title, desc, source, ecc.).\n"
         "SOLO JSON valido e completo, nessun testo fuori."
     )
-
 
     try:
         result = call_groq(prompt, max_tokens=6000)
@@ -136,7 +131,10 @@ def rerate_archive(archive):
         return archive
 
 def tv_recs_with_groq(news_list):
-    top = "\n".join([f"ID {n.get('id','')}: {n.get('title','')} (score {n.get('score',5)}, cat: {n.get('cat','cronaca')})" for n in news_list[:12]])
+    top = "\n".join([
+        f"ID {n.get('id','')}: {n.get('title','')} (score {n.get('score',5)}, cat: {n.get('cat','cronaca')})"
+        for n in news_list[:12]
+    ])
     prompt = (
         f"Notizie italiane:\n{top}\n\n"
         "Scegli le 5 migliori per un talk show politico italiano.\n"
@@ -198,15 +196,24 @@ if __name__ == "__main__":
     articles = fetch_rss()
     print("🤖 Rating notizie di oggi...")
     news_list = rate_with_groq(articles)
+    # Ordina le notizie del giorno per score decrescente
+    news_list = sorted(news_list, key=lambda x: x.get("score", 0), reverse=True)
     print(f"   {len(news_list)} notizie selezionate")
+
     archive = load_archive()
     archive = save_archive(archive + news_list)
     print(f"   📦 Archivio: {len(archive)} notizie")
+
     print("🔄 Rivalutazione archivio...")
     archive = rerate_archive(archive)
     archive = save_archive(archive)
+
     print("📺 Consigli TV...")
     tv_recs = tv_recs_with_groq(archive[:12])
+
+    # Ordina l’archivio per score decrescente prima di aggiornare l’HTML
+    archive_sorted = sorted(archive, key=lambda x: x.get("score", 0), reverse=True)
+
     print("💾 Aggiornamento HTML...")
-    update_html(archive, tv_recs)
+    update_html(archive_sorted, tv_recs)
     print("🎉 Completato!")
