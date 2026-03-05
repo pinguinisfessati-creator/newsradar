@@ -1077,5 +1077,117 @@
       "Twitter"
     ],
     "detail": "Il governo ha approvato una risoluzione sugli aiuti militari per la guerra in Iran, con l'obiettivo di sostenere i paesi del Golfo"
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Crosetto, massimo livello di protezione aerea nazionale",
+    "desc": "Crosetto ha chiesto di innalzare il livello di protezione aerea nazionale",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/crosetto-massimo-livello-di-protezione-aerea-nazionale-puo-succedere-di-tutto_292594e3-f1e9-455e-84a4-3ddff7ac383b.html",
+    "buzz": "✍ 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "Il ministro della Difesa ha chiesto di innalzare il livello di protezione aerea nazionale a causa della situazione in Medio Oriente"
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "campania",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Nordio, 'toni confronto sul referendum? Seguiamo indicazioni Mattarella'",
+    "desc": "Nordio ha dichiarato che il tono del confronto sul referendum deve seguire le indicazioni del Presidente Mattarella",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/nordio-toni-confronto-sul-referendum-seguiamo-indicazioni-mattarella_49dda1c4-956a-4136-ad4e-d31f204ed1b4.html",
+    "buzz": "✍ 80.000 menzioni stimate",
+    "buzzNum": 80000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Nordio ha sottolineato l'importanza di seguire le indicazioni del Presidente Mattarella nel confronto sul referendum"
+  },
+  {
+    "id": 5,
+    "score": 4,
+    "cat": "cronaca",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Pestaggio e coltellate per una frase sulle armi: arrestati 4 minori",
+    "desc": "Quattro minori sono stati arrestati per pestaggio e coltellate a Milano",
+    "source": "Il Fatto Quotidiano",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/aggressione-minori-milano-accoltellamento-news/8314216/",
+    "buzz": "✍ 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [],
+    "detail": "Quattro minori sono stati arrestati per pestaggio e coltellate a Milano, dopo una discussione su una frase sulle armi"
+  },
+  {
+    "id": 6,
+    "score": 3,
+    "cat": "campania",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "San Pietro a Majella, omaggio alla creatività femminile della scena barocca",
+    "desc": "Omaggio alla creatività femminile della scena barocca a San Pietro a Majella",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/san-pietro-a-majella-omaggio-alla-creativita-femminile-della-scena-barocca_dd04ba42-147c-4fc8-b828-2b53e4a82b74.html",
+    "buzz": "✍ 20.000 menzioni stimate",
+    "buzzNum": 20000,
+    "trending": false,
+    "socials": [],
+    "detail": "Omaggio alla creatività femminile della scena barocca a San Pietro a Majella, con un evento dedicato ad Artemisia Gentileschi e Francesca Caccini"
+  },
+  {
+    "id": 7,
+    "score": 2,
+    "cat": "esteri",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Crosetto, sistemi difesa missilistica in Medioriente e aiuto a Cipro",
+    "desc": "Crosetto ha annunciato l'invio di sistemi di difesa missilistica in Medioriente e aiuto a Cipro",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/crosetto-sistemi-difesa-missilistica-in-medioriente-e-aiuto-a-cipro_4f39bfd9-8b88-4028-be2e-aad7093e14c6.html",
+    "buzz": "✍ 15.000 menzioni stimate",
+    "buzzNum": 15000,
+    "trending": false,
+    "socials": [],
+    "detail": "Crosetto ha annunciato l'invio di sistemi di difesa missilistica in Medioriente e aiuto a Cipro, in risposta alla situazione di crisi nella regione"
+  },
+  {
+    "id": 8,
+    "score": 1,
+    "cat": "economia",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Al via il collegamento online registratori di cassa e Pos",
+    "desc": "È stato attivato il collegamento online tra registratori di cassa e Pos",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/al-via-il-collegamento-online-registratori-di-cassa-e-pos_2d497ab1-be23-4e43-ad30-f8a08053f746.html",
+    "buzz": "✍ 10.000 menzioni stimate",
+    "buzzNum": 10000,
+    "trending": false,
+    "socials": [],
+    "detail": "È stato attivato il collegamento online tra registratori di cassa e Pos, per semplificare le operazioni di pagamento"
+  },
+  {
+    "id": 10,
+    "score": 1,
+    "cat": "sport",
+    "date": "Thu, 5 Mar 2026 ",
+    "title": "Berrettini batte Mannarino: dopo l'ultimo dritto vincente è rimasto a terra 5 minuti per crampi",
+    "desc": "Berrettini ha battuto Mannarino, nonostante i crampi che lo hanno costretto a rimanere a terra per 5 minuti",
+    "source": "Il Fatto Quotidiano",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/berrettini-mannarino-indian-wells-vittoria-ero-un-po-sorpreso-poi-mi-sono-detto-ok-e-normale-crampi/8314246/",
+    "buzz": "✍ 2.000 menzioni stimate",
+    "buzzNum": 2000,
+    "trending": false,
+    "socials": [],
+    "detail": "Berrettini ha battuto Mannarino, nonostante i crampi che lo hanno costretto a rimanere a terra per 5 minuti, e ha commentato la sua vittoria"
   }
 ]
