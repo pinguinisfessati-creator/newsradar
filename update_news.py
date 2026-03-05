@@ -120,7 +120,6 @@ def rerate_archive(archive):
 
     try:
         result = call_groq(prompt, max_tokens=6000)
-        # Mantieni la data originale dall'archivio
         date_map = {a.get("title"): a.get("date") for a in archive}
         for item in result:
             if item.get("title") in date_map:
@@ -141,7 +140,6 @@ def tv_recs_with_groq(news_list):
         "JSON array con: num (1-5), newsId, title (max 80 car), reason (max 150 car).\n"
         "SOLO JSON valido, nessun testo fuori."
     )
-
     return call_groq(prompt, max_tokens=1000)
 
 def load_archive():
@@ -194,10 +192,15 @@ if __name__ == "__main__":
     print(f"🔄 Avvio NewsRadar — {today}")
     print("📡 Recupero RSS...")
     articles = fetch_rss()
+
     print("🤖 Rating notizie di oggi...")
     news_list = rate_with_groq(articles)
-    # Ordina le notizie del giorno per score decrescente
-    news_list = sorted(news_list, key=lambda x: x.get("score", 0), reverse=True)
+    # Strategia mista: prima buzzNum, poi score come tie-breaker
+    news_list = sorted(
+        news_list,
+        key=lambda x: (x.get("buzzNum", 0), x.get("score", 0)),
+        reverse=True
+    )
     print(f"   {len(news_list)} notizie selezionate")
 
     archive = load_archive()
@@ -211,8 +214,12 @@ if __name__ == "__main__":
     print("📺 Consigli TV...")
     tv_recs = tv_recs_with_groq(archive[:12])
 
-    # Ordina l’archivio per score decrescente prima di aggiornare l’HTML
-    archive_sorted = sorted(archive, key=lambda x: x.get("score", 0), reverse=True)
+    # Strategia mista anche per l'archivio mostrato in homepage
+    archive_sorted = sorted(
+        archive,
+        key=lambda x: (x.get("buzzNum", 0), x.get("score", 0)),
+        reverse=True
+    )
 
     print("💾 Aggiornamento HTML...")
     update_html(archive_sorted, tv_recs)
