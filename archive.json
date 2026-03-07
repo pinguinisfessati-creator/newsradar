@@ -1,182 +1,5 @@
 [
   {
-    "id": 56,
-    "score": 6,
-    "cat": "campania",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Il vescovo di Nola, 'la tragedia di Domenico ci ha spezzato il cuore'",
-    "desc": "Ma dobbiamo credere ancora nella buona medicina e nelle donazioni d'organo",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/04/il-vescovo-di-nola-la-tragedia-di-domenico-ci-ha-spezzato-il-cuore_7b8c1823-67e8-473d-8a79-db281d2d66f7.html",
-    "buzz": "✏ 43.210 menzioni stimate",
-    "buzzNum": 43210,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Il vescovo di Nola parla ai funerali di Domenico"
-  },
-  {
-    "id": 9,
-    "score": 9,
-    "cat": "politica",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Ok al Ddl antisemitismo, 5S e Avs votano no, Pd si divide",
-    "desc": "Testo modificato. A favore centrodestra, Iv, Azione e riformisti Dem",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/ok-al-ddl-antisemitismo-5s-e-avs-votano-no-pd-si-divide_ee397e95-3df3-4357-9702-684c19d403cd.html",
-    "buzz": "✏ 123.987 menzioni stimate",
-    "buzzNum": 123987,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Il Pd si divide sul voto del Ddl antisemitismo"
-  },
-  {
-    "id": 11,
-    "score": 7,
-    "cat": "esteri",
-    "date": "Wed, 04 Mar 2026",
-    "title": "Iran, news dalla guerra. Turchia: abbattuto missile iraniano. Usa: 'Non fa scattare articolo 5 Nato'",
-    "desc": "Turchia: 'Non eravamo noi l'obiettivo'. La tv di Stato di Teheran: 'Rinviati i f'",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/04/diretta/iran_guerra_usa_israele_news_oggi-425198425/",
-    "buzz": "✏ 76.543 menzioni stimate",
-    "buzzNum": 76543,
-    "trending": true,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Notizie dalla guerra in Iran"
-  },
-  {
-    "id": 17,
-    "score": 6,
-    "cat": "esteri",
-    "date": "Wed, 04 Mar 2026",
-    "title": "E ora cosa può succedere in Iran? I quattro scenari del conflitto",
-    "desc": "L'offensiva, al suo quinto giorno, potrebbe durare settimane o mesi. Gli esperti",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/04/news/situazione_iran_guerra_cosa_puo_succedere_scenari_ipotesi-425199660/",
-    "buzz": "✏ 54.321 menzioni stimate",
-    "buzzNum": 54321,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Scenari del conflitto in Iran"
-  },
-  {
-    "id": 18,
-    "score": 8,
-    "cat": "politica",
-    "date": "Wed, 04 Mar 2026",
-    "title": "Crisi in Medio Oriente, Crosetto e Tajani domani in aula: comunicazioni e voto sulle risoluzioni",
-    "desc": "L'escalation in corso avrebbe convinto Palazzo Chigi ad abbandonare l'opzione de",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/04/news/crosetto_tajani_guerra_medio_oriente_iran_parlamento_voto-425199608/",
-    "buzz": "✏ 95.678 menzioni stimate",
-    "buzzNum": 95678,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Crisi in Medio Oriente, Crosetto e Tajani in aula"
-  },
-  {
-    "id": 1,
-    "score": 7,
-    "cat": "economia",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Ridotto del 90% il traffico di petroliere nello stretto di Hormuz",
-    "desc": "Lo afferma la società di intelligence del mercato energetico Kpler",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/ridotto-del-90-il-traffico-di-petroliere-nello-stretto-di-hormuz_f65ff1f1-94ec-439f-9b98-64844ca191bb.html",
-    "buzz": "✏ 67.890 menzioni stimate",
-    "buzzNum": 67890,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Ridotto il traffico di petroliere nello stretto di Hormuz"
-  },
-  {
-    "id": 3,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Casa Bianca: La Spagna ha accettato di collaborare con Usa sull'Iran",
-    "desc": "La portavoce della Casa Bianca ha annunciato che la Spagna ha accettato di collaborare con gli Stati Uniti sull'Iran",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/casa-bianca-la-spagna-ha-accettato-di-collaborare-con-usa-sulliran_11e801f2-9af4-4862-bb07-299b41234352.html",
-    "buzz": "📱 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "La collaborazione tra Stati Uniti e Spagna sull'Iran è stata annunciata dalla portavoce della Casa Bianca"
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "esteri",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Madrid smentisce la Casa Bianca: 'Nessun accordo sulle basi'",
-    "desc": "Il ministro degli Esteri spagnolo ha smentito la Casa Bianca, affermando che non c'è stato alcun accordo sulle basi",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/madrid-smentiamo-categoricamente-la-casa-bianca-nessun-accordo-sulle-basi_bd848d0b-9beb-4121-ba3b-01cb05fa3192.html",
-    "buzz": "📱 90.000 menzioni stimate",
-    "buzzNum": 90000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Il ministro degli Esteri spagnolo ha smentito la Casa Bianca, affermando che non c'è stato alcun accordo sulle basi"
-  },
-  {
-    "id": 59,
-    "score": 6,
-    "cat": "campania",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Fs acquista Firema, storica fabbrica di treni campana",
-    "desc": "La Fs ha acquistato la Firema, storica fabbrica di treni campana",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/04/fs-acquista-firema-storica-fabbrica-di-treni-campana_ab59a6a1-d4dc-420e-b2ef-29a220c91e74.html",
-    "buzz": "📱 60.000 menzioni stimate",
-    "buzzNum": 60000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "La Fs ha acquistato la Firema, storica fabbrica di treni campana, per garantire la continuità industriale"
-  },
-  {
-    "id": 56,
-    "score": 5,
-    "cat": "campania",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Morrone, nella Terra dei Fuochi intrapresa la strada giusta",
-    "desc": "Il commissario Morrone ha affermato che nella Terra dei Fuochi è stata intrapresa la strada giusta",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/04/morrone-nella-terra-dei-fuochi-intrapresa-la-strada-giusta_d1c750ab-fdf5-40a6-8033-28bc8ef85f8a.html",
-    "buzz": "📱 40.000 menzioni stimate",
-    "buzzNum": 40000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il commissario Morrone ha affermato che nella Terra dei Fuochi è stata intrapresa la strada giusta per risolvere il problema"
-  },
-  {
     "id": 58,
     "score": 5,
     "cat": "campania",
@@ -1182,5 +1005,181 @@
     "trending": false,
     "socials": [],
     "detail": "La cerimonia di apertura delle Paralimpiadi è stata trasmessa in diretta dall'Arena di Verona, con un maxi show che ha coinvolto molti artisti."
+  },
+  {
+    "id": 15,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sat, 07 Mar 2026",
+    "title": "Trump all'Iran: 'Arrendetevi e fatemi scegliere la vostra Guida suprema'",
+    "desc": "Il presidente indica le condizioni per mettere fine alla guerra",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/07/news/trump_iran_arrendetevi_e_fatemi_scegliere_la_guida_suprema-425205148/",
+    "buzz": "✋ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "Trump ha fatto una dichiarazione shock sull'Iran, chiedendo la resa e offrendo di scegliere la nuova Guida suprema"
+  },
+  {
+    "id": 14,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sat, 07 Mar 2026",
+    "title": "C'è Mosca dietro ai raid dell'Iran: 'Così indica i bersagli americani'",
+    "desc": "Secondo le rivelazioni dei media, la Russia fornisce coordinate e aiuti",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/07/news/russia_aiuta_iran_contro_gli_usa-425205040/",
+    "buzz": "✋ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "La Russia sarebbe coinvolta nei raid dell'Iran contro gli Stati Uniti, fornendo coordinate e aiuti"
+  },
+  {
+    "id": 21,
+    "score": 6,
+    "cat": "politica",
+    "date": "Sat, 07 Mar 2026",
+    "title": "Europa, accordo a 4: c'è Roma. 'Sì al coordinamento militare'",
+    "desc": "Telefonata tra i leader di Francia, Gran Bretagna, Germania e Italia",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/politica/2026/03/07/news/europa_accordo_a_quattro_roma_iran-425205243/",
+    "buzz": "✋ 56.789 menzioni stimate",
+    "buzzNum": 56789,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "L'Europa ha raggiunto un accordo per il coordinamento militare, con la partecipazione dell'Italia"
+  },
+  {
+    "id": 11,
+    "score": 6,
+    "cat": "sport",
+    "date": "Sat, 07 Mar 2026",
+    "title": "Verstappen, incidente nelle qualifiche del Gp d’Australia, l’olandese subito fuori",
+    "desc": "Russell in pole, il pilota dopo il fuoripista nella ghiaia è uscito dall’abitacolo sulle proprie gambe",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/sport/formulauno/2026/03/07/news/verstappen_incidente_qualifiche_gp_australia_f1-425205392/",
+    "buzz": "✋ 56.789 menzioni stimate",
+    "buzzNum": 56789,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Verstappen è stato coinvolto in un incidente durante le qualifiche del Gp d'Australia"
+  },
+  {
+    "id": 1,
+    "score": 6,
+    "cat": "esteri",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Iran, 'non ci arrenderemo mai agli Usa e a Israele'",
+    "desc": "Pezeshkian in un messaggio in tv, 'si porteranno nella tomba il loro desiderio di sconfiggerci'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/iran-non-ci-arrenderemo-mai-agli-usa-e-a-israele_6efc2335-e6ee-49b9-a4d1-8c3cc7f0d6ec.html",
+    "buzz": "✋ 45.678 menzioni stimate",
+    "buzzNum": 45678,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "L'Iran ha dichiarato di non volersi arrendere agli Stati Uniti e a Israele"
+  },
+  {
+    "id": 56,
+    "score": 5,
+    "cat": "campania",
+    "date": "Fri, 6 Mar 2026 ",
+    "title": "Serie A: Napoli-Torino 2-1",
+    "desc": "Apre Alissons Santos, chiude Elmas",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/06/serie-a-napoli-torino-2-1_1e87e1a6-8604-463c-8eea-45e4022c7417.html",
+    "buzz": "✋ 34.567 menzioni stimate",
+    "buzzNum": 34567,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Il Napoli ha vinto contro il Torino con un punteggio di 2-1"
+  },
+  {
+    "id": 20,
+    "score": 5,
+    "cat": "economia",
+    "date": "Sat, 07 Mar 2026",
+    "title": "Iran, in Italia Finanza in campo per la speculazione sui carburanti",
+    "desc": "Benzinai contro le compagnie petrolifere, l’Autorità energia prepara uno sconto immediato",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/politica/2026/03/07/news/iran_italia_finanza_speculazione_carburanti-425205228/",
+    "buzz": "✋ 34.567 menzioni stimate",
+    "buzzNum": 34567,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "L'Italia sta prendendo misure per contrastare la speculazione sui carburanti a causa della crisi in Iran"
+  },
+  {
+    "id": 57,
+    "score": 5,
+    "cat": "campania",
+    "date": "Fri, 6 Mar 2026 ",
+    "title": "Il Napoli piega il Torino e guarda al secondo posto del Milan",
+    "desc": "Alisson ed Elmas in gol, nel finale accorcia Casadei",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/06/ansacalcio-il-napoli-piega-il-torino-e-guarda-al-secondo-posto-del-milan_fb7f8cc4-39ff-482e-8573-b2f6f261bf31.html",
+    "buzz": "✋ 23.456 menzioni stimate",
+    "buzzNum": 23456,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Il Napoli ha vinto contro il Torino e si avvicina al secondo posto in classifica"
+  },
+  {
+    "id": 2,
+    "score": 5,
+    "cat": "sport",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Tennis: Indian Wells, Sinner al terzo turno contro Shapovalov",
+    "desc": "L'azzurro ha eliminato 6-1 6-1 il ceco Svrcina",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/tennis-indian-wells-sinner-al-terzo-turno-contro-shapovalov_cbb65b54-2e3e-4a3d-821f-57a2eb39448c.html",
+    "buzz": "✋ 23.456 menzioni stimate",
+    "buzzNum": 23456,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Sinner ha vinto contro Svrcina e si è qualificato per il terzo turno"
+  },
+  {
+    "id": 58,
+    "score": 4,
+    "cat": "campania",
+    "date": "Fri, 6 Mar 2026 ",
+    "title": "Calcio: Sal Da Vinci canta 'Per sempre sì' al Maradona prima di Napoli-Torino",
+    "desc": "Per il cantante maglietta speciale e giro di campo con il trofeo vinto a Sanremo",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/06/calcio-sal-da-vinci-canta-per-sempre-si-al-maradona-prima-di-napoli-torino_a15931c0-6ca1-40d9-866b-aca874efad53.html",
+    "buzz": "✋ 12.345 menzioni stimate",
+    "buzzNum": 12345,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Sal Da Vinci ha cantato 'Per sempre sì' al Maradona prima della partita Napoli-Torino"
   }
 ]
