@@ -1,176 +1,5 @@
 [
   {
-    "id": 58,
-    "score": 5,
-    "cat": "campania",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Garante disabili, 'solo Salerno ha adottato il piano di eliminazione barriere'",
-    "desc": "Il garante disabili ha affermato che solo Salerno ha adottato il piano di eliminazione barriere",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/04/garante-disabili-solo-salerno-ha-adottato-il-piano-di-eliminazione-barriere_98c2509c-f43c-4554-ab39-b984a38a724c.html",
-    "buzz": "📱 30.000 menzioni stimate",
-    "buzzNum": 30000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il garante disabili ha affermato che solo Salerno ha adottato il piano di eliminazione barriere, mentre gli altri comuni non hanno ancora agito"
-  },
-  {
-    "id": 1,
-    "score": 4,
-    "cat": "economia",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "Borsa: Avio entra nel Ftse Mib, esce Pop. Sondrio",
-    "desc": "Avio è entrata nel Ftse Mib, mentre Pop. Sondrio è uscita",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/borsa-avio-entra-nel-ftse-mib-esce-pop.-sondrio_8b09935b-1e96-4682-90ac-0300c232999f.html",
-    "buzz": "📱 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Avio è entrata nel Ftse Mib, mentre Pop. Sondrio è uscita, in seguito alla revisione del paniere"
-  },
-  {
-    "id": 6,
-    "score": 4,
-    "cat": "economia",
-    "date": "Wed, 4 Mar 2026 ",
-    "title": "I mercati rimbalzano, scommettono su un conflitto breve",
-    "desc": "I mercati hanno rimbalzato, scommettendo su un conflitto breve",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/04/i-mercati-rimbalzano-scommettono-su-un-conflitto-breve_03ccca92-fe66-4e65-a8dd-9f4af78bef86.html",
-    "buzz": "📱 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "I mercati hanno rimbalzato, scommettendo su un conflitto breve, in seguito alle notizie sulla crisi in Medio Oriente"
-  },
-  {
-    "id": 20,
-    "score": 3,
-    "cat": "politica",
-    "date": "Wed, 04 Mar 2026",
-    "title": "Iran, M5S attacca: 'Crosetto chiarisca sull’uso di Sigonella e Muos'",
-    "desc": "Il M5S ha attaccato il ministro della Difesa Crosetto, chiedendogli di chiarire sull'uso di Sigonella e Muos",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/04/news/m5s_attacca_crosetto_sigonella_muos_guerra_iran-425200064/",
-    "buzz": "📱 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il M5S ha attaccato il ministro della Difesa Crosetto, chiedendogli di chiarire sull'uso di Sigonella e Muos in relazione alla crisi in Medio Oriente"
-  },
-  {
-    "id": 41,
-    "score": 2,
-    "cat": "esteri",
-    "date": "Wed, 04 Mar 2026",
-    "title": "La Casa Bianca: 'La Spagna ha accettato di cooperare sulle basi per l’Iran'. Ma Madrid smentisce",
-    "desc": "La Casa Bianca ha affermato che la Spagna ha accettato di cooperare sulle basi per l'Iran, ma Madrid ha smentito",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/04/usa-spagna-basi-militari-iran-news/8313864/",
-    "buzz": "📱 5.000 menzioni stimate",
-    "buzzNum": 5000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "La Casa Bianca ha affermato che la Spagna ha accettato di cooperare sulle basi per l'Iran, ma Madrid ha smentito, creando confusione sulla questione"
-  },
-  {
-    "id": 43,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Guerra in Iran, ecco la risoluzione del governo",
-    "desc": "Difesa anti-aerea e anti-missilistica per aiutare i Paesi del Golfo colpiti",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/guerra-in-iran-risoluzione-governo-aiuti-militari-news/8314108/",
-    "buzz": "✅ 123.456 menzioni stimate",
-    "buzzNum": 123456,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "La risoluzione del governo sugli aiuti militari per la guerra in Iran"
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "cronaca",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Omicidio del patron di TelePordenone, c'è un sospettato",
-    "desc": "L'uomo si trova in Questura, il corpo della vittima è stato trovato a casa",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/omicidio-del-patron-di-telepordenone-ce-un-sospettato_3b09421d-1f17-4685-9120-5951bb21904d.html",
-    "buzz": "✅ 87.654 menzioni stimate",
-    "buzzNum": 87654,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "L'omicidio del patron di TelePordenone, un caso di cronaca nera"
-  },
-  {
-    "id": 56,
-    "score": 6,
-    "cat": "campania",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Droga e telefoni in cella via drone, il 30 marzo la requisitoria",
-    "desc": "Il processo d'appello con 5 proposte di concordare la pena",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/droga-e-telefoni-in-cella-via-drone-il-30-marzo-la-requisitoria-a-napoli_a9d6b26c-e8f6-49c8-ac8e-e582b03193e9.html",
-    "buzz": "✅ 43.210 menzioni stimate",
-    "buzzNum": 43210,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Il caso della droga e dei telefoni in cella via drone in Campania"
-  },
-  {
-    "id": 9,
-    "score": 5,
-    "cat": "politica",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Meloni, pronta ad aumentare le tasse a chi specula sulle bollette",
-    "desc": "Già attivato Arera che monitora l'andamento dei prezzi",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/meloni-pronta-ad-aumentare-le-tasse-a-chi-specula-sulle-bollette_02c5e1ab-0aea-4bea-8061-812df308bfa0.html",
-    "buzz": "✅ 18.765 menzioni stimate",
-    "buzzNum": 18765,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "La posizione di Meloni sulle tasse per le bollette"
-  },
-  {
-    "id": 1,
-    "score": 5,
-    "cat": "economia",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Codacons, 'contro l'aumento delle bollette usare l'accisa mobile'",
-    "desc": "Il Mef, di concerto col Mase, adotta il provvedimento di riduzione",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/codacons-contro-laumento-delle-bollette-usare-laccisa-mobile_f33c7390-6aa8-4ba0-ad8c-1a81fb8d3f8b.html",
-    "buzz": "✅ 14.321 menzioni stimate",
-    "buzzNum": 14321,
-    "trending": false,
-    "socials": [],
-    "detail": "La posizione del Codacons sull'aumento delle bollette"
-  },
-  {
     "id": 11,
     "score": 5,
     "cat": "esteri",
@@ -1181,5 +1010,180 @@
       "Facebook"
     ],
     "detail": "Sal Da Vinci ha cantato 'Per sempre sì' al Maradona prima della partita Napoli-Torino"
+  },
+  {
+    "id": 10,
+    "score": 9,
+    "cat": "politica",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Crosetto convoca i vertici militari: 'Riunione per rafforzare la difesa'",
+    "desc": "Il ministro rende noto l'incontro con una nota: 'Fondamentale in un momento così delicato'",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/politica/2026/03/07/news/crosetto_riunione_vertici_militari_difesa_rafforzare-425206568/",
+    "buzz": "📱 200.000 menzioni stimate",
+    "buzzNum": 200000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "Crosetto convoca i vertici militari per rafforzare la difesa"
+  },
+  {
+    "id": 5,
+    "score": 9,
+    "cat": "politica",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Schlein: 'extragettito Iva per abbassare accise benzina'",
+    "desc": "L'esecutivo può attivare subito le cosiddette accise mobili",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/schlein-al-governo-extragettito-iva-per-abbassare-accise-benzina_b77f2611-60a2-4b66-b731-be3afaf7f616.html",
+    "buzz": "📱 150.000 menzioni stimate",
+    "buzzNum": 150000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "Schlein propone di utilizzare l'extragettito Iva per abbassare le accise sulla benzina"
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "politica",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Meloni, è allo studio l'attivazione dello strumento delle accise mobili",
+    "desc": "Al lavoro per mitigare il più possibile le conseguenze del conflitto",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/meloni-e-allo-studio-lattivazione-dello-strumento-delle-accise-mobili_ea5533fd-8953-40a9-89f3-9f771b820c4c.html",
+    "buzz": "📱 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "La premier Meloni sta valutando l'attivazione delle accise mobili per mitigare gli effetti del conflitto"
+  },
+  {
+    "id": 6,
+    "score": 8,
+    "cat": "economia",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Giorgetti, proposta Schlein su accise c'è dal 2003, troveremo margini",
+    "desc": "Ministro, l'abbiamo introdotta noi tre anni fa",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/giorgetti-proposta-schlein-su-accise-ce-dal-2003-troveremo-margini_70d5973f-c6dc-4c70-a70d-f0657113e87c.html",
+    "buzz": "📱 100.000 menzioni stimate",
+    "buzzNum": 100000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Giorgetti risponde alla proposta di Schlein sulle accise"
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "campania",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Un altro agguato nel Napoletano, ucciso un 39enne con precedenti",
+    "desc": "Nell'area a nord del capoluogo, a poche ore di distanza dall'omicidio di Marano",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/07/un-altro-agguato-nel-napoletano-ucciso-un-39enne-con-precedenti_22d36301-dcd9-4e14-8ac4-780217dee3b7.html",
+    "buzz": "📱 80.000 menzioni stimate",
+    "buzzNum": 80000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Un altro agguato nel Napoletano, ucciso un 39enne con precedenti"
+  },
+  {
+    "id": 7,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Iran, pronta a salpare un'altra portaerei Usa",
+    "desc": "Il Pentagono si prepara a mandare rinforzi",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/07/news/portaerei_usa_bush_iran_pentagono_medio_oriente-425205980/",
+    "buzz": "📱 80.000 menzioni stimate",
+    "buzzNum": 80000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Iran, pronta a salpare un'altra portaerei Usa"
+  },
+  {
+    "id": 3,
+    "score": 6,
+    "cat": "campania",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Bilancio ok per lo spettacolo 'Benevento canta Napoli'",
+    "desc": "Sulla scia del divertimento l'evento di Nexus e Salzano Band",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/07/bilancio-ok-per-lo-spettacolo-benevento-canta-napoli_f538bcd3-77d7-4ace-963f-0a115e00df19.html",
+    "buzz": "📱 50.000 menzioni stimate",
+    "buzzNum": 50000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Bilancio ok per lo spettacolo 'Benevento canta Napoli'"
+  },
+  {
+    "id": 8,
+    "score": 6,
+    "cat": "cronaca",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Donna accoltellata sul bus, l'aggressore: 'Ho scelto vittima a caso per vendicarmi di una truffa'",
+    "desc": "Antonio M., 39 anni, è laureato in Giurisprudenza, è stato in cura per problemi di salute mentale",
+    "source": "Repubblica",
+    "sourceUrl": "https://napoli.repubblica.it/cronaca/2026/03/07/news/antonio_autobus_napoli_cosa_e_successo_arrestato-425206327/",
+    "buzz": "📱 50.000 menzioni stimate",
+    "buzzNum": 50000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Donna accoltellata sul bus, l'aggressore: 'Ho scelto vittima a caso per vendicarmi di una truffa'"
+  },
+  {
+    "id": 4,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "8 marzo: un foulard come 'manifesto' di forza, rispetto e libertà",
+    "desc": "Intreccio fra solarità del giallo mimosa e forza simbolica del rosso",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/07/8-marzo-un-foulard-come-manifesto-di-forza-rispetto-e-liberta_96a2a021-f466-4595-aac5-9a93322e7bde.html",
+    "buzz": "📱 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [],
+    "detail": "8 marzo: un foulard come 'manifesto' di forza, rispetto e libertà"
+  },
+  {
+    "id": 9,
+    "score": 5,
+    "cat": "sport",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Pogacar, terza vittoria alle Strade Bianche",
+    "desc": "Aveva chiuso la scorsa stagione con un monologo. E con un monologo ha aperto la nuova stagione",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/07/pogacar-strade-bianche-terza-vittoria-notizie/",
+    "buzz": "📱 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [],
+    "detail": "Pogacar, terza vittoria alle Strade Bianche"
   }
 ]
