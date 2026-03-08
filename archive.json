@@ -1,175 +1,5 @@
 [
   {
-    "id": 58,
-    "score": 5,
-    "cat": "campania",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Bollette, in Campania spesi 1.688 euro a famiglia nel 2025",
-    "desc": "Le famiglie campane hanno speso in media 1.688 euro per le bollette nel 2025",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/bollette-in-campania-spesi-1.688-euro-a-famiglia-nel-2025_d6198034-295b-4577-a0ea-427f1a11b937.html",
-    "buzz": "✏ 3.000 menzioni stimate",
-    "buzzNum": 3000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Le famiglie campane hanno speso in media 1.688 euro per le bollette nel 2025, con un aumento rispetto all'anno precedente"
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "politica",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Crosetto, 250 nostri militari evacuati in Arabia Saudita da altri Paesi",
-    "desc": "Crosetto annuncia l'evacuazione di 250 militari italiani in Arabia Saudita",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/crosetto-250-nostri-militari-evacuati-in-arabia-saudita-da-altri-paesi_4cee273e-bc24-48f5-ab91-630005d9a7ad.html",
-    "buzz": "✏ 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Crosetto ha annunciato l'evacuazione di 250 militari italiani in Arabia Saudita, grazie all'aiuto di altri paesi"
-  },
-  {
-    "id": 8,
-    "score": 7,
-    "cat": "politica",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Tajani, 100.000 italiani coinvolti direttamente o meno dalla crisi in Iran",
-    "desc": "Tajani annuncia che 100.000 italiani sono coinvolti nella crisi in Iran",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/tajani-100.000-italiani-coinvolti-direttamente-o-meno-dalla-crisi-in-iran_5c85eb45-7def-4ecb-b124-adaafe680e2c.html",
-    "buzz": "✏ 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Tajani ha annunciato che 100.000 italiani sono coinvolti nella crisi in Iran, direttamente o indirettamente"
-  },
-  {
-    "id": 4,
-    "score": 6,
-    "cat": "politica",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Tajani, 'impegno per de-escalation, canali aperti con l'Iran'",
-    "desc": "Tajani annuncia l'impegno per la de-escalation e l'apertura di canali con l'Iran",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/tajani-impegno-per-de-escalation-canali-aperti-con-liran_5a5f3cfb-8870-4360-9e2d-6a5b489cc5d9.html",
-    "buzz": "✏ 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": true,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Tajani ha annunciato l'impegno per la de-escalation e l'apertura di canali con l'Iran, per risolvere la crisi"
-  },
-  {
-    "id": 54,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Guerra in Iran, ecco la risoluzione del governo sugli aiuti militari",
-    "desc": "Il governo ha approvato una risoluzione sugli aiuti militari per la guerra in Iran",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/guerra-in-iran-risoluzione-governo-aiuti-militari-news-oggi/8314108/",
-    "buzz": "✏ 8.000 menzioni stimate",
-    "buzzNum": 8000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Il governo ha approvato una risoluzione sugli aiuti militari per la guerra in Iran, con l'obiettivo di sostenere i paesi del Golfo"
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Crosetto, massimo livello di protezione aerea nazionale",
-    "desc": "Crosetto ha chiesto di innalzare il livello di protezione aerea nazionale",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/crosetto-massimo-livello-di-protezione-aerea-nazionale-puo-succedere-di-tutto_292594e3-f1e9-455e-84a4-3ddff7ac383b.html",
-    "buzz": "✍ 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Il ministro della Difesa ha chiesto di innalzare il livello di protezione aerea nazionale a causa della situazione in Medio Oriente"
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "campania",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Nordio, 'toni confronto sul referendum? Seguiamo indicazioni Mattarella'",
-    "desc": "Nordio ha dichiarato che il tono del confronto sul referendum deve seguire le indicazioni del Presidente Mattarella",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/nordio-toni-confronto-sul-referendum-seguiamo-indicazioni-mattarella_49dda1c4-956a-4136-ad4e-d31f204ed1b4.html",
-    "buzz": "✍ 80.000 menzioni stimate",
-    "buzzNum": 80000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Nordio ha sottolineato l'importanza di seguire le indicazioni del Presidente Mattarella nel confronto sul referendum"
-  },
-  {
-    "id": 5,
-    "score": 4,
-    "cat": "cronaca",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Pestaggio e coltellate per una frase sulle armi: arrestati 4 minori",
-    "desc": "Quattro minori sono stati arrestati per pestaggio e coltellate a Milano",
-    "source": "Il Fatto Quotidiano",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/aggressione-minori-milano-accoltellamento-news/8314216/",
-    "buzz": "✍ 30.000 menzioni stimate",
-    "buzzNum": 30000,
-    "trending": false,
-    "socials": [],
-    "detail": "Quattro minori sono stati arrestati per pestaggio e coltellate a Milano, dopo una discussione su una frase sulle armi"
-  },
-  {
-    "id": 6,
-    "score": 3,
-    "cat": "campania",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "San Pietro a Majella, omaggio alla creatività femminile della scena barocca",
-    "desc": "Omaggio alla creatività femminile della scena barocca a San Pietro a Majella",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/san-pietro-a-majella-omaggio-alla-creativita-femminile-della-scena-barocca_dd04ba42-147c-4fc8-b828-2b53e4a82b74.html",
-    "buzz": "✍ 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [],
-    "detail": "Omaggio alla creatività femminile della scena barocca a San Pietro a Majella, con un evento dedicato ad Artemisia Gentileschi e Francesca Caccini"
-  },
-  {
-    "id": 7,
-    "score": 2,
-    "cat": "esteri",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Crosetto, sistemi difesa missilistica in Medioriente e aiuto a Cipro",
-    "desc": "Crosetto ha annunciato l'invio di sistemi di difesa missilistica in Medioriente e aiuto a Cipro",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/crosetto-sistemi-difesa-missilistica-in-medioriente-e-aiuto-a-cipro_4f39bfd9-8b88-4028-be2e-aad7093e14c6.html",
-    "buzz": "✍ 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [],
-    "detail": "Crosetto ha annunciato l'invio di sistemi di difesa missilistica in Medioriente e aiuto a Cipro, in risposta alla situazione di crisi nella regione"
-  },
-  {
     "id": 8,
     "score": 1,
     "cat": "economia",
@@ -1188,5 +1018,169 @@
     "trending": false,
     "socials": [],
     "detail": "Nessun ferito, polizia norvegese: 'Presto per determinare collegamenti con guerr'"
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Macron sente Pezeshkian, 'stop ai raid ai Paesi della regione'",
+    "desc": "Macron ha sentito Pezeshkian, chiedendo di porre fine ai raid ai Paesi della regione",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/08/macron-sente-pezeshkian-stop-ai-raid-ai-paesi-della-regione_8f5af5e8-20fe-4ea2-837e-461f6716503e.html",
+    "buzz": "✋ 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook",
+      "Instagram"
+    ],
+    "detail": "Il presidente francese ha chiesto di porre fine ai raid ai Paesi della regione"
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "campania",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "LA Italia celebra le donne con 'Anna' della Guerritore",
+    "desc": "Folla di star al Chinese Theatre, omaggio alla Magnani aspettando gli Oscar",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/08/la-italia-celebra-le-donne-con-anna-della-guerritore_4611dd86-8161-46d7-b3cd-ca98bc3d1763.html",
+    "buzz": "✋ 80.000 menzioni stimate",
+    "buzzNum": 80000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "La Italia celebra le donne con 'Anna' della Guerritore"
+  },
+  {
+    "id": 3,
+    "score": 6,
+    "cat": "cronaca",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Anziana uccisa in casa a Genova, fermato il figlio",
+    "desc": "Trovato e sequestrato un coltello sporco di sangue",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/08/-anziana-uccisa-in-casa-a-genova-fermato-il-figlio-_123e28b0-e7be-4d97-a6a7-5d7299662a47.html",
+    "buzz": "✋ 60.000 menzioni stimate",
+    "buzzNum": 60000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Anziana uccisa in casa a Genova, fermato il figlio"
+  },
+  {
+    "id": 4,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "L'afferra per i capelli e la trascina fuori dalla discoteca, poi la picchia",
+    "desc": "Nel Napoletano, l'uomo arrestato dai carabinieri",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/08/lafferra-per-i-capelli-e-la-trascina-fuori-dalla-discoteca-poi-la-picchia_a494a0f5-0341-41b2-8bbb-dc40e245a222.html",
+    "buzz": "✋ 40.000 menzioni stimate",
+    "buzzNum": 40000,
+    "trending": true,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "L'afferra per i capelli e la trascina fuori dalla discoteca, poi la picchia"
+  },
+  {
+    "id": 5,
+    "score": 5,
+    "cat": "esteri",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Beirut, 'oltre 500mila sfollati per la nuova guerra Hezbollah-Israele'",
+    "desc": "L'annuncio del ministro libanese degli Affari sociali Sayed",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/08/beirut-oltre-500mila-sfollati-per-la-nuova-guerra-hezbollah-israele_54492dc1-e442-4523-b378-6186b720c5ee.html",
+    "buzz": "✋ 35.000 menzioni stimate",
+    "buzzNum": 35000,
+    "trending": true,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Beirut, 'oltre 500mila sfollati per la nuova guerra Hezbollah-Israele'"
+  },
+  {
+    "id": 6,
+    "score": 4,
+    "cat": "campania",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Il controllo penale sull'attività amministrativa, confronto a Napoli",
+    "desc": "Libri in Fondazione, presentazione volume con esperti e giuristi",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/08/il-controllo-penale-sullattivita-amministrativa-confronto-a-napoli_a8a24a09-4078-49dd-90b7-c3f08c5663f6.html",
+    "buzz": "✋ 25.000 menzioni stimate",
+    "buzzNum": 25000,
+    "trending": false,
+    "socials": [],
+    "detail": "Il controllo penale sull'attività amministrativa, confronto a Napoli"
+  },
+  {
+    "id": 7,
+    "score": 4,
+    "cat": "cronaca",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Restano bloccati tra rocce nel Casertano, soccorsi dai vigili del fuoco",
+    "desc": "Uno dei due è rimasto ferito, messo in salvo con elicottero",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/08/restano-bloccati-tra-rocce-nel-casertano-soccorsi-dai-vigili-del_f9d5bf13-aa27-497e-b7e5-6f16a47f08a8.html",
+    "buzz": "✋ 20.000 menzioni stimate",
+    "buzzNum": 20000,
+    "trending": false,
+    "socials": [],
+    "detail": "Restano bloccati tra rocce nel Casertano, soccorsi dai vigili del fuoco"
+  },
+  {
+    "id": 8,
+    "score": 3,
+    "cat": "sport",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Emanuel Perathoner trionfa nello snowboard cross",
+    "desc": "Terza medaglia per la spedizione italiana a Milano Cortina",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/sport/dossier/paralimpiadi/2026/03/08/news/emanuel-perathoner-oro-paralimpiadi-snowboard-cross-425207734/",
+    "buzz": "✋ 15.000 menzioni stimate",
+    "buzzNum": 15000,
+    "trending": false,
+    "socials": [],
+    "detail": "Emanuel Perathoner trionfa nello snowboard cross"
+  },
+  {
+    "id": 9,
+    "score": 3,
+    "cat": "societa",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Il Papa, 'la mia solidarietà alle donne vittime di violenza'",
+    "desc": "'Sia riconosciuta la pari dignità tra uomo e donna'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/08/il-papa-la-mia-solidarieta-alle-donne-vittime-di-violenza_dca685c9-d87c-49b0-9c49-bd634e7fc6d5.html",
+    "buzz": "✋ 10.000 menzioni stimate",
+    "buzzNum": 10000,
+    "trending": false,
+    "socials": [],
+    "detail": "Il Papa, 'la mia solidarietà alle donne vittime di violenza'"
+  },
+  {
+    "id": 10,
+    "score": 2,
+    "cat": "economia",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Superbonus, Forza Italia attacca: è scontro nella maggioranza",
+    "desc": "Scoppia il caso Sugar-tax, Tajani: 'Pronto a discutere'",
+    "source": "Corriere",
+    "sourceUrl": "https://www.corriere.it/economia/finanza/24_maggio_12/scontro-in-maggioranza-sul-superbonus-e-scoppia-il-caso-sugar-tax-89cd4861-5420-4a31-b0ab-9cee81bcfxlk.shtml",
+    "buzz": "✋ 5.000 menzioni stimate",
+    "buzzNum": 5000,
+    "trending": false,
+    "socials": [],
+    "detail": "Superbonus, Forza Italia attacca: è scontro nella maggioranza"
   }
 ]
