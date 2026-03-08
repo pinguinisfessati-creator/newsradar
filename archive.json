@@ -1,139 +1,5 @@
 [
   {
-    "id": 11,
-    "score": 5,
-    "cat": "esteri",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Guerra in Iran, news. Nuove esplosioni a Doha e Manama",
-    "desc": "Teheran: 'Colpita petroliera Usa nel Golfo'. Meloni: 'Non siamo in guerra'",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/dossier/guerra-in-medio-oriente/2026/03/05/diretta/guerra_iran_usa_israele_news_oggi-425200719/",
-    "buzz": "✅ 10.987 menzioni stimate",
-    "buzzNum": 10987,
-    "trending": false,
-    "socials": [],
-    "detail": "La guerra in Iran, ultime notizie"
-  },
-  {
-    "id": 23,
-    "score": 5,
-    "cat": "politica",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Iran, Meloni e Crosetto al Colle da Mattarella: 'Crisi peggiore da decenni'",
-    "desc": "In mattinata vertice a palazzo Chigi poi i colloqui con il presidente",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/05/news/iran_meloni_crosetto_mattarella_crisi-425200677/",
-    "buzz": "✅ 8.654 menzioni stimate",
-    "buzzNum": 8654,
-    "trending": false,
-    "socials": [],
-    "detail": "La crisi in Iran, la posizione di Meloni e Crosetto"
-  },
-  {
-    "id": 44,
-    "score": 5,
-    "cat": "cronaca",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Il patron di TelePordenone ucciso a sprangate in casa: 'Una mattanza'",
-    "desc": "Mario Ruoso, 87 anni, fondatore e patron di TelePordenone",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/omicidio-ruoso-telepordenone-pordenone-notizie/8314099/",
-    "buzz": "✅ 6.321 menzioni stimate",
-    "buzzNum": 6321,
-    "trending": false,
-    "socials": [],
-    "detail": "L'omicidio del patron di TelePordenone"
-  },
-  {
-    "id": 47,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Trump: 'Quando i pazzi hanno armi nucleari succedono cose brutte'",
-    "desc": "Trump commenta sulla situazione in Iran e sulla guerra nucleare",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/trump-iran-guerra-esercito-oggi/8314138/",
-    "buzz": "✏ 123.456 menzioni stimate",
-    "buzzNum": 123456,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Trump ha commentato sulla situazione in Iran e sulla guerra nucleare, esprimendo preoccupazione per la possibilità di un conflitto nucleare"
-  },
-  {
-    "id": 11,
-    "score": 9,
-    "cat": "esteri",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Guerra in Iran, le news",
-    "desc": "Ultime notizie sulla guerra in Iran e sulle reazioni internazionali",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/dossier/guerra-in-medio-oriente/2026/03/05/diretta/guerra_iran_usa_israele_news_oggi-425200719/",
-    "buzz": "✏ 90.000 menzioni stimate",
-    "buzzNum": 90000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "La guerra in Iran continua, con reazioni internazionali e dibattiti sulla possibilità di un intervento militare"
-  },
-  {
-    "id": 25,
-    "score": 7,
-    "cat": "politica",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Iran, Meloni e Crosetto al Colle da Mattarella",
-    "desc": "Meloni e Crosetto incontrano Mattarella per discutere della crisi in Iran",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/05/news/iran_meloni_crosetto_mattarella_crisi-425200677/",
-    "buzz": "✏ 60.000 menzioni stimate",
-    "buzzNum": 60000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Meloni e Crosetto hanno incontrato Mattarella per discutere della crisi in Iran e delle possibili azioni da intraprendere"
-  },
-  {
-    "id": 56,
-    "score": 6,
-    "cat": "campania",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Ciclista travolto e ucciso da ambulanza, al via l'udienza preliminare",
-    "desc": "Udienza preliminare per il caso del ciclista travolto e ucciso da un'ambulanza",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/ciclista-travolto-e-ucciso-da-ambulanza-al-via-ludienza-preliminare_dc535cce-640d-4e0d-b232-9dbdcf5b9f81.html",
-    "buzz": "✏ 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "L'udienza preliminare è iniziata per il caso del ciclista travolto e ucciso da un'ambulanza"
-  },
-  {
-    "id": 57,
-    "score": 5,
-    "cat": "campania",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Furti in abitazione, la Campania registra un incremento del 9,4% nel 2024",
-    "desc": "La Campania registra un aumento dei furti in abitazione nel 2024",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/furti-in-abitazione-la-campania-registra-un-incremento-del-94-nel-2024_cb304afc-4e0d-44fd-9a7d-fe864bfce26e.html",
-    "buzz": "✏ 5.000 menzioni stimate",
-    "buzzNum": 5000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "La Campania ha registrato un aumento dei furti in abitazione nel 2024, con un incremento del 9,4% rispetto all'anno precedente"
-  },
-  {
     "id": 58,
     "score": 5,
     "cat": "campania",
@@ -1185,5 +1051,142 @@
     "trending": false,
     "socials": [],
     "detail": "Pogacar, terza vittoria alle Strade Bianche"
+  },
+  {
+    "id": 20,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sun, 08 Mar 2026",
+    "title": "Trump: 'Presto un colpo durissimo all'Iran'",
+    "desc": "Trump minaccia nuovi attacchi all'Iran, mobilitati i bombardieri B2",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/08/news/trump_iran_bulli_perdenti_incursioni_di_terra-425206889/",
+    "buzz": "✋ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook",
+      "Instagram"
+    ],
+    "detail": "Trump ha minacciato di attaccare l'Iran con un colpo durissimo, mobilitando i bombardieri B2"
+  },
+  {
+    "id": 22,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sun, 08 Mar 2026",
+    "title": "Una settimana di raid: sull'Iran un diluvio di missili",
+    "desc": "Stati Uniti e Israele hanno scaricato sul Paese 10mila tra bombe e missili",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/08/news/una_settimana_di_guerra_iran_armi_missili_usa_israele-425206799/",
+    "buzz": "✋ 87.321 menzioni stimate",
+    "buzzNum": 87321,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Stati Uniti e Israele hanno lanciato una serie di attacchi contro l'Iran"
+  },
+  {
+    "id": 8,
+    "score": 6,
+    "cat": "esteri",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Libano, 4 morti e 10 feriti in un raid israeliano",
+    "desc": "Israele ha lanciato un raid contro un hotel del centro di Beirut",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/08/news/libano-4-morti-e-10-feriti-in-un-raid-israeliano-su-un-hotel-del-centro-di-beirut_441f80d3-82d5-49c0-b6ae-457c14a8d655/",
+    "buzz": "✋ 54.219 menzioni stimate",
+    "buzzNum": 54219,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Israele ha lanciato un raid contro un hotel del centro di Beirut"
+  },
+  {
+    "id": 2,
+    "score": 6,
+    "cat": "esteri",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Iran, raid Usa-Israele su 5 impianti petroliferi vicino Teheran",
+    "desc": "Compagnia nazionale: 'Danni ma fiamme domate'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/08/iran-raid-usa-israele-su-5-impianti-petroliferi-vicino-teheran_c0696667-04d8-434c-a069-9c17cca68612/",
+    "buzz": "✋ 43.210 menzioni stimate",
+    "buzzNum": 43210,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Raid Usa-Israele su 5 impianti petroliferi vicino Teheran"
+  },
+  {
+    "id": 6,
+    "score": 5,
+    "cat": "sport",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "F1: Australia; vince la Mercedes di Russell, terza la Ferrari di Leclerc",
+    "desc": "Secondo Antonelli completa la doppietta della scuderia tedesca",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/08/f1-australia-vince-la-mercedes-di-russell-terza-la-ferrari-di-leclerc_bf5a1357-f8c5-4ef1-a30d-54c6f5f04583/",
+    "buzz": "✋ 29.456 menzioni stimate",
+    "buzzNum": 29456,
+    "trending": true,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Vince la Mercedes di Russell, terza la Ferrari di Leclerc"
+  },
+  {
+    "id": 56,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sat, 7 Mar 2026 ",
+    "title": "Un altro agguato nel Napoletano, ucciso un 39enne",
+    "desc": "Omucidio a nord del capoluogo, a poche ore di distanza dall'omicidio di Marano",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/07/un-altro-agguato-nel-napoletano-ucciso-un-39enne-con-precedenti_22d36301-dcd9-4e14-8ac4-780217dee3b7/",
+    "buzz": "✋ 23.456 menzioni stimate",
+    "buzzNum": 23456,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Omucidio a nord del capoluogo, a poche ore di distanza dall'omicidio di Marano"
+  },
+  {
+    "id": 16,
+    "score": 4,
+    "cat": "esteri",
+    "date": "Sun, 08 Mar 2026",
+    "title": "Iran, Pezeshkian apre al Golfo ma i pasdaran non si fermano",
+    "desc": "Il presidente moderato: 'Chiedo scusa ai vicini'",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/08/news/iran_pezeshkian_golfo_pasdaran_non_si_fermano_petrolio_di_teheran-425207033/",
+    "buzz": "✋ 17.890 menzioni stimate",
+    "buzzNum": 17890,
+    "trending": false,
+    "socials": [],
+    "detail": "Il presidente moderato: 'Chiedo scusa ai vicini'"
+  },
+  {
+    "id": 1,
+    "score": 3,
+    "cat": "esteri",
+    "date": "Sun, 8 Mar 2026 ",
+    "title": "Esplosione Oslo, danneggiato un ingresso dell'ambasciata Usa",
+    "desc": "Nessun ferito, polizia norvegese: 'Presto per determinare collegamenti con guerr'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/08/esplosione-oslo-danneggiato-un-ingresso-dellambasciata-usa_4e52120a-45d8-49e2-8149-8c3bcc267be3/",
+    "buzz": "✋ 8.456 menzioni stimate",
+    "buzzNum": 8456,
+    "trending": false,
+    "socials": [],
+    "detail": "Nessun ferito, polizia norvegese: 'Presto per determinare collegamenti con guerr'"
   }
 ]
