@@ -1,154 +1,5 @@
 [
   {
-    "id": 8,
-    "score": 1,
-    "cat": "economia",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Al via il collegamento online registratori di cassa e Pos",
-    "desc": "È stato attivato il collegamento online tra registratori di cassa e Pos",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/al-via-il-collegamento-online-registratori-di-cassa-e-pos_2d497ab1-be23-4e43-ad30-f8a08053f746.html",
-    "buzz": "✍ 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [],
-    "detail": "È stato attivato il collegamento online tra registratori di cassa e Pos, per semplificare le operazioni di pagamento"
-  },
-  {
-    "id": 10,
-    "score": 1,
-    "cat": "sport",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Berrettini batte Mannarino: dopo l'ultimo dritto vincente è rimasto a terra 5 minuti per crampi",
-    "desc": "Berrettini ha battuto Mannarino, nonostante i crampi che lo hanno costretto a rimanere a terra per 5 minuti",
-    "source": "Il Fatto Quotidiano",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/05/berrettini-mannarino-indian-wells-vittoria-ero-un-po-sorpreso-poi-mi-sono-detto-ok-e-normale-crampi/8314246/",
-    "buzz": "✍ 2.000 menzioni stimate",
-    "buzzNum": 2000,
-    "trending": false,
-    "socials": [],
-    "detail": "Berrettini ha battuto Mannarino, nonostante i crampi che lo hanno costretto a rimanere a terra per 5 minuti, e ha commentato la sua vittoria"
-  },
-  {
-    "id": 8,
-    "score": 9,
-    "cat": "esteri",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Guerra in Iran. Israele: “Ora nuova fase, ci saranno sorprese”",
-    "desc": "Teheran: “Colpita portaerei Usa Linc. Trump: “Devo essere coinvolto in nomina successore Khamenei”. Starmer: “Invieremo aiuti umanitari”",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/dossier/guerra-in-medio-oriente/2026/03/05/diretta/guerra_iran_usa_israele_news_oggi-425200719/",
-    "buzz": "📱 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "La situazione in Iran continua a degenerare. Israele annuncia una nuova fase della guerra, mentre Teheran rivendica l'attacco a una portaerei Usa."
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Capo Idf, 'eliminata minaccia missilistica da Iran, ora fase successiva'",
-    "desc": "Superiorità aerea pressoché totale nei cieli iraniani. Il capo dell'esercito israeliano annuncia la fine della minaccia missilistica",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/capo-idf-eliminata-minaccia-missilistica-da-iran-ora-fase-successiva_4bca789f-4b1b-4959-aad8-17a6995e70a6.html",
-    "buzz": "📱 90.000 menzioni stimate",
-    "buzzNum": 90000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Il capo dell'esercito israeliano annuncia la fine della minaccia missilistica iraniana. La superiorità aerea israeliana è pressoché totale."
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "esteri",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Tajani, 'chiusa temporaneamente l'ambasciata a Teheran, trasferiti a Baku'",
-    "desc": "Per motivi di sicurezza ma non abbiamo rotto le relazioni diplomatiche. Il ministro degli esteri italiano annuncia la chiusura temporanea dell'ambasciata",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/05/tajani-chiusa-temporaneamente-lambasciata-a-teheran-trasferiti-a-baku_cda4309c-1132-4ded-a1e2-746325916dfa.html",
-    "buzz": "📱 60.000 menzioni stimate",
-    "buzzNum": 60000,
-    "trending": true,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il ministro degli esteri italiano annuncia la chiusura temporanea dell'ambasciata a Teheran per motivi di sicurezza."
-  },
-  {
-    "id": 20,
-    "score": 8,
-    "cat": "cronaca",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Golfo, ancora 8.900 italiani bloccati. Big Mama atterrata a Bergamo",
-    "desc": "Con i voli charter organizzati dalla Farnesina hanno fatto rientro circa 800 persone",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/cronaca/2026/03/05/news/italiani_bloccati_dubai_rientro_paesi_golfo-425201873/",
-    "buzz": "📱 40.000 menzioni stimate",
-    "buzzNum": 40000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Ancora 8.900 italiani sono bloccati nel Golfo. La Big Mama è atterrata a Bergamo, con a bordo circa 800 persone."
-  },
-  {
-    "id": 14,
-    "score": 7,
-    "cat": "societa",
-    "date": "Thu, 05 Mar 2026",
-    "title": "La Cei: “Si rischia guerra planetaria, preghiera e digiuno il 13 marzo”",
-    "desc": "Il Papa: “Basta morte”. Leone XIV: “Le nazioni rinuncino alle armi e scelgano la via del dialogo e della pace”",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/cronaca/2026/03/05/news/cei_guerra_digiuno_13_marzo-425202506/",
-    "buzz": "📱 30.000 menzioni stimate",
-    "buzzNum": 30000,
-    "trending": true,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "La Cei annuncia una giornata di preghiera e digiuno il 13 marzo, per scongiurare la guerra planetaria."
-  },
-  {
-    "id": 10,
-    "score": 6,
-    "cat": "economia",
-    "date": "Thu, 05 Mar 2026",
-    "title": "Le Borse oggi, 5 marzo. “Hormuz zona di guerra”, bloccato lo Stretto",
-    "desc": "Risalgono petrolio e gas. L’Europa amplia le perlustrazioni aeree e navali",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/economia/2026/03/05/diretta/borse_5_marzo_guerra_gas_petrolio_oro-425200957/",
-    "buzz": "📱 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": true,
-    "socials": [],
-    "detail": "Le Borse sono in ribasso, a causa della guerra nel Golfo. Il petrolio e il gas sono in risalita."
-  },
-  {
-    "id": 54,
-    "score": 6,
-    "cat": "campania",
-    "date": "Thu, 5 Mar 2026 ",
-    "title": "Il pianista e compositore Alberto Pizzo torna a Napoli con il concerto 'Skylight'",
-    "desc": "Domenica 8 marzo alle ore 18 nella Chiesa di Santa Caterina da Siena",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/05/il-pianista-e-compositore-alberto-pizzo-torna-a-napoli-con-il-concerto-skylight_f2b6f2fc-8828-43e1-9de1-287171784caa.html",
-    "buzz": "📱 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [],
-    "detail": "Il pianista e compositore Alberto Pizzo torna a Napoli con il concerto 'Skylight' nella Chiesa di Santa Caterina da Siena."
-  },
-  {
     "id": 6,
     "score": 5,
     "cat": "esteri",
@@ -1182,5 +1033,162 @@
     "trending": false,
     "socials": [],
     "detail": "Superbonus, Forza Italia attacca: è scontro nella maggioranza"
+  },
+  {
+    "id": 11,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Mon, 09 Mar 2026",
+    "title": "Guerra in Iran, le news di oggi",
+    "desc": "Più di 30 feriti in Bahrein. Esplosioni a Doha. Tensione Usa-Israel",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/09/diretta/guerra_iran_usa_israele_news_oggi-425208592/",
+    "buzz": "✋ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "La guerra in Iran continua a fare notizie. Le ultime notizie parlano di più di 30 feriti in Bahrein e di esplosioni a Doha."
+  },
+  {
+    "id": 12,
+    "score": 7,
+    "cat": "economia",
+    "date": "Mon, 09 Mar 2026",
+    "title": "Le Borse di oggi, lunedì 9 marzo",
+    "desc": "Crolla Tokyo. Il petrolio sfonda quota 100 dollari",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/economia/2026/03/09/diretta/le_borse_di_oggi_lunedi_9_marzo_asia_forte_ribasso_record_petrolio-425208643/",
+    "buzz": "✋ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Le Borse di oggi sono in ribasso. Tokyo ha crollato e il petrolio ha sfondato quota 100 dollari."
+  },
+  {
+    "id": 25,
+    "score": 6,
+    "cat": "esteri",
+    "date": "Mon, 09 Mar 2026",
+    "title": "Iran, Mojtaba Khamenei è la nuova Guida suprema",
+    "desc": "L’Assemblea degli 88 esperti religiosi ha scelto ieri all’insegna della continuità",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/09/news/iran_mojtaba_khamenei_nuova_guida_suprema_larijani-425208551/",
+    "buzz": "✋ 56.789 menzioni stimate",
+    "buzzNum": 56789,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Instagram"
+    ],
+    "detail": "Mojtaba Khamenei è la nuova Guida suprema dell'Iran. L’Assemblea degli 88 esperti religiosi ha scelto ieri all’insegna della continuità."
+  },
+  {
+    "id": 56,
+    "score": 5,
+    "cat": "campania",
+    "date": "Mon, 9 Mar 2026 ",
+    "title": "In due bloccati dopo lungo inseguimento, terzo arresto carabinieri per 'fuga pericolosa'",
+    "desc": "Fermati in provincia di Napoli in base al nuovo reato",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/09/in-due-bloccati-dopo-lungo-inseguimento-terzo-arresto-carabinieri-per-fuga_1db6a74c-b1c2-40bd-b378-199dc9e9e127.html",
+    "buzz": "✋ 34.567 menzioni stimate",
+    "buzzNum": 34567,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Due persone sono state bloccate dopo un lungo inseguimento in provincia di Napoli. È stato il terzo arresto per 'fuga pericolosa'."
+  },
+  {
+    "id": 57,
+    "score": 5,
+    "cat": "campania",
+    "date": "Mon, 9 Mar 2026 ",
+    "title": "Tre madri vittime di comportamenti violenti dei figli",
+    "desc": "I casi in provincia di Napoli, intervengono i Carabinieri",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/09/tre-madri-vittime-di-comportamenti-violenti-dei-figli_58f08309-cdd0-46b3-a7d2-6110f8a4b9aa.html",
+    "buzz": "✋ 23.456 menzioni stimate",
+    "buzzNum": 23456,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Tre madri sono state vittime di comportamenti violenti dei figli in provincia di Napoli. I Carabinieri sono intervenuti."
+  },
+  {
+    "id": 1,
+    "score": 4,
+    "cat": "economia",
+    "date": "Mon, 9 Mar 2026 ",
+    "title": "Borsa: Europa sotto pressione, future in rosso, Milano -2,25%",
+    "desc": "Vendite su tutti i comparti tranne quello del petrolio",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/09/borsa-europa-sotto-pressione-future-in-rosso-milano-225_c952881e-e6df-4534-97b6-42bea76fefaf.html",
+    "buzz": "✋ 12.345 menzioni stimate",
+    "buzzNum": 12345,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La Borsa europea è sotto pressione. Le future sono in rosso e Milano ha perso il 2,25%. Vendite su tutti i comparti tranne quello del petrolio."
+  },
+  {
+    "id": 2,
+    "score": 4,
+    "cat": "economia",
+    "date": "Mon, 9 Mar 2026 ",
+    "title": "Oro e Bitcoin al riparo dalla bufera che investe i mercati",
+    "desc": "Tiene il metallo prezioso, la criptovaluta guadagna lo 0,85%",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/09/oro-e-bitcoin-al-riparo-dalla-bufera-che-investe-i-mercati_25b920be-a035-45a8-9fde-e29faf8ecf99.html",
+    "buzz": "✋ 9.876 menzioni stimate",
+    "buzzNum": 9876,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "L'oro e il Bitcoin sono al riparo dalla bufera che investe i mercati. Il metallo prezioso tiene e la criptovaluta guadagna lo 0,85%."
+  },
+  {
+    "id": 48,
+    "score": 4,
+    "cat": "economia",
+    "date": "Mon, 09 Mar 2026",
+    "title": "Guerra in Iran, il petrolio schizza oltre i 100 dollari",
+    "desc": "I Paesi del G7 pronti a rilasciare un terzo delle riserve",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/09/guerra-in-iran-prezzo-petrolio-g7-riserve-borse-news-oggi-9-marzo/8317611/",
+    "buzz": "✋ 8.765 menzioni stimate",
+    "buzzNum": 8765,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La guerra in Iran ha fatto schizzare il prezzo del petrolio oltre i 100 dollari. I Paesi del G7 sono pronti a rilasciare un terzo delle riserve."
+  },
+  {
+    "id": 41,
+    "score": 3,
+    "cat": "societa",
+    "date": "Mon, 09 Mar 2026",
+    "title": "Non baciare i piedi di tuo marito, sono sporchi",
+    "desc": "Selena Gomez travolta dalle critiche. Benny Blanco rivela un aneddoto",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/09/non-baciare-i-piedi-di-tuo-marito-sono-sporchi-selena-gomez-travolta-dalle-critiche-benny-blanco-rivela-troppi-operatori-sul-set-il-pavimento-si-e-sporcato/8317660/",
+    "buzz": "✋ 6.789 menzioni stimate",
+    "buzzNum": 6789,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Selena Gomez è stata travolta dalle critiche dopo aver baciato i piedi del marito. Benny Blanco ha rivelato un aneddoto sui troppi operatori sul set."
   }
 ]
