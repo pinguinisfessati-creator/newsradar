@@ -1,111 +1,5 @@
 [
   {
-    "id": 11,
-    "score": 4,
-    "cat": "esteri",
-    "date": "Fri, 06 Mar 2026",
-    "title": "Guerra Ucraina",
-    "desc": "Kiev: 'L'Ungheria ha preso in ostaggio 7 nostri impiegati'",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/06/diretta/guerra_ucraina_russia_news_oggi-425202970/",
-    "buzz": "📱 8.000 menzioni stimate",
-    "buzzNum": 8000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Guerra Ucraina: Kiev accusa Ungheria di avere preso in ostaggio 7 impiegati"
-  },
-  {
-    "id": 49,
-    "score": 3,
-    "cat": "esteri",
-    "date": "Fri, 06 Mar 2026",
-    "title": "Iran: Meloni non va in Parlamento",
-    "desc": "Travaglio: 'Non può ripetere il mantra aggressore-aggressione'",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/06/iran-travaglio-meloni-usa-israele/8315149/",
-    "buzz": "📱 5.000 menzioni stimate",
-    "buzzNum": 5000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Travaglio: Meloni non va in Parlamento per non ripetere il mantra aggressore-aggressione"
-  },
-  {
-    "id": 55,
-    "score": 3,
-    "cat": "esteri",
-    "date": "Fri, 06 Mar 2026",
-    "title": "Messi a casa di Trump",
-    "desc": "Discorso surreale: 'Stiamo demolendo l'Iran'",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/06/messi-trump-casa-bianca-iran-guerra-discorso-surreale/8315183/",
-    "buzz": "📱 3.000 menzioni stimate",
-    "buzzNum": 3000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Messi a casa di Trump: discorso surreale sulla guerra in Iran"
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Fri, 6 Mar 2026 ",
-    "title": "Guterres: 'Rischio spirale incontrollabile in Medio Oriente'",
-    "desc": "Il segretario generale dell'ONU avverte sulla situazione nel Medio Oriente",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/06/guterres-rischio-che-il-medio-oriente-degeneri-in-una-spirale-incontrollabile_4c2f4775-65e8-48b8-b581-6b2bbf2a50cf.html",
-    "buzz": "📱 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "Il segretario generale dell'ONU, António Guterres, ha avvertito sulla situazione nel Medio Oriente, sottolineando il rischio di una spirale incontrollabile."
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "campania",
-    "date": "Fri, 6 Mar 2026 ",
-    "title": "Uccise e decapitò il fratello, condannato all'ergastolo",
-    "desc": "La Corte di Assise condanna un uomo per l'omicidio del fratello",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/06/uccise-e-decapito-il-fratello-corte-di-assise-lo-condanna-allergastolo_b0fde080-eb27-45ca-958d-77e6efcc3d47.html",
-    "buzz": "📱 80.000 menzioni stimate",
-    "buzzNum": 80000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "La Corte di Assise ha condannato un uomo all'ergastolo per l'omicidio del fratello, avvenuto nel 2020."
-  },
-  {
-    "id": 3,
-    "score": 6,
-    "cat": "economia",
-    "date": "Fri, 6 Mar 2026 ",
-    "title": "Lo spread tra Btp e Bund tedeschi chiude in rialzo",
-    "desc": "Lo spread tra Btp e Bund tedeschi chiude in rialzo a 76,1 punti",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/06/lo-spread-tra-btp-e-bund-tedeschi-chiude-in-rialzo-a-761-punti_b1c50696-f41c-48d4-8ca4-3ef3304b6e6f.html",
-    "buzz": "📱 60.000 menzioni stimate",
-    "buzzNum": 60000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Lo spread tra Btp e Bund tedeschi ha chiuso in rialzo a 76,1 punti, con il rendimento annuo italiano che guadagna 5,9 punti al 3,62%."
-  },
-  {
     "id": 4,
     "score": 5,
     "cat": "campania",
@@ -1195,5 +1089,107 @@
       "Facebook"
     ],
     "detail": "Le Borse europee sono state influenzate dalle tensioni sui prezzi del petrolio a causa della situazione in Iran. Il ministro dell'Economia, Giorgetti, ha chiesto all'Unione Europea di adottare misure d'emergenza come nel 2022."
+  },
+  {
+    "id": 7,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Tue, 10 Mar 2026",
+    "title": "Nuova ondata attacchi Iran nel Golfo",
+    "desc": "Missili su base Usa in Iraq, sirene a Dubai e negli Emirati Arabi Uniti",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/10/nuova-ondata-attacchi-iran-nel-golfo-missili-su-base-usa-in-iraq_c90c00a3-dedd-49bd-83ac-225b3ea80ecb.html",
+    "buzz": "✍ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook",
+      "Instagram"
+    ],
+    "detail": "La situazione nel Golfo si sta aggravando a causa degli attacchi dell'Iran"
+  },
+  {
+    "id": 10,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Tue, 10 Mar 2026",
+    "title": "Nuovo attacco dall'Iran verso gli Emirati arabi",
+    "desc": "Lanciati droni e missili nell'undicesimo giorno di guerra",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/10/nuovo-attacco-dalliran-verso-gli-emirati-arabi_c473941e-8d68-4b90-8323-0984b723b590.html",
+    "buzz": "✍ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Gli Emirati Arabi Uniti sono stati colpiti da un nuovo attacco dell'Iran"
+  },
+  {
+    "id": 2,
+    "score": 6,
+    "cat": "cronaca",
+    "date": "Tue, 10 Mar 2026",
+    "title": "Morto suicida 39enne che a Napoli ha aggredito una penalista sul bus",
+    "desc": "Ieri il gip aveva convalidato il fermo, era piantonato in ospedale",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/10/morto-suicida-39enne-che-a-napoli-ha-aggredito-una-penalista-sul-bus_a2d424a2-6ffc-49a0-92b3-64f83ee85ed9.html",
+    "buzz": "✍ 45.678 menzioni stimate",
+    "buzzNum": 45678,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Un uomo di 39 anni si è suicidato dopo aver aggredito una penalista a Napoli"
+  },
+  {
+    "id": 20,
+    "score": 5,
+    "cat": "esteri",
+    "date": "Tue, 10 Mar 2026",
+    "title": "Walzer: 'Trump è nei guai in Iran e vuole la exit strategy, la crisi energetica impatta sul voto'",
+    "desc": "Intervista al 91enne politologo americano",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/10/news/walzer_guerra_iran_trump_exit_strategy-425210766/",
+    "buzz": "✍ 32.109 menzioni stimate",
+    "buzzNum": 32109,
+    "trending": true,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Il politologo americano Walzer ha espresso la sua opinione sulla situazione in Iran"
+  },
+  {
+    "id": 41,
+    "score": 4,
+    "cat": "politica",
+    "date": "Tue, 10 Mar 2026",
+    "title": "Caracciolo a La7: 'Gli Usa hanno tentato di colpire Putin, i rapporti con Mosca sono cambiati ma con'",
+    "desc": "Nel corso della puntata di Otto e mezzo, su La7, il direttore di Limes Lucio Caracciolo",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/10/caracciolo-meloni-trump-putin-referendum-giustizia-iran/8318868/",
+    "buzz": "✍ 21.054 menzioni stimate",
+    "buzzNum": 21054,
+    "trending": false,
+    "socials": [],
+    "detail": "Caracciolo ha espresso la sua opinione sui rapporti tra Usa e Russia"
+  },
+  {
+    "id": 42,
+    "score": 3,
+    "cat": "esteri",
+    "date": "Tue, 10 Mar 2026",
+    "title": "L'Idf ordina l'evacuazione del sud del Libano: imminenti raid sulle città di Tiro e Sidone",
+    "desc": "L'ambasciata Usa a Beirut ha consigliato ai cittadini americani di lasciare il paese",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/mondo/live-post/2026/03/10/guerra-iran-usa-israele-news-oggi-10-marzo/8318901/",
+    "buzz": "✍ 10.023 menzioni stimate",
+    "buzzNum": 10023,
+    "trending": false,
+    "socials": [],
+    "detail": "L'Idf ha ordinato l'evacuazione del sud del Libano a causa dei raid imminenti"
   }
 ]
