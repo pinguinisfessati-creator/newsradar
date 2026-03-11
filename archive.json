@@ -1,164 +1,5 @@
 [
   {
-    "id": 11,
-    "score": 6,
-    "cat": "sport",
-    "date": "Sat, 07 Mar 2026",
-    "title": "Verstappen, incidente nelle qualifiche del Gp d’Australia, l’olandese subito fuori",
-    "desc": "Russell in pole, il pilota dopo il fuoripista nella ghiaia è uscito dall’abitacolo sulle proprie gambe",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/sport/formulauno/2026/03/07/news/verstappen_incidente_qualifiche_gp_australia_f1-425205392/",
-    "buzz": "✋ 56.789 menzioni stimate",
-    "buzzNum": 56789,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Verstappen è stato coinvolto in un incidente durante le qualifiche del Gp d'Australia"
-  },
-  {
-    "id": 1,
-    "score": 6,
-    "cat": "esteri",
-    "date": "Sat, 7 Mar 2026 ",
-    "title": "Iran, 'non ci arrenderemo mai agli Usa e a Israele'",
-    "desc": "Pezeshkian in un messaggio in tv, 'si porteranno nella tomba il loro desiderio di sconfiggerci'",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/iran-non-ci-arrenderemo-mai-agli-usa-e-a-israele_6efc2335-e6ee-49b9-a4d1-8c3cc7f0d6ec.html",
-    "buzz": "✋ 45.678 menzioni stimate",
-    "buzzNum": 45678,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "L'Iran ha dichiarato di non volersi arrendere agli Stati Uniti e a Israele"
-  },
-  {
-    "id": 56,
-    "score": 5,
-    "cat": "campania",
-    "date": "Fri, 6 Mar 2026 ",
-    "title": "Serie A: Napoli-Torino 2-1",
-    "desc": "Apre Alissons Santos, chiude Elmas",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/06/serie-a-napoli-torino-2-1_1e87e1a6-8604-463c-8eea-45e4022c7417.html",
-    "buzz": "✋ 34.567 menzioni stimate",
-    "buzzNum": 34567,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Il Napoli ha vinto contro il Torino con un punteggio di 2-1"
-  },
-  {
-    "id": 20,
-    "score": 5,
-    "cat": "economia",
-    "date": "Sat, 07 Mar 2026",
-    "title": "Iran, in Italia Finanza in campo per la speculazione sui carburanti",
-    "desc": "Benzinai contro le compagnie petrolifere, l’Autorità energia prepara uno sconto immediato",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/07/news/iran_italia_finanza_speculazione_carburanti-425205228/",
-    "buzz": "✋ 34.567 menzioni stimate",
-    "buzzNum": 34567,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "L'Italia sta prendendo misure per contrastare la speculazione sui carburanti a causa della crisi in Iran"
-  },
-  {
-    "id": 57,
-    "score": 5,
-    "cat": "campania",
-    "date": "Fri, 6 Mar 2026 ",
-    "title": "Il Napoli piega il Torino e guarda al secondo posto del Milan",
-    "desc": "Alisson ed Elmas in gol, nel finale accorcia Casadei",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/06/ansacalcio-il-napoli-piega-il-torino-e-guarda-al-secondo-posto-del-milan_fb7f8cc4-39ff-482e-8573-b2f6f261bf31.html",
-    "buzz": "✋ 23.456 menzioni stimate",
-    "buzzNum": 23456,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Il Napoli ha vinto contro il Torino e si avvicina al secondo posto in classifica"
-  },
-  {
-    "id": 2,
-    "score": 5,
-    "cat": "sport",
-    "date": "Sat, 7 Mar 2026 ",
-    "title": "Tennis: Indian Wells, Sinner al terzo turno contro Shapovalov",
-    "desc": "L'azzurro ha eliminato 6-1 6-1 il ceco Svrcina",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/tennis-indian-wells-sinner-al-terzo-turno-contro-shapovalov_cbb65b54-2e3e-4a3d-821f-57a2eb39448c.html",
-    "buzz": "✋ 23.456 menzioni stimate",
-    "buzzNum": 23456,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Sinner ha vinto contro Svrcina e si è qualificato per il terzo turno"
-  },
-  {
-    "id": 58,
-    "score": 4,
-    "cat": "campania",
-    "date": "Fri, 6 Mar 2026 ",
-    "title": "Calcio: Sal Da Vinci canta 'Per sempre sì' al Maradona prima di Napoli-Torino",
-    "desc": "Per il cantante maglietta speciale e giro di campo con il trofeo vinto a Sanremo",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/06/calcio-sal-da-vinci-canta-per-sempre-si-al-maradona-prima-di-napoli-torino_a15931c0-6ca1-40d9-866b-aca874efad53.html",
-    "buzz": "✋ 12.345 menzioni stimate",
-    "buzzNum": 12345,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Sal Da Vinci ha cantato 'Per sempre sì' al Maradona prima della partita Napoli-Torino"
-  },
-  {
-    "id": 10,
-    "score": 9,
-    "cat": "politica",
-    "date": "Sat, 7 Mar 2026 ",
-    "title": "Crosetto convoca i vertici militari: 'Riunione per rafforzare la difesa'",
-    "desc": "Il ministro rende noto l'incontro con una nota: 'Fondamentale in un momento così delicato'",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/07/news/crosetto_riunione_vertici_militari_difesa_rafforzare-425206568/",
-    "buzz": "📱 200.000 menzioni stimate",
-    "buzzNum": 200000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Crosetto convoca i vertici militari per rafforzare la difesa"
-  },
-  {
-    "id": 5,
-    "score": 9,
-    "cat": "politica",
-    "date": "Sat, 7 Mar 2026 ",
-    "title": "Schlein: 'extragettito Iva per abbassare accise benzina'",
-    "desc": "L'esecutivo può attivare subito le cosiddette accise mobili",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/07/schlein-al-governo-extragettito-iva-per-abbassare-accise-benzina_b77f2611-60a2-4b66-b731-be3afaf7f616.html",
-    "buzz": "📱 150.000 menzioni stimate",
-    "buzzNum": 150000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Schlein propone di utilizzare l'extragettito Iva per abbassare le accise sulla benzina"
-  },
-  {
     "id": 1,
     "score": 8,
     "cat": "politica",
@@ -1205,5 +1046,150 @@
       "Twitter"
     ],
     "detail": "L'attaccante Vergara è fuori per almeno due settimane a causa di una lesione al piede sinistro."
+  },
+  {
+    "id": 8,
+    "score": 9,
+    "cat": "esteri",
+    "date": "Wed, 11 Mar 2026",
+    "title": "L'Iran attacca basi militari statunitensi e israeliane",
+    "desc": "L'annuncio delle Guardie della Rivoluzione Islamica alla televisione di Stato iraniana",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/liran-attacca-basi-militari-statunitensi-e-israeliane_85a3eadd-5801-4f39-a908-7d3068ddf062.html",
+    "buzz": "✅ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "L'Iran ha attaccato basi militari statunitensi e israeliane, secondo quanto annunciato dalle Guardie della Rivoluzione Islamica alla televisione di Stato iraniana."
+  },
+  {
+    "id": 9,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Wed, 11 Mar 2026",
+    "title": "L'Arabia Saudita abbatte sei missili balistici iraniani",
+    "desc": "Lanciati in direzione della base aerea di Prince Sultan",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/-larabia-saudita-abbatte-sei-missili-balistici-iraniani-_8e69d6d1-539d-4c9a-a856-7912b2e7d129.html",
+    "buzz": "✅ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "L'Arabia Saudita ha abbattuto sei missili balistici iraniani lanciati in direzione della base aerea di Prince Sultan."
+  },
+  {
+    "id": 17,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Wed, 11 Mar 2026",
+    "title": "L'Iran avverte gli Usa: 'Non vogliamo la tregua, sarete eliminati voi'",
+    "desc": "Prevale l'ala dura del regime, ma si infittisce il mistero sulla nuova Guida suprema",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/11/news/iran_avverte_usa_non_vogliamo_tregua_sarete_eliminati_voi-425213279/",
+    "buzz": "✅ 56.789 menzioni stimate",
+    "buzzNum": 56789,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Instagram"
+    ],
+    "detail": "L'Iran ha avvertito gli Stati Uniti che non vuole una tregua e che sarà eliminato."
+  },
+  {
+    "id": 57,
+    "score": 5,
+    "cat": "campania",
+    "date": "Tue, 10 Mar 2026",
+    "title": "Sequestrati e picchiati per un'auto sparita, chiesti 114 anni di carcere",
+    "desc": "Per 6 imputati: attesa il 29 maggio la sentenza del processo in abbreviato",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/10/sequestrati-e-picchiati-per-unauto-sparita-chiesti-114-anni-di-carcere_df802aa3-ee88-47cb-afa4-994a23abf1e3.html",
+    "buzz": "✅ 12.345 menzioni stimate",
+    "buzzNum": 12345,
+    "trending": false,
+    "socials": [],
+    "detail": "Sei imputati sono stati condannati a 114 anni di carcere per sequestro e violenza."
+  },
+  {
+    "id": 58,
+    "score": 4,
+    "cat": "campania",
+    "date": "Tue, 10 Mar 2026",
+    "title": "Ucciso nel Napoletano, Riesame conferma ordinanza per 'steffettista'",
+    "desc": "Annullata invece quella per il presunto mandante",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/10/ucciso-nel-napoletano-riesame-conferma-ordinanza-per-steffettista_fabc56eb-90c4-4c7d-97c9-775da17612c9.html",
+    "buzz": "✅ 6.789 menzioni stimate",
+    "buzzNum": 6789,
+    "trending": false,
+    "socials": [],
+    "detail": "Il Riesame ha confermato l'ordinanza per lo 'steffettista' accusato di omicidio nel Napoletano."
+  },
+  {
+    "id": 1,
+    "score": 3,
+    "cat": "economia",
+    "date": "Wed, 11 Mar 2026",
+    "title": "Lo spread tra Btp e Bund apre in rialzo a 71 punti",
+    "desc": "Il rendimento del decennale italiano sale al 3,58%",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/lo-spread-tra-btp-e-bund-apre-in-rialzo-a-71-punti_1fc505d1-10ef-478c-9679-3627749e538d.html",
+    "buzz": "✅ 4.567 menzioni stimate",
+    "buzzNum": 4567,
+    "trending": false,
+    "socials": [],
+    "detail": "Lo spread tra Btp e Bund è aumentato a 71 punti, con il rendimento del decennale italiano al 3,58%."
+  },
+  {
+    "id": 2,
+    "score": 2,
+    "cat": "economia",
+    "date": "Wed, 11 Mar 2026",
+    "title": "Il prezzo del gas apre in calo a 46,87 euro al megawattora",
+    "desc": "Ad Amsterdam le quotazioni sono in calo dell'1,1%",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/il-prezzo-del-gas-apre-in-calo-a-4687-euro-al-megawattora_da4cb355-5fa5-4101-9eb0-62b64e166ed0.html",
+    "buzz": "✅ 2.345 menzioni stimate",
+    "buzzNum": 2345,
+    "trending": false,
+    "socials": [],
+    "detail": "Il prezzo del gas è sceso a 46,87 euro al megawattora, con una diminuzione dell'1,1% ad Amsterdam."
+  },
+  {
+    "id": 41,
+    "score": 1,
+    "cat": "politica",
+    "date": "Wed, 11 Mar 2026",
+    "title": "Referendum, Bersani a La7: 'Bartolozzi ha superato un limite incredibile'",
+    "desc": "Il capo di gabinetto di Nordio ha superato un limite che si fa fatica a credere",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/11/referendum-bersani-bartolozzi-nordio-falcone-borsellino-meloni/8320068/",
+    "buzz": "✅ 1.234 menzioni stimate",
+    "buzzNum": 1234,
+    "trending": false,
+    "socials": [],
+    "detail": "Bersani ha criticato Bartolozzi per aver superato un limite incredibile nel referendum."
+  },
+  {
+    "id": 47,
+    "score": 1,
+    "cat": "politica",
+    "date": "Wed, 11 Mar 2026",
+    "title": "Attacco all'Iran, la premier Giorgia Meloni oggi in Aula per le comunicazioni",
+    "desc": "La premier Giorgia Meloni sarà in Aula oggi per le comunicazioni sull'attacco all'Iran",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/politica-palazzo/live-post/2026/03/11/guerra-in-iran-la-premier-giorgia-meloni-oggi-in-aula/8320078/",
+    "buzz": "✅ 987 menzioni stimate",
+    "buzzNum": 987,
+    "trending": false,
+    "socials": [],
+    "detail": "La premier Giorgia Meloni sarà in Aula oggi per le comunicazioni sull'attacco all'Iran."
   }
 ]
