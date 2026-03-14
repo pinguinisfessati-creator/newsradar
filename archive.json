@@ -1,160 +1,5 @@
 [
   {
-    "id": 20,
-    "score": 5,
-    "cat": "esteri",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Walzer: 'Trump è nei guai in Iran e vuole la exit strategy, la crisi energetica impatta sul voto'",
-    "desc": "Intervista al 91enne politologo americano",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/10/news/walzer_guerra_iran_trump_exit_strategy-425210766/",
-    "buzz": "✍ 32.109 menzioni stimate",
-    "buzzNum": 32109,
-    "trending": true,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il politologo americano Walzer ha espresso la sua opinione sulla situazione in Iran"
-  },
-  {
-    "id": 41,
-    "score": 4,
-    "cat": "politica",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Caracciolo a La7: 'Gli Usa hanno tentato di colpire Putin, i rapporti con Mosca sono cambiati ma con'",
-    "desc": "Nel corso della puntata di Otto e mezzo, su La7, il direttore di Limes Lucio Caracciolo",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/10/caracciolo-meloni-trump-putin-referendum-giustizia-iran/8318868/",
-    "buzz": "✍ 21.054 menzioni stimate",
-    "buzzNum": 21054,
-    "trending": false,
-    "socials": [],
-    "detail": "Caracciolo ha espresso la sua opinione sui rapporti tra Usa e Russia"
-  },
-  {
-    "id": 42,
-    "score": 3,
-    "cat": "esteri",
-    "date": "Tue, 10 Mar 2026",
-    "title": "L'Idf ordina l'evacuazione del sud del Libano: imminenti raid sulle città di Tiro e Sidone",
-    "desc": "L'ambasciata Usa a Beirut ha consigliato ai cittadini americani di lasciare il paese",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/mondo/live-post/2026/03/10/guerra-iran-usa-israele-news-oggi-10-marzo/8318901/",
-    "buzz": "✍ 10.023 menzioni stimate",
-    "buzzNum": 10023,
-    "trending": false,
-    "socials": [],
-    "detail": "L'Idf ha ordinato l'evacuazione del sud del Libano a causa dei raid imminenti"
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Trump: 'Se l'Iran ha messo mine a Hormuz, le rimuova'",
-    "desc": "Trump avverte l'Iran di rimuovere le mine dallo Stretto di Hormuz",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/10/trump-se-liran-ha-messo-mine-a-hormuz-le-rimuova-o-conseguenze-mai-viste_b132b28e-64ec-4056-a5c7-402a1b5a4216.html",
-    "buzz": "✍ 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "Trump avverte l'Iran di rimuovere le mine dallo Stretto di Hormuz, altrimenti ci saranno conseguenze mai viste."
-  },
-  {
-    "id": 5,
-    "score": 9,
-    "cat": "esteri",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Usa a Israele, fermare gli attacchi alle infrastrutture energetiche Iran",
-    "desc": "Gli Usa chiedono a Israele di fermare gli attacchi alle infrastrutture energetiche iraniane",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/10/usa-a-israele-fermare-gli-attacchi-alle-infrastrutture-energetiche-iran_9534482a-fc09-4963-a0ed-9f264a422da7.html",
-    "buzz": "✍ 100.000 menzioni stimate",
-    "buzzNum": 100000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "Gli Usa chiedono a Israele di fermare gli attacchi alle infrastrutture energetiche iraniane."
-  },
-  {
-    "id": 6,
-    "score": 8,
-    "cat": "economia",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Accise fuori dal Cdm. L’Ecofin frena: 'Quadro instabile'",
-    "desc": "L'Ecofin frena sulle accise, considerando il quadro economico instabile",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/economia/2026/03/10/news/accise_mobili_piano_casa_fuori_cdm_ecofin_frena_giorgetti_salvini_keraunos-425212280/",
-    "buzz": "✍ 80.000 menzioni stimate",
-    "buzzNum": 80000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "L'Ecofin frena sulle accise, considerando il quadro economico instabile."
-  },
-  {
-    "id": 7,
-    "score": 7,
-    "cat": "politica",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Schlein, Bartolozzi svela l'intenzione del governo, indebolire le toghe",
-    "desc": "Bartolozzi svela l'intenzione del governo di indebolire le toghe",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/10/schlein-bartolozzi-svela-lintenzione-del-governo-indebolire-le-toghe_151612ff-88cf-4419-b1f5-31ab38154536.html",
-    "buzz": "✍ 60.000 menzioni stimate",
-    "buzzNum": 60000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Bartolozzi svela l'intenzione del governo di indebolire le toghe."
-  },
-  {
-    "id": 8,
-    "score": 6,
-    "cat": "esteri",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Iran, 'nessuna nave americana ha osato avvicinarsi allo stretto di Hormuz'",
-    "desc": "L'Iran afferma che nessuna nave americana si è avvicinata allo Stretto di Hormuz",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/10/iran-nessuna-nave-americana-ha-osato-avvicinarsi-allo-stretto-di-hormuz_b24195b0-c7f3-477a-bd24-0be14f92fa70.html",
-    "buzz": "✍ 40.000 menzioni stimate",
-    "buzzNum": 40000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "L'Iran afferma che nessuna nave americana si è avvicinata allo Stretto di Hormuz."
-  },
-  {
-    "id": 9,
-    "score": 5,
-    "cat": "economia",
-    "date": "Tue, 10 Mar 2026",
-    "title": "Tonfo del greggio dopo l'annuncio Usa sulla petroliera scortata",
-    "desc": "Il prezzo del greggio è crollato dopo l'annuncio Usa sulla petroliera scortata",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/economia/2026/03/10/news/tonfo-del-greggio-dopo-lannuncio-usa-sulla-petroliera-scortata_6fc9e856-71b6-472e-86d4-cab0b42770e7/",
-    "buzz": "✍ 30.000 menzioni stimate",
-    "buzzNum": 30000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il prezzo del greggio è crollato dopo l'annuncio Usa sulla petroliera scortata."
-  },
-  {
     "id": 2,
     "score": 7,
     "cat": "campania",
@@ -1172,5 +1017,162 @@
       "Twitter"
     ],
     "detail": "Il prezzo del brent è aumentato a New York"
+  },
+  {
+    "id": 14,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sat, 14 Mar 2026",
+    "title": "Inviati 5mila marines in Medio Oriente",
+    "desc": "Trump vuole prendere Hormuz e ordina raid sull’isola strategica",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/14/news/inviati_5mila_marines_medio_oriente_trump_hormuz-425220582/",
+    "buzz": "✆ 87.321 menzioni stimate",
+    "buzzNum": 87321,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Gli Stati Uniti hanno inviato 5mila marines in Medio Oriente per prendere il controllo dello stretto di Hormuz."
+  },
+  {
+    "id": 10,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sat, 14 Mar 2026",
+    "title": "Trump, 'ho dato ordine di raid aerei sull'isola iraniana di Kharg'",
+    "desc": "Dalle sue infrastrutture transita l'80% dell'export petrolifero di Teheran",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/14/trump-ho-dato-ordine-di-raid-aerei-sullisola-iraniana-di-kharg_49ce8bae-e41c-4fcb-a9bd-d2e642d268af.html",
+    "buzz": "✆ 64.567 menzioni stimate",
+    "buzzNum": 64567,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Trump ha annunciato di aver dato l'ordine di effettuare raid aerei sull'isola iraniana di Kharg."
+  },
+  {
+    "id": 21,
+    "score": 7,
+    "cat": "economia",
+    "date": "Sat, 14 Mar 2026",
+    "title": "Iran, per le Borse europee in fumo oltre mille miliardi",
+    "desc": "Il greggio corre, pesante il conto delle perdite per le piazze europee nelle ultime due settimane",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/economia/2026/03/14/news/prezzo_petrolio_100_dollari_borse-425220507/",
+    "buzz": "✆ 34.567 menzioni stimate",
+    "buzzNum": 34567,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "La guerra in Iran ha fatto salire il prezzo del greggio e ha causato perdite per le Borse europee."
+  },
+  {
+    "id": 20,
+    "score": 7,
+    "cat": "economia",
+    "date": "Sat, 14 Mar 2026",
+    "title": "Paesi del Golfo, il conto è salato",
+    "desc": "Danni record a energia e turismo, gli Stati dell’area hanno perso complessivamente più di 15 miliardi",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/14/news/paesi_del_golfo_danni_record_energia_turismo-425220641/",
+    "buzz": "✆ 29.321 menzioni stimate",
+    "buzzNum": 29321,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "La guerra in Iran ha causato danni record a energia e turismo nei Paesi del Golfo."
+  },
+  {
+    "id": 41,
+    "score": 6,
+    "cat": "campania",
+    "date": "Fri, 13 Mar 2026",
+    "title": "Startup, Campania innovativa corre",
+    "desc": "Ma ora proseguire con politiche adeguate",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/13/startup-campania-innovativa-corre-ma-ora-proseguire-con-politiche-adeguate_201d1786-d599-4b7f-82ac-ee6971552f82.html",
+    "buzz": "✆ 23.456 menzioni stimate",
+    "buzzNum": 23456,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "La Campania è una regione innovativa, ma è necessario proseguire con politiche adeguate per supportare le startup."
+  },
+  {
+    "id": 47,
+    "score": 6,
+    "cat": "campania",
+    "date": "Fri, 13 Mar 2026",
+    "title": "Il Napoli contro il Lecce punta lo sprint per la Champions",
+    "desc": "Conte vuole la vittoria per sfruttare lo scontro diretto tra Como e Roma",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/13/il-napoli-contro-il-lecce-punta-lo-sprint-per-la-champions_7cafabef-3326-468b-b113-852a1219cf6d.html",
+    "buzz": "✆ 17.321 menzioni stimate",
+    "buzzNum": 17321,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Il Napoli cerca di sfruttare lo scontro diretto tra Como e Roma per puntare alla Champions League."
+  },
+  {
+    "id": 22,
+    "score": 6,
+    "cat": "economia",
+    "date": "Sat, 14 Mar 2026",
+    "title": "Okonjo-Iweala (Wto): 'Una crisi lunga in Iran peserà soprattutto su Ue e Asia'",
+    "desc": "Alcuni paesi dipendono troppo dagli States come mercato e dalla Cina per le forniture",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/economia/2026/03/14/news/ngozi_okonjo-iweala_wto_impatto_guerra_iran-425220492/",
+    "buzz": "✆ 14.567 menzioni stimate",
+    "buzzNum": 14567,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Una crisi lunga in Iran potrebbe avere un impatto significativo sull'Unione Europea e sull'Asia."
+  },
+  {
+    "id": 52,
+    "score": 6,
+    "cat": "campania",
+    "date": "Fri, 13 Mar 2026",
+    "title": "Vertice in Prefettura, Harmont & Blaine ritira i licenziamenti",
+    "desc": "Soddisfazione di Cgil e Cisl: si tratta di un primo passo",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/13/vertice-in-prefettura-harmont-blaine-ritira-i-licenziamenti_68e1b7fe-cace-4508-8409-affc70b73108.html",
+    "buzz": "✆ 12.456 menzioni stimate",
+    "buzzNum": 12456,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Harmont & Blaine ha ritirato i licenziamenti dopo un vertice in Prefettura."
+  },
+  {
+    "id": 4,
+    "score": 5,
+    "cat": "sport",
+    "date": "Sat, 14 Mar 2026",
+    "title": "F1: Cina, Russel vince la gara sprint davanti alle Ferrari",
+    "desc": "Secondo posto per Leclerc, Hamilton sale terzo a due giri dalla fine",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/14/f1-cina-russel-vince-la-gara-sprint-davanti-alle-ferrari_f3f7b9c9-7693-42c0-b9ea-106075c539b4.html",
+    "buzz": "✆ 8.456 menzioni stimate",
+    "buzzNum": 8456,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "Russel ha vinto la gara sprint in Cina, seguito da Leclerc e Hamilton."
   }
 ]
