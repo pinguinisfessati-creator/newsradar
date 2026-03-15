@@ -1,172 +1,5 @@
 [
   {
-    "id": 7,
-    "score": 7,
-    "cat": "economia",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Scendono i ricavi di Ferragamo a 977 milioni nel 2025",
-    "desc": "I ricavi di Ferragamo sono scesi a 977 milioni di euro nel 2025",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/scendono-i-ricavi-di-ferragamo-a-977-milioni-nel-2025_a4e7c216-9b95-45f3-8535-aa8980453322.html",
-    "buzz": "✍ 23.456 menzioni stimate",
-    "buzzNum": 23456,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "I ricavi di Ferragamo sono scesi a 977 milioni di euro nel 2025, con un calo del 10% rispetto all'anno precedente."
-  },
-  {
-    "id": 3,
-    "score": 6,
-    "cat": "campania",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Giuli, il Mic acquisirà i locali del teatro Sannazaro di Napoli",
-    "desc": "Il Mic acquisirà i locali del teatro Sannazaro di Napoli, ha annunciato Giuli",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/11/giuli-il-mic-acquisira-i-locali-del-teatro-sannazaro-di-napoli_be0a6ab9-6eee-4f17-9a61-4e4164de8207.html",
-    "buzz": "✍ 21.109 menzioni stimate",
-    "buzzNum": 21109,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il Mic acquisirà i locali del teatro Sannazaro di Napoli, ha annunciato Giuli. L'obiettivo è garantire la continuità del teatro."
-  },
-  {
-    "id": 8,
-    "score": 6,
-    "cat": "esteri",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Beirut, 8 morti in raid israeliano nel sud",
-    "desc": "8 persone sono morte in un raid israeliano nel sud del Libano",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/beirut-8-morti-in-raid-israeliano-nel-sud_678dc7b3-e09b-428e-bc16-f7dc8667471a.html",
-    "buzz": "✍ 12.109 menzioni stimate",
-    "buzzNum": 12109,
-    "trending": false,
-    "socials": [],
-    "detail": "8 persone sono morte in un raid israeliano nel sud del Libano. Il raid è stato condotto contro un obiettivo militare."
-  },
-  {
-    "id": 4,
-    "score": 5,
-    "cat": "campania",
-    "date": "Wed, 11 Mar 2026",
-    "title": "A Pompei in mostra i calchi delle vittime dell'eruzione del 79 dC",
-    "desc": "A Pompei è stata inaugurata una mostra con i calchi delle vittime dell'eruzione del 79 dC",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/11/a-pompei-in-mostra-i-calchi-delle-vittime-delleruzione-del-79-dc_58b3fc69-78eb-4ad9-9223-166e2d8a3237.html",
-    "buzz": "✍ 10.503 menzioni stimate",
-    "buzzNum": 10503,
-    "trending": false,
-    "socials": [],
-    "detail": "A Pompei è stata inaugurata una mostra con i calchi delle vittime dell'eruzione del 79 dC. La mostra è stata definita 'una galleria del dolore'."
-  },
-  {
-    "id": 9,
-    "score": 5,
-    "cat": "politica",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Meloni al Pd, 'sì a Usa che ci liberano da nazifascismo ma no a intervento in Iran?'",
-    "desc": "Meloni ha criticato il Pd per la sua posizione sull'intervento in Iran",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/meloni-al-pd-si-a-usa-che-ci-liberano-da-nazifascismo-ma-no-a-intervento-in-iran_039eef3a-8e81-4b0f-8ebb-f92b8600270c.html",
-    "buzz": "✍ 8.567 menzioni stimate",
-    "buzzNum": 8567,
-    "trending": false,
-    "socials": [],
-    "detail": "Meloni ha criticato il Pd per la sua posizione sull'intervento in Iran, chiedendo loro di spiegare perché sono a favore dell'intervento degli Usa contro il nazifascismo ma contro l'intervento in Iran."
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Trump: 'In Iran abbiamo già vinto, ma ora finiamo il lavoro'",
-    "desc": "Il tycoon è tornato ad annunciare la 'fine rapida' del conflitto",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/12/news/trump_iran_abbiamo_gia_vinto_finiamo_lavoro-425215702/",
-    "buzz": "📱 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "Trump ha annunciato la fine del conflitto in Iran, ma i dettagli sono ancora incerti"
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "politica",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Schlein, Meloni sta facendo tutto da sola. Noi ci siamo ma posi clava",
-    "desc": "Il mio numero ce l'ha, io in contatto con il governo",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/12/schlein-meloni-sta-facendo-tutto-da-sola.-noi-ci-siamo-ma-posi-clava_89cc7586-a7ad-442b-b88a-c33b990dd6d0.html",
-    "buzz": "📱 90.000 menzioni stimate",
-    "buzzNum": 90000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Schlein critica Meloni per la gestione del governo"
-  },
-  {
-    "id": 3,
-    "score": 6,
-    "cat": "campania",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Tubo di scarico sulla spiaggia, sequestro nel Casertano",
-    "desc": "Accertamenti per risalire a proprietari e alla natura dei reflui",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/12/tubo-di-scarico-sulla-spiaggia-sequestro-nel-casertano_e596746e-c5fd-4e57-b5fb-918f314829a9.html",
-    "buzz": "📱 40.000 menzioni stimate",
-    "buzzNum": 40000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Sequestro di un tubo di scarico sulla spiaggia nel Casertano"
-  },
-  {
-    "id": 4,
-    "score": 6,
-    "cat": "campania",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Coppa America: Napoli ospiterà numerosi superyacht, affidati i servizi",
-    "desc": "Ad occuparsene sarà Bwa Yachting",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/12/coppa-america-napoli-ospitera-numerosi-superyacht-affidati-i-servizi_79040299-febd-4d76-b57f-5b2b38d0fd13.html",
-    "buzz": "📱 30.000 menzioni stimate",
-    "buzzNum": 30000,
-    "trending": false,
-    "socials": [
-      "Instagram"
-    ],
-    "detail": "Napoli ospiterà numerosi superyacht per la Coppa America"
-  },
-  {
-    "id": 5,
-    "score": 6,
-    "cat": "campania",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Educare al rispetto degli animali, a Napoli un incontro tra studenti e cani",
-    "desc": "Progetto 'La Collina di Argo incontra le scuole' promosso dal Comune e dall'Asl",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/12/educare-al-rispetto-degli-animali-a-napoli-un-incontro-tra-studenti-e-cani_001c9563-567f-4d4e-a05a-b3a8049ac2de.html",
-    "buzz": "📱 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Incontro tra studenti e cani per educare al rispetto degli animali"
-  },
-  {
     "id": 6,
     "score": 5,
     "cat": "economia",
@@ -1179,5 +1012,181 @@
       "Facebook"
     ],
     "detail": "L'evento allo stadio Maradona"
+  },
+  {
+    "id": 10,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Attacco con un drone a base italiana in Kuwait",
+    "desc": "Nessun ferito fra i militari. Era già stata presa di mira all'inizio del conflitto",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/15/attacco-con-un-drone-a-base-italiana-in-kuwait-nessun-ferito_4ae9d1fa-6088-45a6-84bb-4972b0d9becf.html",
+    "buzz": "✋ 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "L'attacco è avvenuto nella base italiana in Kuwait, dove sono presenti militari italiani. Nessun ferito è stato segnalato."
+  },
+  {
+    "id": 17,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Ancora un drone iraniano sulla base italiana in Kuwait",
+    "desc": "Nessun ferito fra i militari. Era già stata presa di mira all'inizio del conflitto",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/15/news/drone_base_italiana_kuwait_iran-425223286/",
+    "buzz": "✋ 90.000 menzioni stimate",
+    "buzzNum": 90000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "L'attacco è avvenuto nella base italiana in Kuwait, dove sono presenti militari italiani. Nessun ferito è stato segnalato."
+  },
+  {
+    "id": 56,
+    "score": 6,
+    "cat": "campania",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Referendum: per il rush finale a Napoli sfilano i big della politica",
+    "desc": "Domani manifestazione con Gratteri, poi Schlein, Bersani, Nordio e Conte",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/15/referendum-per-il-rush-finale-a-napoli-sfilano-i-big-della-politica_8152ca61-1c58-4911-a67b-1fa573b5b1de.html",
+    "buzz": "✋ 60.000 menzioni stimate",
+    "buzzNum": 60000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "La manifestazione si terrà domani a Napoli con la partecipazione di importanti esponenti politici."
+  },
+  {
+    "id": 4,
+    "score": 8,
+    "cat": "politica",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Schlein, gli italiani non vogliono pagare le guerre di Trump",
+    "desc": "'Bene l'apertura sulle accise mobili, ma i giorni stanno scorrendo'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/15/schlein-gli-italiani-non-vogliono-pagare-le-guerre-di-trump_2d9cee4a-c1da-428d-ba65-0e57b1a04c94.html",
+    "buzz": "✋ 50.000 menzioni stimate",
+    "buzzNum": 50000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Schlein ha affermato che gli italiani non vogliono pagare le guerre di Trump, e ha espresso apprezzamento per l'apertura sulle accise mobili."
+  },
+  {
+    "id": 23,
+    "score": 7,
+    "cat": "politica",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Schlein a Bologna nella piazza del No: “Gli italiani non vogliono pagare le guerre di Usa e Israele”",
+    "desc": "“Non c’è quorum, potete fare la differenza”. La segretaria dem esprime vicinanza ai manifestanti",
+    "source": "Repubblica",
+    "sourceUrl": "https://bologna.repubblica.it/cronaca/2026/03/15/news/schlein_bologna_piazza_no_referendum-425222938/",
+    "buzz": "✋ 40.000 menzioni stimate",
+    "buzzNum": 40000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Schlein ha partecipato alla manifestazione a Bologna, esprimendo vicinanza ai manifestanti e affermando che gli italiani non vogliono pagare le guerre di Usa e Israele."
+  },
+  {
+    "id": 57,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Al San Carlo di Napoli una delegazione della stampa estera in Italia",
+    "desc": "Sovrintendente Macciari, 'un faro di bellezza e civiltà tra i popoli'",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/15/al-san-carlo-di-napoli-una-delegazione-della-stampa-estera-in-italia_958e5201-5cfd-4447-9ca1-14f810c31984.html",
+    "buzz": "✋ 40.000 menzioni stimate",
+    "buzzNum": 40000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La delegazione della stampa estera ha visitato il Teatro San Carlo di Napoli, definito 'un faro di bellezza e civiltà tra i popoli'."
+  },
+  {
+    "id": 41,
+    "score": 6,
+    "cat": "politica",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Iran, Schlein: “Gli italiani non vogliono pagare le guerre illegali di Trump e Netanyahu”",
+    "desc": "“Ho apprezzato l’apertura della presidente Meloni sulla nostra proposta di legge per il contrasto alle mafie”",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/15/schlein-iran-guerre-illegali-trump-netanyahu-oggi/8325201/",
+    "buzz": "✋ 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Schlein ha affermato che gli italiani non vogliono pagare le guerre illegali di Trump e Netanyahu, e ha espresso apprezzamento per l'apertura della presidente Meloni sulla proposta di legge per il contrasto alle mafie."
+  },
+  {
+    "id": 58,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sun, 15 Mar 2026",
+    "title": "A Salerno le ultime mosse degli anti De Luca",
+    "desc": "Contatti con Di Lorenzo, sponsorizzato dal Movimento cinquestelle",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/15/a-salerno-le-ultime-mosse-degli-anti-de-luca_162a3ee4-ec6c-413b-bf50-53218ff19e20.html",
+    "buzz": "✋ 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Gli anti De Luca stanno facendo le ultime mosse a Salerno, con contatti con Di Lorenzo, sponsorizzato dal Movimento cinquestelle."
+  },
+  {
+    "id": 1,
+    "score": 5,
+    "cat": "esteri",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Exit poll per Parigi, in testa l'erede di Hidalgo contro Rachida Dati",
+    "desc": "Emmanuel Grégoire tra il 31% e il 34%, la sfidante al 30%",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/15/exit-poll-per-parigi-in-testa-lerede-di-hidalgo-contro-rachida-dati_fec0f1f3-6d86-43f3-bfa0-335a0c75282b.html",
+    "buzz": "✋ 20.000 menzioni stimate",
+    "buzzNum": 20000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "L'exit poll per le elezioni parigine vede in testa l'erede di Hidalgo, Emmanuel Grégoire, con il 31-34% dei voti, seguito da Rachida Dati con il 30%."
+  },
+  {
+    "id": 14,
+    "score": 5,
+    "cat": "esteri",
+    "date": "Sun, 15 Mar 2026",
+    "title": "La base italiana in Kuwait colpita da un drone: chi sono i militari e qual è la loro missione lì",
+    "desc": "Sono i più vicini all’Iran, sotto attacco da oltre due settimane. L’operazione di peacekeeping è in corso dal 2015",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/15/news/base_italiana_kuwait_italiani_attacco_drone_iran-425223379/",
+    "buzz": "✋ 15.000 menzioni stimate",
+    "buzzNum": 15000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La base italiana in Kuwait è stata colpita da un drone, e i militari italiani sono stati messi in allerta. L'operazione di peacekeeping è in corso dal 2015."
   }
 ]
