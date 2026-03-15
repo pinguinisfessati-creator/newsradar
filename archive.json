@@ -1,143 +1,5 @@
 [
   {
-    "id": 2,
-    "score": 2,
-    "cat": "economia",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Il prezzo del gas apre in calo a 46,87 euro al megawattora",
-    "desc": "Ad Amsterdam le quotazioni sono in calo dell'1,1%",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/il-prezzo-del-gas-apre-in-calo-a-4687-euro-al-megawattora_da4cb355-5fa5-4101-9eb0-62b64e166ed0.html",
-    "buzz": "✅ 2.345 menzioni stimate",
-    "buzzNum": 2345,
-    "trending": false,
-    "socials": [],
-    "detail": "Il prezzo del gas è sceso a 46,87 euro al megawattora, con una diminuzione dell'1,1% ad Amsterdam."
-  },
-  {
-    "id": 41,
-    "score": 1,
-    "cat": "politica",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Referendum, Bersani a La7: 'Bartolozzi ha superato un limite incredibile'",
-    "desc": "Il capo di gabinetto di Nordio ha superato un limite che si fa fatica a credere",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/11/referendum-bersani-bartolozzi-nordio-falcone-borsellino-meloni/8320068/",
-    "buzz": "✅ 1.234 menzioni stimate",
-    "buzzNum": 1234,
-    "trending": false,
-    "socials": [],
-    "detail": "Bersani ha criticato Bartolozzi per aver superato un limite incredibile nel referendum."
-  },
-  {
-    "id": 47,
-    "score": 1,
-    "cat": "politica",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Attacco all'Iran, la premier Giorgia Meloni oggi in Aula per le comunicazioni",
-    "desc": "La premier Giorgia Meloni sarà in Aula oggi per le comunicazioni sull'attacco all'Iran",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/politica-palazzo/live-post/2026/03/11/guerra-in-iran-la-premier-giorgia-meloni-oggi-in-aula/8320078/",
-    "buzz": "✅ 987 menzioni stimate",
-    "buzzNum": 987,
-    "trending": false,
-    "socials": [],
-    "detail": "La premier Giorgia Meloni sarà in Aula oggi per le comunicazioni sull'attacco all'Iran."
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Consiglio Sicurezza Onu condanna i raid dell'Iran",
-    "desc": "Il Consiglio di Sicurezza dell'Onu ha condannato i raid dell'Iran contro i Paesi del Golfo",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/consiglio-sicurezza-onu-condanna-i-raid-delliran-contro-i-paesi-del-golfo_39d34971-bd22-4102-a948-08b02ce9b6b4.html",
-    "buzz": "✍ 123.456 menzioni stimate",
-    "buzzNum": 123456,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "Il Consiglio di Sicurezza dell'Onu ha condannato i raid dell'Iran contro i Paesi del Golfo, con 13 voti a favore e 2 astenuti."
-  },
-  {
-    "id": 5,
-    "score": 9,
-    "cat": "esteri",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Guerra in Iran, le news",
-    "desc": "Le ultime notizie sulla guerra in Iran",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/11/diretta/guerra_iran_usa_israele_news_oggi-425213359/",
-    "buzz": "✍ 90.123 menzioni stimate",
-    "buzzNum": 90123,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "Le ultime notizie sulla guerra in Iran. L'Iran ha annunciato di essere pronto ad aumentare il prezzo del petrolio a 200 dollari al barile."
-  },
-  {
-    "id": 10,
-    "score": 9,
-    "cat": "esteri",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Libano, 634 morti e oltre 800mila sfollati per la guerra Israele-Hezbollah",
-    "desc": "La guerra tra Israele e Hezbollah ha provocato 634 morti e oltre 800mila sfollati",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/libano-634-morti-e-oltre-800mila-sfollati-per-la-guerra-israele-hezbollah_ef7d38be-cc83-4892-8eef-389fc73a9976.html",
-    "buzz": "✍ 67.890 menzioni stimate",
-    "buzzNum": 67890,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "La guerra tra Israele e Hezbollah ha provocato 634 morti e oltre 800mila sfollati. La situazione umanitaria è critica."
-  },
-  {
-    "id": 6,
-    "score": 8,
-    "cat": "politica",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Meloni, non volete accogliere l'appello all'unità, ditelo chiaramente",
-    "desc": "Meloni ha lanciato un appello all'unità ai partiti di opposizione",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/11/meloni-non-volete-accogliere-lappello-allunita-ditelo-chiaramente_b7cf24bf-5142-43a1-bc9b-776e955fa025.html",
-    "buzz": "✍ 56.789 menzioni stimate",
-    "buzzNum": 56789,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Meloni ha lanciato un appello all'unità ai partiti di opposizione, chiedendo loro di dire chiaramente se sono disposti ad accoglierlo."
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "campania",
-    "date": "Wed, 11 Mar 2026",
-    "title": "Cade grossa pietra dalla basilica in piazza Plebiscito a Napoli",
-    "desc": "Una grossa pietra è caduta dalla basilica in piazza Plebiscito a Napoli, senza provocare feriti",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/11/cade-grossa-pietra-dalla-basilica-in-piazza-plebiscito-a-napoli-nessun-ferito_bad12d66-1db5-4675-8eba-42af9d95c181.html",
-    "buzz": "✍ 43.210 menzioni stimate",
-    "buzzNum": 43210,
-    "trending": false,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Una grossa pietra è caduta dalla basilica in piazza Plebiscito a Napoli, senza provocare feriti. Sono intervenuti carabinieri e vigili del fuoco."
-  },
-  {
     "id": 7,
     "score": 7,
     "cat": "economia",
@@ -1177,5 +1039,145 @@
       "Twitter"
     ],
     "detail": "L'Italia ha chiuso il Sei Nazioni con una sconfitta contro il Galles"
+  },
+  {
+    "id": 57,
+    "score": 8,
+    "cat": "esteri",
+    "date": "dom, 15 mar 2026",
+    "title": "Kharg, la battaglia per l'isola centrale per il petrolio",
+    "desc": "Trump agli alleati: «Navi da guerra a Hormuz»",
+    "source": "Il Mattino",
+    "sourceUrl": "https://www.ilmattino.it/primopiano/esteri/kharg_isola_petrolio_guerra_usa_iran_navi_guerra_hormuz-9417326.html",
+    "buzz": "📱 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "La strategia di Donald Trump con l'Iran"
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Wafa, 'coppia con due bambini uccisi in Cisgiordania'",
+    "desc": "Raid forze speciali Idf a Tammun, altri due minori feriti dalle schegge",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/15/wafa-coppia-con-due-bambini-uccisi-in-cisgiordania_a49ea610-84f2-42a7-8100-a19985620515.html",
+    "buzz": "📱 80.000 menzioni stimate",
+    "buzzNum": 80000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "La situazione in Cisgiordania"
+  },
+  {
+    "id": 3,
+    "score": 6,
+    "cat": "economia",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Trump, 'sanzioni sul petrolio russo ripristinate a crisi finita'",
+    "desc": "E attacca Zelesky: 'Ditegli di trovare un accordo, Putin è disposto a farlo'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/15/trump-sanzioni-sul-petrolio-russo-ripristinate-a-crisi-finita_9d9f6ddf-2753-481a-bc07-9fcb4d122ef9.html",
+    "buzz": "📱 50.000 menzioni stimate",
+    "buzzNum": 50000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Le sanzioni sul petrolio russo"
+  },
+  {
+    "id": 41,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sat, 14 Mar 2026",
+    "title": "Calcio: entra De Bruyne, il Napoli ribalta il Lecce",
+    "desc": "Salentini avanti con Siebert, Hojlund e Politano fanno il 2-1",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/14/calcio-entra-de-bruyne-il-napoli-ribalta-il-lecce_0caecad1-4a53-45bd-8558-05c8e5625a79.html",
+    "buzz": "📱 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La partita di calcio Napoli-Lecce"
+  },
+  {
+    "id": 1,
+    "score": 4,
+    "cat": "esteri",
+    "date": "Sun, 15 Mar 2026",
+    "title": "Pasdaran, 'braccheremo e uccideremo Netanyahu'",
+    "desc": "'Le incertezze sulla sorte del premier dimostrano la crisi dei sionisti'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/15/pasdaran-braccheremo-e-uccideremo-netanyahu_c8e9f4ef-4332-4f22-be4a-7ebf04328743.html",
+    "buzz": "📱 10.000 menzioni stimate",
+    "buzzNum": 10000,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "La situazione in Medio Oriente"
+  },
+  {
+    "id": 56,
+    "score": 4,
+    "cat": "sport",
+    "date": "dom, 15 mar 2026",
+    "title": "GP Cina, la diretta: Antonelli sempre leader, Russell supera Leclerc per il secondo posto, Hamilton",
+    "desc": "Si ritira mestamente Alonso, sempre ultimo con la Aston Martin-Honda",
+    "source": "Il Mattino",
+    "sourceUrl": "https://www.ilmattino.it/sport/formula1/gp_cina_formula_1_diretta-9417324.html",
+    "buzz": "📱 8.000 menzioni stimate",
+    "buzzNum": 8000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La gara di Formula 1"
+  },
+  {
+    "id": 58,
+    "score": 4,
+    "cat": "sport",
+    "date": "sab, 14 mar 2026",
+    "title": "Napoli-Lecce 2-1, De Bruyne entra e accende la luce",
+    "desc": "Primo tempo inconsistente, ripresa sontuosa del Napoli",
+    "source": "Il Mattino",
+    "sourceUrl": "https://www.ilmattino.it/sport/sscnapoli/napoli_lecce_2_1_de_bruyne_entra_accende_la_luce_commento_francesco_de_luca-9416249.html",
+    "buzz": "📱 5.000 menzioni stimate",
+    "buzzNum": 5000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La partita di calcio"
+  },
+  {
+    "id": 59,
+    "score": 3,
+    "cat": "cronaca",
+    "date": "sab, 14 mar 2026",
+    "title": "Patrizia Mercolino allo stadio Maradona, cinquantamila cuori battono per Domenico Caliendo",
+    "desc": "Il bisogno di un'altra carezza",
+    "source": "Il Mattino",
+    "sourceUrl": "https://www.ilmattino.it/napoli/cronaca/domenico_caliendo_patrizia_mercolino_maradona_nostro_angelo-9416209.html",
+    "buzz": "📱 2.000 menzioni stimate",
+    "buzzNum": 2000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "L'evento allo stadio Maradona"
   }
 ]
