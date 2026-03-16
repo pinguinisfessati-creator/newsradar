@@ -1,174 +1,5 @@
 [
   {
-    "id": 6,
-    "score": 5,
-    "cat": "economia",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Borsa: l'Europa parte debole, Londra -0,5%",
-    "desc": "Provano a tenere Madrid e Francoforte",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/12/borsa-leuropa-parte-debole-londra-05_14ce9f1c-dbf5-4f87-b55d-d83c13f3b11b.html",
-    "buzz": "📱 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "La Borsa europea parte debole, con Londra che perde lo 0,5%"
-  },
-  {
-    "id": 7,
-    "score": 5,
-    "cat": "esteri",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Teheran, Khamenei ferito ma salvo: ecco le condizioni per la tregua",
-    "desc": "Pezeshkian: 'Stop guerra con il riconoscimento dei nostri diritti e il pagamento'",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/12/news/mojtaba_khamenei_ferito_condizioni_tregua_iran_usa_israele-425215689/",
-    "buzz": "📱 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Khamenei ferito ma salvo, condizioni per la tregua"
-  },
-  {
-    "id": 8,
-    "score": 4,
-    "cat": "politica",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Calenda, dovere e interesse di tutti partecipare al tavolo offerto da Meloni",
-    "desc": "Dicendo no critiche sembrano pretestuose. Azione parteciperà",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/12/calenda-dovere-e-interesse-di-tutti-partecipare-al-tavolo-offerto-da-meloni_91e56a73-4a5a-4cd4-b588-5ffb35d285f5.html",
-    "buzz": "📱 5.000 menzioni stimate",
-    "buzzNum": 5000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Calenda invita a partecipare al tavolo offerto da Meloni"
-  },
-  {
-    "id": 9,
-    "score": 4,
-    "cat": "cronaca",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Hiv trasmesso alla figlia e non curato, genitori a processo",
-    "desc": "L'accusa è di maltrattamenti aggravati: 'Mai visite fino ai sei anni'",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/12/hiv-trasmesso-alla-figlia-e-non-curato-genitori-a-processo_70cd348d-e4ca-4125-bb2c-fb7f5051b950.html",
-    "buzz": "📱 3.000 menzioni stimate",
-    "buzzNum": 3000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Genitori a processo per non aver curato la figlia con Hiv"
-  },
-  {
-    "id": 10,
-    "score": 3,
-    "cat": "societa",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Chi lavora in smartworking fa più figli. Lo studio: incremento della fecondità del 14%",
-    "desc": "Se entrambi i partner lavorano almeno 1 giorno a settimana da remoto",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/12/chi-lavora-in-smartworking-fa-piu-figli-lo-studio-incremento-della-fecondita-del-14-se-entrambi-i-partner-lavorano-almeno-1-giorno-a-settimana-da-remoto/8321441/",
-    "buzz": "📱 1.000 menzioni stimate",
-    "buzzNum": 1000,
-    "trending": false,
-    "socials": [
-      "Instagram"
-    ],
-    "detail": "Lo studio rivela che chi lavora in smartworking ha più figli"
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Sparatoria in sinagoga a Michigan",
-    "desc": "Una sparatoria in una sinagoga a West Bloomfield, in Michigan. L'assalitore è stato ucciso dalle forze dell'ordine.",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/12/sparatoria-sinagoga-michigan-temple-israel-news/8322442/",
-    "buzz": "📱 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "La sparatoria è avvenuta in una sinagoga con scuola annessa. L'assalitore è stato ucciso dalle forze dell'ordine."
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "campania",
-    "date": "Thu, 12 Mar 2026",
-    "title": "L'Abruzzo alla Borsa mediterranea del turismo",
-    "desc": "L'Abruzzo partecipa alla Borsa mediterranea del turismo con i giocatori del Napoli.",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/12/labruzzo-alla-borsa-mediterranea-del-turismo-ecco-i-giocatori-del-napoli_901698cf-3fb9-400f-8dd2-8112007a4cf8.html",
-    "buzz": "📱 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "L'Abruzzo partecipa alla Borsa mediterranea del turismo con i giocatori del Napoli e prodotti tipici locali."
-  },
-  {
-    "id": 3,
-    "score": 6,
-    "cat": "economia",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Petrolio risale a New York del 9,67%",
-    "desc": "Il petrolio risale a New York del 9,67% e chiude a 95,69 dollari.",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/12/il-petrolio-risale-a-new-york-del-967-chiude-a-9569-dollari_67412aba-008a-4cbc-96ad-113618d05e18.html",
-    "buzz": "📱 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Il petrolio risale a New York del 9,67% e chiude a 95,69 dollari. Il Brent balza del 9,33% e torna sopra i 100 dollari."
-  },
-  {
-    "id": 4,
-    "score": 5,
-    "cat": "campania",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Evento formativo ma è incontro per il Sì",
-    "desc": "Gli studenti abbandonano un evento formativo che si rivela essere un incontro per il Sì.",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/12/evento-formativo-ma-e-incontro-per-il-si-gli-studenti-lo-abbandonano_4e90c58f-23bd-4852-9e92-8be32601a0c3.html",
-    "buzz": "📱 5.000 menzioni stimate",
-    "buzzNum": 5000,
-    "trending": false,
-    "socials": [],
-    "detail": "Gli studenti abbandonano un evento formativo che si rivela essere un incontro per il Sì."
-  },
-  {
-    "id": 6,
-    "score": 3,
-    "cat": "campania",
-    "date": "Thu, 12 Mar 2026",
-    "title": "Calcio: il Napoli aspetta il Lecce",
-    "desc": "Il Napoli aspetta il Lecce con De Bruyne pronto a scendere in campo.",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/12/calcio-il-napoli-aspetta-il-lecce-de-bruyne-e-pronto_0fda0449-1a12-429c-bccc-7d779675d2fa.html",
-    "buzz": "📱 2.000 menzioni stimate",
-    "buzzNum": 2000,
-    "trending": false,
-    "socials": [],
-    "detail": "Il Napoli aspetta il Lecce con De Bruyne pronto a scendere in campo."
-  },
-  {
     "id": 7,
     "score": 2,
     "cat": "economia",
@@ -1188,5 +1019,164 @@
       "Facebook"
     ],
     "detail": "La base italiana in Kuwait è stata colpita da un drone, e i militari italiani sono stati messi in allerta. L'operazione di peacekeeping è in corso dal 2015."
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "economia",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Bankitalia, sale il debito",
+    "desc": "Aumentato di 16,8 miliardi, a 3.112,3 miliardi",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/-bankitalia-sale-il-debito-a-gennaio-a-3.1123-miliardi-_45e17a10-e904-4777-8090-238292e56725.html",
+    "buzz": "✋ 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "Il debito pubblico italiano è aumentato a 3.112,3 miliardi di euro a gennaio, con un aumento di 16,8 miliardi rispetto al mese precedente."
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "cronaca",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Tamponamento tra due tram a Roma",
+    "desc": "Dieci feriti, nessuno in gravi condizioni",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/tamponamento-fra-due-tram-a-roma-10-feriti-lievi_75079e06-dbf1-48a6-b044-041feab04d95.html",
+    "buzz": "✋ 90.000 menzioni stimate",
+    "buzzNum": 90000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Un tamponamento tra due tram a Roma ha causato dieci feriti lievi, nessuno dei quali è in gravi condizioni."
+  },
+  {
+    "id": 3,
+    "score": 6,
+    "cat": "campania",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Tumore al seno, rete del Sud contro i viaggi della speranza",
+    "desc": "Campania, Basilicata e Puglia portano le cure oncologiche vicino alle pazienti",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/16/tumore-al-seno-ecco-la-rete-del-sud-contro-i-viaggi-della-speranza_b29ac042-af87-4e0f-ba08-e42e998805dd.html",
+    "buzz": "✋ 60.000 menzioni stimate",
+    "buzzNum": 60000,
+    "trending": true,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La Campania, la Basilicata e la Puglia hanno creato una rete per portare le cure oncologiche vicino alle pazienti con tumore al seno."
+  },
+  {
+    "id": 4,
+    "score": 5,
+    "cat": "campania",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Due iniziative legate a benessere e prevenzione a Ravello",
+    "desc": "Screening gratuiti per donne e uomini all'hotel Caruso",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/16/due-iniziative-legate-a-benessere-e-prevenzione-a-ravello_f9bfbf6c-ae91-457e-a7eb-1cbf6f4c05e1.html",
+    "buzz": "✋ 40.000 menzioni stimate",
+    "buzzNum": 40000,
+    "trending": false,
+    "socials": [],
+    "detail": "A Ravello sono state organizzate due iniziative legate al benessere e alla prevenzione, con screening gratuiti per donne e uomini all'hotel Caruso."
+  },
+  {
+    "id": 5,
+    "score": 5,
+    "cat": "campania",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Undici Comuni della Campania premiati Plastic Free",
+    "desc": "In quattro conquistano le tre tartarughe",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/16/undici-comuni-della-campania-premiati-plastic-free_abff38e9-b3aa-444f-9838-7a162ffa82b7.html",
+    "buzz": "✋ 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [],
+    "detail": "Undici Comuni della Campania sono stati premiati per la loro riduzione dell'uso di plastica, con quattro che hanno conquistato le tre tartarughe."
+  },
+  {
+    "id": 6,
+    "score": 4,
+    "cat": "economia",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Incassi, Jumpers in vetta al box office",
+    "desc": "Seguito da Un Bel Giorno, nuova entry in terza posizione Papaleo con Il Bene Comune",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/incassi-jumpers-in-vetta-al-box-office-seguito-da-un-bel-giorno_0af50371-589c-45a6-b03d-1a21541c7d6e.html",
+    "buzz": "✋ 20.000 menzioni stimate",
+    "buzzNum": 20000,
+    "trending": false,
+    "socials": [],
+    "detail": "Il film Jumpers è in vetta al box office, seguito da Un Bel Giorno e dalla nuova entry Il Bene Comune di Papaleo."
+  },
+  {
+    "id": 7,
+    "score": 3,
+    "cat": "politica",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Casellati, via Fani insegna che la democrazia si difende restando uniti",
+    "desc": "Il #16marzo 1978 è una data che tutti dovremmo ricordare",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/casellati-via-fani-insegna-che-la-democrazia-si-difende-restando-uniti_7c64db4d-9e5e-4cf3-b80a-f37ca22daaba.html",
+    "buzz": "✋ 15.000 menzioni stimate",
+    "buzzNum": 15000,
+    "trending": false,
+    "socials": [],
+    "detail": "Casellati ha ricordato l'importanza di via Fani e del #16marzo 1978 per la difesa della democrazia."
+  },
+  {
+    "id": 8,
+    "score": 2,
+    "cat": "esteri",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Mantovano, quello di ieri in Kwait chiaro atto intimidatorio",
+    "desc": "Iran punta a ciò che vede come appoggio a Usa e Israele",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/mantovano-quello-di-ieri-in-kwait-chiaro-atto-intimidatorio_a87cfd82-99d0-4831-ac3e-d2358c8f3bdf.html",
+    "buzz": "✋ 10.000 menzioni stimate",
+    "buzzNum": 10000,
+    "trending": false,
+    "socials": [],
+    "detail": "L'atto di ieri in Kwait è stato definito un chiaro atto intimidatorio da parte dell'Iran."
+  },
+  {
+    "id": 9,
+    "score": 1,
+    "cat": "sport",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Milan, il sogno scudetto passa, il problema Leao resta",
+    "desc": "Nervoso e indolente, a Roma non è piaciuto",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/sport/calcio/serie-a/milan/2026/03/16/news/milan_lazio_leao_sostituzione_sconfitta_scudetto-425224488/",
+    "buzz": "✋ 5.000 menzioni stimate",
+    "buzzNum": 5000,
+    "trending": false,
+    "socials": [],
+    "detail": "Il Milan ha perso il sogno scudetto, mentre il problema Leao resta."
+  },
+  {
+    "id": 10,
+    "score": 1,
+    "cat": "cronaca",
+    "date": "Mon, 16 Mar 2026",
+    "title": "Grazie Milano, è bello venire e trovare questa delinquenza",
+    "desc": "Matteo Bassetti va a cena con la moglie, al ritorno trova l'auto svaligiata",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/16/grazie-milano-e-bello-venire-e-trovare-questa-delinquenza-matteo-bassetti-va-a-cena-con-la-moglie-al-ritorno-trova-lauto-svaligiata-e-i-bagagli-spariti/8325515/",
+    "buzz": "✋ 2.000 menzioni stimate",
+    "buzzNum": 2000,
+    "trending": false,
+    "socials": [],
+    "detail": "Matteo Bassetti ha trovato l'auto svaligiata dopo una cena con la moglie a Milano."
   }
 ]
