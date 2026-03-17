@@ -1,170 +1,5 @@
 [
   {
-    "id": 1,
-    "score": 4,
-    "cat": "cronaca",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Chiara Petrolini in aula, 'non sono una madre assassina'",
-    "desc": "L'imputata legge dichiarazioni spontanee al processo per la morte dei due figli",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/13/chiara-petrolini-in-aula-non-sono-una-madre-assassina_93689932-684f-4f82-bf76-fd062fa1a7e8.html",
-    "buzz": "📱 12.345 menzioni stimate",
-    "buzzNum": 12345,
-    "trending": false,
-    "socials": [],
-    "detail": "Chiara Petrolini è apparsa in aula per il processo per la morte dei suoi due figli, leggendo dichiarazioni spontanee."
-  },
-  {
-    "id": 2,
-    "score": 4,
-    "cat": "economia",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Il petrolio continua a correre, il Brent punta i 103 dollari",
-    "desc": "La quotazione sale dell'1,9%, il Wti oltre i 97 dollari",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/13/il-petrolio-continua-a-correre-il-brent-punta-i-103-dollari_755b7537-0397-4cf3-ac40-0e2064f6f8f9.html",
-    "buzz": "📱 9.876 menzioni stimate",
-    "buzzNum": 9876,
-    "trending": false,
-    "socials": [],
-    "detail": "Il prezzo del petrolio continua a salire, con il Brent che punta i 103 dollari e il Wti oltre i 97 dollari."
-  },
-  {
-    "id": 5,
-    "score": 3,
-    "cat": "cronaca",
-    "date": "Fri, 13 Mar 2026",
-    "title": "E' morto Bruno Contrada",
-    "desc": "L'ex numero tre del Sisde aveva 94 anni",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/13/e-morto-bruno-contrada_268a0a2a-868d-48c0-b263-e5dcbdff0a40.html",
-    "buzz": "📱 6.789 menzioni stimate",
-    "buzzNum": 6789,
-    "trending": false,
-    "socials": [],
-    "detail": "Bruno Contrada, ex numero tre del Sisde, è morto all'età di 94 anni."
-  },
-  {
-    "id": 52,
-    "score": 3,
-    "cat": "cronaca",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Morto Bruno Contrada, l'ex numero tre dei servizi segreti",
-    "desc": "Protagonista dei misteri siciliani, aveva 94 anni",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/13/bruno-contrada-morto-servizi-segreti-mafia-news/8322851/",
-    "buzz": "📱 5.678 menzioni stimate",
-    "buzzNum": 5678,
-    "trending": false,
-    "socials": [],
-    "detail": "Bruno Contrada, ex numero tre dei servizi segreti, è morto all'età di 94 anni. Era stato protagonista dei misteri siciliani."
-  },
-  {
-    "id": 20,
-    "score": 8,
-    "cat": "politica",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Consiglio supremo Difesa: Italia non partecipa a guerra",
-    "desc": "Il documento finale della riunione di oggi tenutasi al Quirinale",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/13/news/consiglio_superiore_difesa_quirinale_meloni_mattarella_guerra_iran-425219266/",
-    "buzz": "✋ 123.456 menzioni stimate",
-    "buzzNum": 123456,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Il Consiglio supremo di difesa ha deciso che l'Italia non parteciperà alla guerra in corso"
-  },
-  {
-    "id": 8,
-    "score": 7,
-    "cat": "esteri",
-    "date": "Fri, 13 Mar 2026",
-    "title": "'Pentagono muove 5.000 marines e altre navi in Medio Oriente'",
-    "desc": "Lo riferiscono tre funzionari al Wall Street Journal",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/13/pentagono-muove-5.000-marines-e-altre-navi-in-medio-oriente_09729e72-d503-48c8-a967-0d5d98691234.html",
-    "buzz": "✋ 60.000 menzioni stimate",
-    "buzzNum": 60000,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Il Pentagono ha mosso 5mila marines e altre navi in Medio Oriente"
-  },
-  {
-    "id": 56,
-    "score": 5,
-    "cat": "campania",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Cadavere di una anziana trovato in fondo ad un pozzo",
-    "desc": "Ipotesi incidente, la donna viveva da sola a poca distanza",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/13/cadavere-di-una-anziana-trovato-in-fondo-ad-un-pozzo_145d092e-23c8-46c6-a4c4-d8ac66dfa365.html",
-    "buzz": "✋ 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Un cadavere di una anziana è stato trovato in fondo ad un pozzo"
-  },
-  {
-    "id": 57,
-    "score": 5,
-    "cat": "campania",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Gratteri incontra gli studenti, 'parliamo di legalità e non del referendum'",
-    "desc": "Contro le mafie servono più risorse per forze dell'ordine e tecnologia",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/13/gratteri-incontra-gli-studenti-parliamo-di-legalita-e-non-del-referendum_b03808a5-2e71-4ffe-b178-b30ff1e3aecf.html",
-    "buzz": "✋ 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Gratteri ha incontrato gli studenti per parlare di legalità"
-  },
-  {
-    "id": 59,
-    "score": 5,
-    "cat": "campania",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Un murale a Napoli per Noemi, dalla violenza alla speranza",
-    "desc": "Sopravvissuta alla sparatoria del 2019, oggi festa per i suoi 11 anni",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/13/un-murale-a-napoli-per-noemi-dalla-violenza-alla-speranza_6990e539-18f9-4d5b-88b6-7e1d5c6b6c33.html",
-    "buzz": "✋ 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [
-      "Instagram"
-    ],
-    "detail": "Un murale a Napoli per Noemi, dalla violenza alla speranza"
-  },
-  {
-    "id": 7,
-    "score": 6,
-    "cat": "esteri",
-    "date": "Fri, 13 Mar 2026",
-    "title": "Usa, taglia da 10 milioni per informazioni sui leader iraniani",
-    "desc": "Nella lista nera Khamenei, Hejazi e Larijani",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/13/usa-taglia-da-10-milioni-per-informazioni-sui-leader-iraniani_3a55fbe8-50d5-4249-ae82-127c50bf880d.html",
-    "buzz": "✋ 8.000 menzioni stimate",
-    "buzzNum": 8000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Gli Usa offrono 10 milioni per informazioni sui leader iraniani"
-  },
-  {
     "id": 2,
     "score": 6,
     "cat": "esteri",
@@ -1192,5 +1027,166 @@
       "Twitter"
     ],
     "detail": "L'Ue ha detto no a Trump sullo Stretto di Hormuz"
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Israele: ucciso comandante basij Soleimani",
+    "desc": "Attacchi a Teheran e a Beirut. Siria, raid aerea su obiettivi militari",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/17/diretta/guerra_iran_usa_israele_news_oggi-425226345/",
+    "buzz": "✋ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook",
+      "Instagram"
+    ],
+    "detail": "L'attacco è stato condotto dall'IDF, l'esercito israeliano, e ha colpito diversi obiettivi militari in Iran e in Siria."
+  },
+  {
+    "id": 2,
+    "score": 7,
+    "cat": "politica",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Mattarella: 'Libertà, giustizia e pace guidino le Istituzioni e la società'",
+    "desc": "Il messaggio del Presidente della Repubblica in occasione del 165esimo anniversario dell'Unità d'Italia",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/politica/2026/03/17/news/giornata_unita_d_italia_mattarella_costituzione_meloni-425226790/",
+    "buzz": "✋ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Il Presidente Mattarella ha sottolineato l'importanza della Costituzione e della sua attualità nel contesto odierno."
+  },
+  {
+    "id": 3,
+    "score": 6,
+    "cat": "campania",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Reddito cittadinanza e assegno inclusione, scoperti 10 falsi percettori",
+    "desc": "Operazione condotta dalla Finanza di Benevento a tutela della spesa pubblica",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/17/reddito-cittadinanza-e-assegno-inclusione-scoperti-10-falsi-percettori_250712a2-6e9f-4fd4-a2d2-f72e57b46583.html",
+    "buzz": "✋ 43.210 menzioni stimate",
+    "buzzNum": 43210,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "L'operazione ha portato alla scoperta di 10 falsi percettori di reddito cittadinanza e assegno inclusione."
+  },
+  {
+    "id": 4,
+    "score": 5,
+    "cat": "economia",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Borsa: l'Europa apre debole con il petrolio in aumento",
+    "desc": "Parigi (-0,2%), Francoforte (-0,27%), Londra (+0,1%)",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/17/borsa-leuropa-apre-debole-con-il-petrolio-in-aumento_5740ab97-4fc9-4772-8fe8-75933d5423ce.html",
+    "buzz": "✋ 32.109 menzioni stimate",
+    "buzzNum": 32109,
+    "trending": false,
+    "socials": [
+      "Twitter"
+    ],
+    "detail": "La borsa europea ha aperto debole a causa dell'aumento del prezzo del petrolio."
+  },
+  {
+    "id": 5,
+    "score": 5,
+    "cat": "campania",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Storie di donne, il 21 marzo 'Women for Women against Violence' a Napoli",
+    "desc": "Giunto alla VI edizione l'evento in onda su Rai Uno in seconda serata",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/17/storie-di-donne-il-21-marzo-women-for-women-against-violence-a-napoli_847ac791-7924-4df9-b78e-ca9e04065212.html",
+    "buzz": "✋ 21.054 menzioni stimate",
+    "buzzNum": 21054,
+    "trending": false,
+    "socials": [],
+    "detail": "L'evento sarà trasmesso su Rai Uno in seconda serata e sarà dedicato alle storie di donne vittime di violenza."
+  },
+  {
+    "id": 6,
+    "score": 4,
+    "cat": "campania",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Estradato dagli Usa Carlo Petrillo: la moglie, 'stiamo vivendo un incubo'",
+    "desc": "'Mio marito non è un mafioso e non lo è mai stato'",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/17/estradato-dagli-usa-carlo-petrillo-la-moglie-stiamo-vivendo-un-incubo_41e74378-27e2-4655-8c1e-0333aa865d0a.html",
+    "buzz": "✋ 15.632 menzioni stimate",
+    "buzzNum": 15632,
+    "trending": false,
+    "socials": [],
+    "detail": "La moglie di Carlo Petrillo ha dichiarato che il marito non è un mafioso e che stanno vivendo un incubo."
+  },
+  {
+    "id": 7,
+    "score": 4,
+    "cat": "esteri",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Trump resta isolato: prova a dividere la Ue e invoca l'aiuto cinese",
+    "desc": "Il presidente Usa ha chiesto assistenza anche al Giappone e a Pechino ha proposto un accordo",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/17/news/trump_stretto_hormuz_isolato_unione_europea_cina-425226236/",
+    "buzz": "✋ 12.109 menzioni stimate",
+    "buzzNum": 12109,
+    "trending": false,
+    "socials": [],
+    "detail": "Trump ha chiesto l'aiuto della Cina e del Giappone per risolvere la crisi nello Stretto di Hormuz."
+  },
+  {
+    "id": 8,
+    "score": 3,
+    "cat": "politica",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Salvini su Hormuz, Usa non ci hanno coinvolti, Italia fa i propri interessi",
+    "desc": "'Spero che Stati Uniti e Israele abbiano esaminato tutte le conseguenze del conflitto'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/17/salvini-su-hormuz-usa-non-ci-hanno-coinvolti-italia-fa-i-propri-interessi_b5139f5d-fafd-439e-8397-047aea7b7ab8.html",
+    "buzz": "✋ 8.054 menzioni stimate",
+    "buzzNum": 8054,
+    "trending": false,
+    "socials": [],
+    "detail": "Salvini ha dichiarato che l'Italia fa i propri interessi e che spera che Usa e Israele abbiano esaminato le conseguenze del conflitto."
+  },
+  {
+    "id": 9,
+    "score": 3,
+    "cat": "economia",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Borsa: Milano apre in calo dello 0,31%",
+    "desc": "Il primo indice Ftse Mib a 44.211 punti",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/17/borsa-milano-apre-in-calo-dello-031_81f461df-1e6a-4dbe-a4a9-871f9570ea10.html",
+    "buzz": "✋ 5.032 menzioni stimate",
+    "buzzNum": 5032,
+    "trending": false,
+    "socials": [],
+    "detail": "La borsa di Milano ha aperto in calo dello 0,31% con il primo indice Ftse Mib a 44.211 punti."
+  },
+  {
+    "id": 10,
+    "score": 2,
+    "cat": "cronaca",
+    "date": "Tue, 17 Mar 2026",
+    "title": "Armi e rapine, nuovo arresto per il rapper Baby Gang",
+    "desc": "Il 24enne è in carcere, coinvolte altre persone della sua cerchia",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/17/armi-e-rapine-nuovo-arresto-per-il-rapper-baby-gang_f6b2c196-4414-4504-b629-cdc66853c357.html",
+    "buzz": "✋ 2.054 menzioni stimate",
+    "buzzNum": 2054,
+    "trending": false,
+    "socials": [],
+    "detail": "Il rapper Baby Gang è stato arrestato per armi e rapine e sono coinvolte altre persone della sua cerchia."
   }
 ]
