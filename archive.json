@@ -1,159 +1,5 @@
 [
   {
-    "id": 10,
-    "score": 1,
-    "cat": "cronaca",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Grazie Milano, è bello venire e trovare questa delinquenza",
-    "desc": "Matteo Bassetti va a cena con la moglie, al ritorno trova l'auto svaligiata",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/16/grazie-milano-e-bello-venire-e-trovare-questa-delinquenza-matteo-bassetti-va-a-cena-con-la-moglie-al-ritorno-trova-lauto-svaligiata-e-i-bagagli-spariti/8325515/",
-    "buzz": "✋ 2.000 menzioni stimate",
-    "buzzNum": 2000,
-    "trending": false,
-    "socials": [],
-    "detail": "Matteo Bassetti ha trovato l'auto svaligiata dopo una cena con la moglie a Milano."
-  },
-  {
-    "id": 28,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Trump: 'Macron? Gli do 8 su 10'",
-    "desc": "Trump valuta Macron e parla dello Stretto di Hormuz",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/16/trump-macron-stretto-hormuz-voto-notizie/8326375/",
-    "buzz": "✋ 123.456 menzioni stimate",
-    "buzzNum": 123456,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Trump ha espresso la sua opinione su Macron e ha parlato dello Stretto di Hormuz"
-  },
-  {
-    "id": 1,
-    "score": 9,
-    "cat": "esteri",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Emirati: incendio dopo raid di droni",
-    "desc": "Incendio in un campo petrolifero dopo un raid di droni",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/emirati-incendio-dopo-raid-di-droni-su-un-importante-campo-petrolifero_eb99ba84-d38b-41c9-89a8-7f485984be46.html",
-    "buzz": "✋ 87.654 menzioni stimate",
-    "buzzNum": 87654,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Un incendio è scoppiato in un campo petrolifero dopo un raid di droni"
-  },
-  {
-    "id": 42,
-    "score": 7,
-    "cat": "campania",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Gratteri: 'Riforma giustizia blindata'",
-    "desc": "Gratteri critica la riforma della giustizia",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/16/gratteri-riforma-giustizia-blindata-con-larroganza-del-potere_9dfc67c0-949c-4437-a140-d38fef3465ce.html",
-    "buzz": "✋ 43.210 menzioni stimate",
-    "buzzNum": 43210,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Gratteri ha criticato la riforma della giustizia definendola 'blindata'"
-  },
-  {
-    "id": 44,
-    "score": 8,
-    "cat": "campania",
-    "date": "Mon, 16 Mar 2026",
-    "title": "La morte di Domenico: Fico avvia ispezione",
-    "desc": "Fico avvia un'ispezione dopo la morte di Domenico",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/16/la-morte-di-domenico-fico-quadro-piu-grave-di-quanto-inizialmente-emerso_2c79ef5d-9d55-4a98-a045-30559c44bb88.html",
-    "buzz": "✋ 32.109 menzioni stimate",
-    "buzzNum": 32109,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Fico ha avviato un'ispezione dopo la morte di Domenico"
-  },
-  {
-    "id": 43,
-    "score": 6,
-    "cat": "campania",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Fico: 'Stop trapianti pediatrici al Monaldi'",
-    "desc": "Fico ordina di stoppare i trapianti pediatrici al Monaldi",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/16/fico-stop-trapianti-pediatrici-al-monaldi-fino-a-ripristino-condizioni-sicurezza_bec38f3e-beaa-4f42-a5fd-264ba90ddfd5.html",
-    "buzz": "✋ 21.054 menzioni stimate",
-    "buzzNum": 21054,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Fico ha ordinato di stoppare i trapianti pediatrici al Monaldi"
-  },
-  {
-    "id": 2,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Pezeshkian: 'Uso basi Usa nella regione deve cessare'",
-    "desc": "Pezeshkian chiede che l'uso delle basi Usa nella regione cessi",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/pezeshkian-ho-sentito-macron-uso-delle-basi-usa-nella-regione-deve_de91f75e-560d-4a9b-9bef-41af42b4706d.html",
-    "buzz": "✋ 18.765 menzioni stimate",
-    "buzzNum": 18765,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Pezeshkian ha chiesto che l'uso delle basi Usa nella regione cessi"
-  },
-  {
-    "id": 3,
-    "score": 7,
-    "cat": "esteri",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Teheran: 'Se Usa mandano truppe sarà un altro Vietnam'",
-    "desc": "Teheran avverte che se gli Usa mandano truppe sarà un altro Vietnam",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/teheran-se-usa-mandano-truppe-di-terra-sara-un-altro-vietnam_f4bbc590-1868-4ef2-8cf7-4a280a37ecb8.html",
-    "buzz": "✋ 14.521 menzioni stimate",
-    "buzzNum": 14521,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Teheran ha avvertito che se gli Usa mandano truppe sarà un altro Vietnam"
-  },
-  {
-    "id": 8,
-    "score": 6,
-    "cat": "esteri",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Libano: oltre un milione di sfollati",
-    "desc": "Oltre un milione di persone sono sfollate in Libano",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/16/libano-oltre-un-milione-di-sfollati_69b8fb40-ef8f-45ff-9600-001affaabaef.html",
-    "buzz": "✋ 10.329 menzioni stimate",
-    "buzzNum": 10329,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Oltre un milione di persone sono sfollate in Libano"
-  },
-  {
     "id": 26,
     "score": 5,
     "cat": "cronaca",
@@ -1176,5 +1022,145 @@
     "trending": false,
     "socials": [],
     "detail": "Lo spread tra Btp e Bund tedeschi ha chiuso poco mosso a 82,1 punti"
+  },
+  {
+    "id": 11,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Guerra Ucraina - Russia, le news di oggi",
+    "desc": "Meloni: 'Orban? Problema risolvibile, serve flessibilità'",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/20/diretta/guerra_ucraina_russia_news_oggi-425233650/",
+    "buzz": "✋ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "La guerra in Ucraina continua"
+  },
+  {
+    "id": 1,
+    "score": 6,
+    "cat": "esteri",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Iran, 'col sì agli Usa, Starmer mette in pericolo vite britanniche'",
+    "desc": "Araghchi: 'Eserciteremo il diritto all'autodifesa'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/20/iran-col-si-agli-usa-starmer-mette-in-pericolo-vite-britanniche_010f1c36-e630-4b1f-a473-87e456cd945d.html",
+    "buzz": "✋ 56.789 menzioni stimate",
+    "buzzNum": 56789,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La situazione in Iran si sta aggravando"
+  },
+  {
+    "id": 56,
+    "score": 5,
+    "cat": "campania",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Neonata morta in ospedale a Benevento, indagati due medici",
+    "desc": "Procura apre fascicolo, disposta l'autopsia",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/20/neonata-morta-in-ospedale-a-benevento-indagati-due-medici_31231c6d-7af4-4565-9408-01e52be98bbb.html",
+    "buzz": "✋ 34.567 menzioni stimate",
+    "buzzNum": 34567,
+    "trending": false,
+    "socials": [],
+    "detail": "Indagine aperta per la morte di una neonata"
+  },
+  {
+    "id": 57,
+    "score": 5,
+    "cat": "campania",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Vannacci, Futuro nazionale vuole andare avanti e cambiare vecchia politica",
+    "desc": "Collegamento video all'evento organizzato dal partito a Napoli",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/20/vannacci-futuro-nazionale-vuole-andare-avanti-e-cambiare-vecchia-politica_db23e107-2fa0-4deb-9210-a7d98deffb4e.html",
+    "buzz": "✋ 23.456 menzioni stimate",
+    "buzzNum": 23456,
+    "trending": false,
+    "socials": [],
+    "detail": "Futuro nazionale vuole cambiare la politica"
+  },
+  {
+    "id": 58,
+    "score": 5,
+    "cat": "campania",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Dalla crisi industriale alla Apple Academy, 'così è cambiata la periferia di Napoli'",
+    "desc": "Roberta racconta, 'qui si lavorava il pomodoro e oggi si progetta il futuro'",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/20/dalla-crisi-industriale-alla-apple-academy-cosi-e-cambiata-la-periferia-di-napoli_9bd85ea2-802a-4e0c-bbd7-0a53c0e06481.html",
+    "buzz": "✋ 17.890 menzioni stimate",
+    "buzzNum": 17890,
+    "trending": false,
+    "socials": [],
+    "detail": "La periferia di Napoli è cambiata"
+  },
+  {
+    "id": 4,
+    "score": 4,
+    "cat": "esteri",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Gb autorizza gli Usa a usare basi per proteggere Hormuz",
+    "desc": "Il governo Starmer ha deciso oggi di ampliare il raggio delle operazioni aeree",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/20/gb-autorizza-gli-usa-a-usare-basi-per-proteggere-hormuz_ebbd04d8-155a-4bb4-b16f-f96cc9e7d110.html",
+    "buzz": "✋ 12.345 menzioni stimate",
+    "buzzNum": 12345,
+    "trending": false,
+    "socials": [],
+    "detail": "La situazione in Iran si sta aggravando"
+  },
+  {
+    "id": 2,
+    "score": 4,
+    "cat": "esteri",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Tajani, minacce dell'Iran a mete turistiche? 'Non vedo rischi imminenti in Italia'",
+    "desc": "'Controlli aumentati dall'inizio della guerra, prevenzione fondamentale'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/20/tajani-minacce-delliran-a-mete-turistiche-non-vedo-rischi-imminenti-in-italia_4355d3b4-593e-4feb-9411-6fc631fc124d.html",
+    "buzz": "✋ 9.876 menzioni stimate",
+    "buzzNum": 9876,
+    "trending": false,
+    "socials": [],
+    "detail": "Tajani non vede rischi imminenti in Italia"
+  },
+  {
+    "id": 22,
+    "score": 3,
+    "cat": "cronaca",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Chuck Norris morto, il re dell'azione di Hollywood",
+    "desc": "L'attore aveva 86 anni",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/spettacoli/cinema/2026/03/20/news/chuck_norris_morto-425234817/",
+    "buzz": "✋ 6.789 menzioni stimate",
+    "buzzNum": 6789,
+    "trending": false,
+    "socials": [],
+    "detail": "Chuck Norris è morto all'età di 86 anni"
+  },
+  {
+    "id": 41,
+    "score": 3,
+    "cat": "politica",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Caso Delmastro, Travaglio: 'Uno che sta per tre anni in società con la figlia di un prestanome mafioso'",
+    "desc": "'Bastava andare su Google per capire chi era Caroccia'",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/20/delmastro-caroccia-travaglio-governo-notizie/8331410/",
+    "buzz": "✋ 4.567 menzioni stimate",
+    "buzzNum": 4567,
+    "trending": false,
+    "socials": [],
+    "detail": "Travaglio attacca Delmastro"
   }
 ]
