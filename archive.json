@@ -1,140 +1,5 @@
 [
   {
-    "id": 26,
-    "score": 5,
-    "cat": "cronaca",
-    "date": "Mon, 16 Mar 2026",
-    "title": "Cuore bruciato, Regione dispone ispezione",
-    "desc": "La Regione dispone un'ispezione dopo il caso del cuore bruciato",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/16/cuore-bruciato-domenico-regione-ispezione-azienda-ospedaliera-news/8326404/",
-    "buzz": "✋ 5.123 menzioni stimate",
-    "buzzNum": 5123,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "La Regione ha disposto un'ispezione dopo il caso del cuore bruciato"
-  },
-  {
-    "id": 60,
-    "score": 4,
-    "cat": "esteri",
-    "date": "lun, 16 mar 2026",
-    "title": "Hormuz, no dell'Ue a Trump",
-    "desc": "L'Ue dice no a Trump sullo Stretto di Hormuz",
-    "source": "Il Mattino",
-    "sourceUrl": "https://www.ilmattino.it/primopiano/esteri/stretto_hormuz_nato_modello_mar_nero-9419349.html",
-    "buzz": "✋ 2.019 menzioni stimate",
-    "buzzNum": 2019,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "L'Ue ha detto no a Trump sullo Stretto di Hormuz"
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "esteri",
-    "date": "Tue, 17 Mar 2026",
-    "title": "Israele: ucciso comandante basij Soleimani",
-    "desc": "Attacchi a Teheran e a Beirut. Siria, raid aerea su obiettivi militari",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/17/diretta/guerra_iran_usa_israele_news_oggi-425226345/",
-    "buzz": "✋ 123.456 menzioni stimate",
-    "buzzNum": 123456,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook",
-      "Instagram"
-    ],
-    "detail": "L'attacco è stato condotto dall'IDF, l'esercito israeliano, e ha colpito diversi obiettivi militari in Iran e in Siria."
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "politica",
-    "date": "Tue, 17 Mar 2026",
-    "title": "Mattarella: 'Libertà, giustizia e pace guidino le Istituzioni e la società'",
-    "desc": "Il messaggio del Presidente della Repubblica in occasione del 165esimo anniversario dell'Unità d'Italia",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/17/news/giornata_unita_d_italia_mattarella_costituzione_meloni-425226790/",
-    "buzz": "✋ 87.654 menzioni stimate",
-    "buzzNum": 87654,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Il Presidente Mattarella ha sottolineato l'importanza della Costituzione e della sua attualità nel contesto odierno."
-  },
-  {
-    "id": 3,
-    "score": 6,
-    "cat": "campania",
-    "date": "Tue, 17 Mar 2026",
-    "title": "Reddito cittadinanza e assegno inclusione, scoperti 10 falsi percettori",
-    "desc": "Operazione condotta dalla Finanza di Benevento a tutela della spesa pubblica",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/17/reddito-cittadinanza-e-assegno-inclusione-scoperti-10-falsi-percettori_250712a2-6e9f-4fd4-a2d2-f72e57b46583.html",
-    "buzz": "✋ 43.210 menzioni stimate",
-    "buzzNum": 43210,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "L'operazione ha portato alla scoperta di 10 falsi percettori di reddito cittadinanza e assegno inclusione."
-  },
-  {
-    "id": 4,
-    "score": 5,
-    "cat": "economia",
-    "date": "Tue, 17 Mar 2026",
-    "title": "Borsa: l'Europa apre debole con il petrolio in aumento",
-    "desc": "Parigi (-0,2%), Francoforte (-0,27%), Londra (+0,1%)",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/17/borsa-leuropa-apre-debole-con-il-petrolio-in-aumento_5740ab97-4fc9-4772-8fe8-75933d5423ce.html",
-    "buzz": "✋ 32.109 menzioni stimate",
-    "buzzNum": 32109,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "La borsa europea ha aperto debole a causa dell'aumento del prezzo del petrolio."
-  },
-  {
-    "id": 5,
-    "score": 5,
-    "cat": "campania",
-    "date": "Tue, 17 Mar 2026",
-    "title": "Storie di donne, il 21 marzo 'Women for Women against Violence' a Napoli",
-    "desc": "Giunto alla VI edizione l'evento in onda su Rai Uno in seconda serata",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/17/storie-di-donne-il-21-marzo-women-for-women-against-violence-a-napoli_847ac791-7924-4df9-b78e-ca9e04065212.html",
-    "buzz": "✋ 21.054 menzioni stimate",
-    "buzzNum": 21054,
-    "trending": false,
-    "socials": [],
-    "detail": "L'evento sarà trasmesso su Rai Uno in seconda serata e sarà dedicato alle storie di donne vittime di violenza."
-  },
-  {
-    "id": 6,
-    "score": 4,
-    "cat": "campania",
-    "date": "Tue, 17 Mar 2026",
-    "title": "Estradato dagli Usa Carlo Petrillo: la moglie, 'stiamo vivendo un incubo'",
-    "desc": "'Mio marito non è un mafioso e non lo è mai stato'",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/17/estradato-dagli-usa-carlo-petrillo-la-moglie-stiamo-vivendo-un-incubo_41e74378-27e2-4655-8c1e-0333aa865d0a.html",
-    "buzz": "✋ 15.632 menzioni stimate",
-    "buzzNum": 15632,
-    "trending": false,
-    "socials": [],
-    "detail": "La moglie di Carlo Petrillo ha dichiarato che il marito non è un mafioso e che stanno vivendo un incubo."
-  },
-  {
     "id": 7,
     "score": 4,
     "cat": "esteri",
@@ -1162,5 +1027,135 @@
     "trending": false,
     "socials": [],
     "detail": "Travaglio attacca Delmastro"
+  },
+  {
+    "id": 6,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sat, 21 Mar 2026",
+    "title": "Iran lancia due missili contro l'isola Diego Garcia",
+    "desc": "Wsj, 'la base Usa-Gb non è stata colpita'",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/21/iran-lancia-due-missili-contro-lisola-diego-garcia_0124474b-93bd-4e10-b75e-a139148ead19.html",
+    "buzz": "📱 90.000 menzioni stimate",
+    "buzzNum": 90000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "La tensione tra Iran e Stati Uniti è in aumento"
+  },
+  {
+    "id": 15,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sat, 21 Mar 2026",
+    "title": "Trump: 'Alleati codardi'",
+    "desc": "Il presidente dopo il mancato aiuto per liberare lo Stretto: 'Mi fido più di Putin'",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/21/news/trump_nato_codardi_marines_hormuz_attacco_terra-425235843/",
+    "buzz": "📱 60.000 menzioni stimate",
+    "buzzNum": 60000,
+    "trending": true,
+    "socials": [
+      "Twitter",
+      "Facebook"
+    ],
+    "detail": "Le dichiarazioni di Trump hanno scatenato una forte reazione"
+  },
+  {
+    "id": 56,
+    "score": 6,
+    "cat": "campania",
+    "date": "Sat, 21 Mar 2026",
+    "title": "Truffa sul Superbonus 110%, sequestrati 3,5 milioni di euro",
+    "desc": "L'operazione della Guardia di Finanza di Brescia ha riguardato numerose province",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/21/truffa-sul-superbonus-110-sequestrati-35-milioni-di-euro_42d2e36e-7548-472d-81aa-03def256a9db.html",
+    "buzz": "📱 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La truffa ha coinvolto diverse regioni italiane"
+  },
+  {
+    "id": 57,
+    "score": 6,
+    "cat": "campania",
+    "date": "Fri, 20 Mar 2026",
+    "title": "Al Napoli basta McTominay, Conte supera il Milan ed è secondo",
+    "desc": "Terza sconfitta di fila per il Cagliari, che da febbraio ha ottenuto soli 2 punti",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/20/al-napoli-basta-mctominay-conte-supera-il-milan-ed-e-secondo_8aa95135-f18f-4c17-bb02-e309584b8ba3.html",
+    "buzz": "📱 20.000 menzioni stimate",
+    "buzzNum": 20000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Il Napoli si avvicina alla vetta della classifica"
+  },
+  {
+    "id": 2,
+    "score": 5,
+    "cat": "cronaca",
+    "date": "Sat, 21 Mar 2026",
+    "title": "Schianto auto-moto a Milano, morti due ventenni",
+    "desc": "Avevano 20 e 23 anni, una terza persona ferita",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/21/schianto-auto-moto-a-milano-morti-due-ventenni_40f05790-eba5-4b51-b863-963809fbaa22.html",
+    "buzz": "📱 8.000 menzioni stimate",
+    "buzzNum": 8000,
+    "trending": false,
+    "socials": [],
+    "detail": "Lo schianto è avvenuto all'incrocio di due strade"
+  },
+  {
+    "id": 1,
+    "score": 5,
+    "cat": "cronaca",
+    "date": "Sat, 21 Mar 2026",
+    "title": "Omicidio nella notte ad Arezzo, fermato un uomo",
+    "desc": "Vittima sarebbe stata ferita a morte con un colpo di arma da fuoco",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/21/omicidio-nella-notte-ad-arezzo-fermato-un-uomo_2b815afe-4db6-4e0a-b401-d06671179fb2.html",
+    "buzz": "📱 6.000 menzioni stimate",
+    "buzzNum": 6000,
+    "trending": false,
+    "socials": [],
+    "detail": "L'omicidio è avvenuto nella notte"
+  },
+  {
+    "id": 24,
+    "score": 4,
+    "cat": "politica",
+    "date": "Sat, 21 Mar 2026",
+    "title": "Meloni sul referendum: 'Manina dietro Delmastro, gli italiani valuteranno'",
+    "desc": "Chiusa la campagna elettorale: la presidente difende il sottosegretario e parla di 'manina' dietro le quinte",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/politica/2026/03/21/news/meloni_referendum_campagna_manina_delmastro-425235897/",
+    "buzz": "📱 4.000 menzioni stimate",
+    "buzzNum": 4000,
+    "trending": false,
+    "socials": [],
+    "detail": "La presidente Meloni difende il sottosegretario Delmastro"
+  },
+  {
+    "id": 8,
+    "score": 4,
+    "cat": "sport",
+    "date": "Sat, 21 Mar 2026",
+    "title": "Tennis: Miami, Berrettini batte Bublik ed è al terzo turno",
+    "desc": "L'azzurro elimina il kazako con un doppio 6-4",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/21/tennis-miami-berrettini-batte-bublik-ed-e-al-terzo-turno_1f52de27-63f3-45a6-a705-0c27219b42e4.html",
+    "buzz": "📱 2.000 menzioni stimate",
+    "buzzNum": 2000,
+    "trending": false,
+    "socials": [],
+    "detail": "Berrettini si avvicina ai quarti di finale"
   }
 ]
