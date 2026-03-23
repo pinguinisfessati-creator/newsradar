@@ -3,179 +3,6 @@
     "id": 4,
     "score": 6,
     "cat": "campania",
-    "date": "Wed, 18 Mar 2026",
-    "title": "Boom di casi di epatite A a Napoli, 43 ricoverati al Cotugno",
-    "desc": "I numeri sono insoliti per essere a marzo, barelle in pronto soccorso",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/18/boom-di-casi-di-epatite-a-a-napoli-43-ricoverati-al-cotugno_6ba872fc-84f7-4385-adf7-88c42de9c98e.html",
-    "buzz": "✋ 50.000 menzioni stimate",
-    "buzzNum": 50000,
-    "trending": true,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "A Napoli è stato registrato un boom di casi di epatite A, con 43 ricoverati al Cotugno. I numeri sono insoliti per essere a marzo."
-  },
-  {
-    "id": 5,
-    "score": 6,
-    "cat": "campania",
-    "date": "Wed, 18 Mar 2026",
-    "title": "Giù le temperature, imbiancato il Vesuvio",
-    "desc": "Pioggia e freddo nel Napoletano",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/18/giu-le-temperature-imbiancato-il-vesuvio_7f669d26-ea0a-499d-96e4-ae74e61069e2.html",
-    "buzz": "✋ 40.000 menzioni stimate",
-    "buzzNum": 40000,
-    "trending": true,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Le temperature sono scese e il Vesuvio è stato imbiancato. Pioggia e freddo nel Napoletano."
-  },
-  {
-    "id": 6,
-    "score": 5,
-    "cat": "politica",
-    "date": "Wed, 18 Mar 2026",
-    "title": "Schlein, taglino le accise con l'extragettito",
-    "desc": "Facciano in fretta",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/18/schlein-taglino-le-accise-con-lextragettito_3e1bb814-de30-4e0a-92af-d59f33cf7218.html",
-    "buzz": "✋ 30.000 menzioni stimate",
-    "buzzNum": 30000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Schlein chiede di tagliare le accise con l'extragettito e di fare in fretta."
-  },
-  {
-    "id": 7,
-    "score": 5,
-    "cat": "economia",
-    "date": "Wed, 18 Mar 2026",
-    "title": "Pesca: Lollobrigida, credito di imposta al 20% sui carburanti",
-    "desc": "Previsto un credito di 10 milioni di euro a partire da marzo per attutire i rincari",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/18/pesca-lollobrigida-credito-di-imposta-al-20-sui-carburanti_0d34b9df-f35f-4464-8a22-b15f15b27635.html",
-    "buzz": "✋ 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Lollobrigida annuncia un credito di imposta al 20% sui carburanti per attutire i rincari."
-  },
-  {
-    "id": 8,
-    "score": 4,
-    "cat": "esteri",
-    "date": "Wed, 18 Mar 2026",
-    "title": "Qatar, incendio nel maggior complesso del gas dopo attacco Iran",
-    "desc": "La struttura di Ras Laffan è il principale impianto del Paese",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/18/qatar-incendio-nel-maggior-complesso-del-gas-dopo-attacco-iran_81838e2a-697e-402a-8467-f8234cb00f60.html",
-    "buzz": "✋ 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "In Qatar è scoppiato un incendio nel maggior complesso del gas dopo un attacco dell'Iran."
-  },
-  {
-    "id": 9,
-    "score": 4,
-    "cat": "cronaca",
-    "date": "Wed, 18 Mar 2026",
-    "title": "Femminicidio a Bergamo: Valentina Sarto uccisa dal marito",
-    "desc": "La vittima ha 42 anni, il marito Vincenzo Dongellini l'ha accoltellata in casa",
-    "source": "Repubblica",
-    "sourceUrl": "https://milano.repubblica.it/cronaca/2026/03/18/news/femminicidio_bergamo_donna_uccisa_coltellate_marito-425229991/",
-    "buzz": "✋ 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "A Bergamo è avvenuto un femminicidio: la vittima, Valentina Sarto, è stata uccisa dal marito."
-  },
-  {
-    "id": 10,
-    "score": 3,
-    "cat": "sport",
-    "date": "Wed, 18 Mar 2026",
-    "title": "Tonali si fa male durante Barcellona-Tottenham, allarme per Gattuso",
-    "desc": "Il centrocampista rischia di saltare il match dell'Italia contro l'Irlanda del Nord",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/sport/calcio/esteri/2026/03/18/news/tonali_infortunio_allarme_play-off_mondiali_barcellona_newcastle-425230737/",
-    "buzz": "✋ 5.000 menzioni stimate",
-    "buzzNum": 5000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Tonali si è infortunato durante la partita Barcellona-Tottenham e rischia di saltare il match dell'Italia contro l'Irlanda del Nord."
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "economia",
-    "date": "Thu, 19 Mar 2026",
-    "title": "Borsa: l'Europa peggiora ancora",
-    "desc": "Milano e Francoforte -2%, lo spread si allarga verso gli 84 punti",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/19/borsa-leuropa-peggiora-ancora-milano-e-francoforte-2_bf02203e-fa6c-4256-9b8e-02f805b12bd5.html",
-    "buzz": "✋ 123.456 menzioni stimate",
-    "buzzNum": 123456,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "La borsa europea continua a perdere terreno, con Milano e Francoforte che chiudono con una perdita del 2%. Lo spread si allarga verso gli 84 punti."
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "esteri",
-    "date": "Thu, 19 Mar 2026",
-    "title": "Drone contro seconda raffineria in Kuwait",
-    "desc": "L'attacco ha provocato un incendio",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/19/drone-contro-seconda-raffineria-in-kuwait_3325c0be-15b5-4d33-8d72-ac17ff80c8c5.html",
-    "buzz": "✋ 87.654 menzioni stimate",
-    "buzzNum": 87654,
-    "trending": true,
-    "socials": [
-      "Twitter",
-      "Facebook"
-    ],
-    "detail": "Un drone ha attaccato una seconda raffineria in Kuwait, provocando un incendio."
-  },
-  {
-    "id": 3,
-    "score": 6,
-    "cat": "campania",
-    "date": "Thu, 19 Mar 2026",
-    "title": "Don Diana, diocesi Aversa avvia iter canonico per riconoscimento martirio",
-    "desc": "L'annuncio del vescovo in occasione anniversario omicidio sacerdote",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/19/don-diana-diocesi-aversa-avvia-iter-canonico-per-riconoscimento-martirio_90a63bff-72b1-40ea-8179-0ac3d5b22c2c.html",
-    "buzz": "✋ 43.210 menzioni stimate",
-    "buzzNum": 43210,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "La diocesi di Aversa ha avviato l'iter canonico per il riconoscimento del martirio di don Diana."
-  },
-  {
-    "id": 4,
-    "score": 6,
-    "cat": "campania",
     "date": "Thu, 19 Mar 2026",
     "title": "Maxi frode fiscale da 60 milioni, 24 rinviati a giudizio a Salerno",
     "desc": "A guidare l'organizzazione imprenditore residente a Dubai, due assolti",
@@ -1144,5 +971,176 @@
     "trending": false,
     "socials": [],
     "detail": "Marina Berlusconi al seggio per il referendum"
+  },
+  {
+    "id": 10,
+    "score": 8,
+    "cat": "cronaca",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Due donne uccise a Napoli",
+    "desc": "Un 34enne ubriaco ha investito e ucciso due donne a Napoli",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/due-donne-travolte-e-uccise-arrestato-34enne-alla-guida-ubriaco_fc344ebd-02db-49ea-84da-0aedfcee688a.html",
+    "buzz": "📱 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "L'incidente è avvenuto a Napoli, il 34enne è stato arrestato"
+  },
+  {
+    "id": 6,
+    "score": 7,
+    "cat": "politica",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Meloni al voto",
+    "desc": "La premier Meloni ha invitato a partecipare al voto",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/meloni-al-voto-partecipare-e-importante_abaea7b9-3aa4-4e71-b958-07382adb07be.html",
+    "buzz": "📱 90.000 menzioni stimate",
+    "buzzNum": 90000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "La premier ha sottolineato l'importanza di partecipare al voto"
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "cronaca",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Operaio muore incastrato in un macchinario",
+    "desc": "Un operaio di 22 anni è morto incastrato in un macchinario nel Padovano",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/operaio-di-22-anni-muore-incastrato-in-un-macchinario-nel-padovano_9e03cb64-7d85-4b6c-8683-d359a285a688.html",
+    "buzz": "📱 80.000 menzioni stimate",
+    "buzzNum": 80000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "L'incidente è avvenuto nel Padovano, l'operaio aveva 22 anni"
+  },
+  {
+    "id": 5,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Teheran minaccia di minare il Golfo Persico",
+    "desc": "Teheran ha minacciato di minare il Golfo Persico se le coste saranno attaccate",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/teheran-se-le-coste-saranno-attaccate-mineremo-tutto-il-golfo-persico_ecd7d29a-bb80-480a-b0d6-4b4e76cfc158.html",
+    "buzz": "📱 70.000 menzioni stimate",
+    "buzzNum": 70000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Teheran ha minacciato di minare il Golfo Persico se le coste saranno attaccate"
+  },
+  {
+    "id": 56,
+    "score": 6,
+    "cat": "campania",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Camera ardente per Cirino Pomicino",
+    "desc": "La camera ardente per Cirino Pomicino è stata allestita a Montecitorio",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/23/a-montecitorio-la-camera-ardente-per-cirino-pomicino_7c27fd83-9656-4585-86f0-38865c21106d.html",
+    "buzz": "📱 60.000 menzioni stimate",
+    "buzzNum": 60000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La camera ardente è stata allestita a Montecitorio"
+  },
+  {
+    "id": 7,
+    "score": 6,
+    "cat": "economia",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Borsa: l'Europa ancora in rosso",
+    "desc": "La Borsa europea è ancora in rosso a causa dell'escalation in Iran",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/borsa-leuropa-ancora-in-rosso-con-lescalation-in-iran_d91a0c1f-7607-42d2-92d6-e99bad0fa72a.html",
+    "buzz": "📱 60.000 menzioni stimate",
+    "buzzNum": 60000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La Borsa europea è ancora in rosso a causa dell'escalation in Iran"
+  },
+  {
+    "id": 57,
+    "score": 6,
+    "cat": "campania",
+    "date": "Mon, 23 Mar 2026",
+    "title": "100 anni del Calcio Napoli",
+    "desc": "Il Calcio Napoli celebra i 100 anni con 10.100 visitatori al Maradona",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/23/armato-i-100-anni-del-calcio-napoli-celebrati-con-10.100-visitatori_1f889282-61e7-42bf-a233-860033b998c6.html",
+    "buzz": "📱 50.000 menzioni stimate",
+    "buzzNum": 50000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Il Calcio Napoli celebra i 100 anni con 10.100 visitatori al Maradona"
+  },
+  {
+    "id": 9,
+    "score": 6,
+    "cat": "economia",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Borsa: Milano in avvio a -2,13%",
+    "desc": "La Borsa di Milano è partita in ribasso con un -2,13%",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/borsa-milano-in-avvio-a-213-vola-tim-con-opas-di-poste_52f46c10-3cd5-43d1-8952-345fc6838fb6.html",
+    "buzz": "📱 50.000 menzioni stimate",
+    "buzzNum": 50000,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "La Borsa di Milano è partita in ribasso con un -2,13%"
+  },
+  {
+    "id": 58,
+    "score": 5,
+    "cat": "campania",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Venditori di cozze in piazza a Napoli",
+    "desc": "I venditori di cozze in piazza a Napoli lamentano le false notizie",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/23/venditori-di-cozze-in-piazza-a-napoli-false-notizie-ci-stanno-rovinando_dfecbf11-bfb4-4003-b432-6a57b8a40559.html",
+    "buzz": "📱 40.000 menzioni stimate",
+    "buzzNum": 40000,
+    "trending": false,
+    "socials": [],
+    "detail": "I venditori di cozze in piazza a Napoli lamentano le false notizie"
+  },
+  {
+    "id": 8,
+    "score": 5,
+    "cat": "cronaca",
+    "date": "Mon, 23 Mar 2026",
+    "title": "Ambulanze incendiate a Londra",
+    "desc": "Un incendio doloso ha colpito le ambulanze di un ente ebraico a Londra",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/ambulanze-di-un-ente-ebraico-a-fuoco-a-londra-per-polizia-e-atto-antisemita_f5c83b71-8ecb-4cc5-87d6-26e99f9404e4.html",
+    "buzz": "📱 40.000 menzioni stimate",
+    "buzzNum": 40000,
+    "trending": false,
+    "socials": [],
+    "detail": "Un incendio doloso ha colpito le ambulanze di un ente ebraico a Londra"
   }
 ]
