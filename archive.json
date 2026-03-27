@@ -1,92 +1,5 @@
 [
   {
-    "id": 1,
-    "score": 9,
-    "cat": "politica",
-    "date": "Mon, 23 Mar 2026",
-    "title": "Referendum giustizia, vince il No",
-    "desc": "Il No vince con il 54% dei voti. Meloni: 'Occasione persa, andiamo avanti'",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/23/diretta/risultati_referendum_2026_oggi_news-425239363/",
-    "buzz": "📱 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "Il referendum sulla giustizia ha visto la vittoria del No con il 54% dei voti. La premier Meloni ha commentato: 'Occasione persa, andiamo avanti'"
-  },
-  {
-    "id": 2,
-    "score": 8,
-    "cat": "campania",
-    "date": "Mon, 23 Mar 2026",
-    "title": "Centri sociali in piazza a Napoli",
-    "desc": "I centri sociali sono scesi in piazza a Napoli per celebrare la vittoria del No al referendum",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/23/centri-sociali-in-piazza-a-napoli-no-del-popolo-ora-meloni-si-dimetta_bf94fd5a-6435-4b02-a780-2421931b0e45.html",
-    "buzz": "📱 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "I centri sociali sono scesi in piazza a Napoli per celebrare la vittoria del No al referendum e chiedere le dimissioni della premier Meloni"
-  },
-  {
-    "id": 3,
-    "score": 8,
-    "cat": "campania",
-    "date": "Mon, 23 Mar 2026",
-    "title": "Due donne travolte e uccise a Napoli",
-    "desc": "Due donne sono state travolte e uccise a Napoli da un autista ubriaco",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/23/due-donne-travolte-e-uccise-a-napoli-lautista-era-ubriaco_e69460d3-1310-479e-8ef1-ed7b78066dc4.html",
-    "buzz": "📱 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Due donne sono state travolte e uccise a Napoli da un autista ubriaco. L'autista è stato arrestato e si trova agli arresti domiciliari"
-  },
-  {
-    "id": 4,
-    "score": 7,
-    "cat": "campania",
-    "date": "Mon, 23 Mar 2026",
-    "title": "Refendum: pg Policastro, ora pronti a lavorare per giustizia migliore",
-    "desc": "Il procuratore generale di Policastro ha commentato la vittoria del No al referendum",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/23/refendum-pg-policastro-ora-pronti-a-lavorare-per-giustizia-migliore_12fcff94-2767-4bca-a130-2bc764d3cfe7.html",
-    "buzz": "📱 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [],
-    "detail": "Il procuratore generale di Policastro ha commentato la vittoria del No al referendum e ha dichiarato di essere pronto a lavorare per una giustizia migliore"
-  },
-  {
-    "id": 5,
-    "score": 6,
-    "cat": "politica",
-    "date": "Mon, 23 Mar 2026",
-    "title": "Schlein esulta per la vittoria del No",
-    "desc": "Il leader del PD esulta per la vittoria del No al referendum sulla giustizia",
-    "source": "Il Fatto",
-    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/23/referendum-schlein-vittoria-no-giovani-notizie/8333987/",
-    "buzz": "📱 8.000 menzioni stimate",
-    "buzzNum": 8000,
-    "trending": false,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Il leader del PD esulta per la vittoria del No al referendum sulla giustizia e dichiara che i giovani hanno fatto la differenza"
-  },
-  {
     "id": 6,
     "score": 5,
     "cat": "economia",
@@ -1140,5 +1053,95 @@
     "trending": false,
     "socials": [],
     "detail": "La professoressa Mocchi ha scritto una lettera ai suoi studenti dopo essere stata accoltellata da uno studente di 13 anni."
+  },
+  {
+    "id": 5,
+    "score": 9,
+    "cat": "sport",
+    "date": "Thu, 26 Mar 2026",
+    "title": "Italia in finale play off, batte l'Irlanda del Nord 2-0",
+    "desc": "Tonali e Kean segnano i gol della vittoria",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/sport/calcio/nazionale/2026/03/26/news/italia_irlanda_del_nord_play_off_mondiali_gol_tonali_kean-425248986/",
+    "buzz": "📱 150.000 menzioni stimate",
+    "buzzNum": 150000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "L'Italia ha vinto contro l'Irlanda del Nord e si è qualificata per la finale play off"
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "sport",
+    "date": "Thu, 26 Mar 2026",
+    "title": "Mondiali: la Bosnia batte il Galles ai rigori",
+    "desc": "La Bosnia sfiderà l'Italia in finale play off",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/26/mondiali-la-bosnia-batte-il-galles-ai-rigori-sfidera-italia-in-finale-play-off_c85e7b73-9f48-4b0a-9436-da7b585f7884.html",
+    "buzz": "📱 120.000 menzioni stimate",
+    "buzzNum": 120000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "La Bosnia ha vinto ai rigori contro il Galles e sfiderà l'Italia in finale play off"
+  },
+  {
+    "id": 10,
+    "score": 9,
+    "cat": "esteri",
+    "date": "Thu, 26 Mar 2026",
+    "title": "Rubio, 'è interesse dei Paesi del G7 riaprire Hormuz'",
+    "desc": "L'annuncio del segretario di Stato Usa prima di partire per la Francia",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/26/rubio-e-interesse-dei-paesi-del-g7-riaprire-hormuz_3f34b80b-7326-41f8-b8a8-991cdb2aa35b.html",
+    "buzz": "📱 100.000 menzioni stimate",
+    "buzzNum": 100000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "Rubio ha annunciato che i Paesi del G7 hanno interesse a riaprire lo Stretto di Hormuz"
+  },
+  {
+    "id": 6,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Thu, 26 Mar 2026",
+    "title": "Trump estende al 6 aprile lo stop agli attacchi all'Iran",
+    "desc": "Ai siti energetici su richiesta di Teheran. Colloqui procedono molto bene",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/26/trump-estende-al-6-aprile-lo-stop-agli-attacchi-alliran_a5dc2323-57eb-4882-9040-aacb8b6dae11.html",
+    "buzz": "📱 80.000 menzioni stimate",
+    "buzzNum": 80000,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Trump ha esteso lo stop agli attacchi all'Iran fino al 6 aprile"
+  },
+  {
+    "id": 8,
+    "score": 6,
+    "cat": "economia",
+    "date": "Thu, 26 Mar 2026",
+    "title": "Mps, esposto a Bce, Consob e Bankitalia sulla lista che candida Lovaglio",
+    "desc": "Contestata la mancata comunicazione in anticipo della candidatura visto in ruolo",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/26/mps-esposto-a-bce-consob-e-bankitalia-sulla-lista-che-candida-lovaglio_184a9e2b-66de-4ede-bb19-364e2d87269a.html",
+    "buzz": "📱 30.000 menzioni stimate",
+    "buzzNum": 30000,
+    "trending": false,
+    "socials": [],
+    "detail": "Mps ha presentato un esposto alla Bce, Consob e Bankitalia"
   }
 ]
