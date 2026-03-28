@@ -1,158 +1,5 @@
 [
   {
-    "id": 10,
-    "score": 1,
-    "cat": "economia",
-    "date": "Mon, 23 Mar 2026",
-    "title": "Lo spread tra Btp e Bund chiude in calo",
-    "desc": "Lo spread tra Btp e Bund chiude in calo a 87 punti",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/23/lo-spread-tra-btp-e-bund-chiude-in-calo-a-87-punti_3ed0c0bb-6550-44af-a670-9131398bc6d7.html",
-    "buzz": "📱 1.000 menzioni stimate",
-    "buzzNum": 1000,
-    "trending": false,
-    "socials": [],
-    "detail": "Lo spread tra Btp e Bund chiude in calo a 87 punti, con un rendimento del decennale italiano al 3,87%"
-  },
-  {
-    "id": 1,
-    "score": 8,
-    "cat": "politica",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Referendum Giustizia 2026, le reazioni",
-    "desc": "La riforma voluta dal governo Meloni è stata bocciata con il 53,7% dei voti",
-    "source": "Repubblica",
-    "sourceUrl": "https://www.repubblica.it/politica/2026/03/24/diretta/referendum_giustizia_2026_risultati_affluenza_reazioni-425241842/",
-    "buzz": "📱 120.000 menzioni stimate",
-    "buzzNum": 120000,
-    "trending": true,
-    "socials": [
-      "Facebook",
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "La riforma della giustizia è stata bocciata, il governo Meloni è in difficoltà"
-  },
-  {
-    "id": 2,
-    "score": 7,
-    "cat": "campania",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Sequestrate 32 tonnellate di tabacchi lavorati esteri",
-    "desc": "Cinque arresti e sequestro di beni per due milioni e mezzo",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/24/sequestrate-32-tonnellate-di-tabacchi-lavorati-esteri-cinque-arresti_4868d883-a567-4d0d-8786-91325524fda9.html",
-    "buzz": "📱 20.000 menzioni stimate",
-    "buzzNum": 20000,
-    "trending": false,
-    "socials": [
-      "Facebook",
-      "Twitter"
-    ],
-    "detail": "Operazione contro il contrabbando di tabacchi lavorati esteri in Campania"
-  },
-  {
-    "id": 3,
-    "score": 6,
-    "cat": "economia",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Borsa: l'Europa apre positiva in attesa di sviluppi tra Usa e Iran",
-    "desc": "Parigi (+0,22%), Londra (+0,19%) e Francoforte (+0,1%)",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/24/borsa-leuropa-apre-positiva-in-attesa-di-sviluppi-tra-usa-e-iran_73db9991-11d9-4fd3-a919-80cbf434883e.html",
-    "buzz": "📱 15.000 menzioni stimate",
-    "buzzNum": 15000,
-    "trending": false,
-    "socials": [
-      "Twitter",
-      "Instagram"
-    ],
-    "detail": "La borsa europea apre positiva in attesa di sviluppi tra Usa e Iran"
-  },
-  {
-    "id": 5,
-    "score": 4,
-    "cat": "esteri",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Dopo attacchi Iran Israele bombarda Teheran",
-    "desc": "Almeno sei i feriti nel cuore di Tel Aviv dopo missile con testata da 100kg",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/24/dopo-attacchi-iran-israele-bombarda-teheran_d947164c-d852-4bbc-a867-4ebf03d3cc39.html",
-    "buzz": "📱 10.000 menzioni stimate",
-    "buzzNum": 10000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "Israele bombarda Teheran dopo attacchi dell'Iran"
-  },
-  {
-    "id": 4,
-    "score": 5,
-    "cat": "campania",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Aiuti alimentari per le persone in difficoltà a Napoli e a Bari",
-    "desc": "Intesa Sanpaolo sostiene la raccolta fondi di Cesvi",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/24/aiuti-alimentari-per-le-persone-in-difficolta-a-napoli-e-a-bari_5e2e372a-3a3f-4de7-9aac-91df881a2188.html",
-    "buzz": "📱 5.000 menzioni stimate",
-    "buzzNum": 5000,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Aiuti alimentari per le persone in difficoltà a Napoli e a Bari"
-  },
-  {
-    "id": 6,
-    "score": 3,
-    "cat": "campania",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Controlli del Nas nelle mense ospedaliere, irregolari 18 su 22",
-    "desc": "Ispezioni a Salerno, Benevento e Avellino: sanzioni per 26mila euro",
-    "source": "ANSA Campania",
-    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/24/controlli-del-nas-nelle-mense-ospedaliere-irregolari-18-su-22_f5f0dc48-b9d9-4eed-9fe9-22d99a8536bd.html",
-    "buzz": "📱 2.000 menzioni stimate",
-    "buzzNum": 2000,
-    "trending": false,
-    "socials": [],
-    "detail": "Controlli del Nas nelle mense ospedaliere in Campania"
-  },
-  {
-    "id": 7,
-    "score": 2,
-    "cat": "politica",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Nordio, 'Anm farà forte pressione, diventa soggetto politico anomalo'",
-    "desc": "Il potere della magistratura associata è aumentato, è la vera vincitrice",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/24/nordio-anm-fara-forte-pressione-diventa-soggetto-politico-anomalo_e1cb64f6-683e-4bd4-a0ac-f98e8c23c293.html",
-    "buzz": "📱 1.500 menzioni stimate",
-    "buzzNum": 1500,
-    "trending": false,
-    "socials": [
-      "Facebook"
-    ],
-    "detail": "Nordio: 'Anm farà forte pressione, diventa soggetto politico anomalo'"
-  },
-  {
-    "id": 8,
-    "score": 1,
-    "cat": "economia",
-    "date": "Tue, 24 Mar 2026",
-    "title": "Borsa: Milano apre in rialzo dello 0,13%",
-    "desc": "Il primo indice Ftse Mib a 43.246 punti",
-    "source": "ANSA",
-    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/24/borsa-milano-apre-in-rialzo-dello-013_f7fbc1b3-b675-4373-8468-906c20d8a523.html",
-    "buzz": "📱 1.000 menzioni stimate",
-    "buzzNum": 1000,
-    "trending": false,
-    "socials": [
-      "Twitter"
-    ],
-    "detail": "La borsa di Milano apre in rialzo dello 0,13%"
-  },
-  {
     "id": 9,
     "score": 1,
     "cat": "esteri",
@@ -1145,5 +992,151 @@
     "trending": false,
     "socials": [],
     "detail": "Cupra Tribe Edition debutta tra design sostenibile e tecnologie innovative. 'Con la gamma Tribe Edition abbiamo compiuto un passo decisivo: trasformare l'auto in un oggetto di design'."
+  },
+  {
+    "id": 46,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Iran, attacco a base Usa in Arabia",
+    "desc": "15 feriti. Lo Yemen si unisce alla guerra: primo missile contro Israele",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/mondo/live-post/2026/03/28/guerra-in-iran-israele-usa-news-oggi-28-marzo/8338261/",
+    "buzz": "✋ 123.456 menzioni stimate",
+    "buzzNum": 123456,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter",
+      "Instagram"
+    ],
+    "detail": "L'attacco a una base militare Usa in Arabia Saudita ha causato 15 feriti. Lo Yemen si è unito alla guerra lanciando un missile contro Israele."
+  },
+  {
+    "id": 43,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Missile iraniano sfiora un caccia Usa",
+    "desc": "Nel video il jet evita l’impatto per una frazione di secondo",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/28/missile-iraniano-caccia-usa-video-news/8338263/",
+    "buzz": "✋ 87.654 menzioni stimate",
+    "buzzNum": 87654,
+    "trending": true,
+    "socials": [
+      "Facebook",
+      "Twitter"
+    ],
+    "detail": "Un missile iraniano ha sfiorato un caccia Usa, evitando l'impatto per una frazione di secondo."
+  },
+  {
+    "id": 2,
+    "score": 6,
+    "cat": "esteri",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Gli Houthi dello Yemen rivendicano il primo attacco contro Israele",
+    "desc": "Il gruppo di ribelli ha detto di aver lanciato missili contro siti militari",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/28/gli-houthi-dello-yemen-rivendicano-il-primo-attacco-contro-israele_dac08136-a74d-46ad-93c7-ca14e2c33c36.html",
+    "buzz": "✋ 56.789 menzioni stimate",
+    "buzzNum": 56789,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "Gli Houthi dello Yemen hanno rivendicato il primo attacco contro Israele, lanciando missili contro siti militari."
+  },
+  {
+    "id": 56,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Legale famiglia Caliendo, 'chiesto risarcimento ma Monaldi sempre sordo'",
+    "desc": "'Chiamati solo per l'albero che ricorda il bimbo, appello a governatore Fico'",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/28/legale-famiglia-caliendo-chiesto-risarcimento-ma-monaldi-sempre-sordo_c3672d93-a731-498a-a354-c553956148a8.html",
+    "buzz": "✋ 34.567 menzioni stimate",
+    "buzzNum": 34567,
+    "trending": false,
+    "socials": [],
+    "detail": "La famiglia Caliendo ha chiesto un risarcimento, ma Monaldi non ha risposto."
+  },
+  {
+    "id": 57,
+    "score": 5,
+    "cat": "campania",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Si rifiuta di dare una sigaretta e 5 euro e viene accoltellato",
+    "desc": "A Napoli 19enne ferito, la dinamica è al vaglio dei carabinieri",
+    "source": "ANSA Campania",
+    "sourceUrl": "https://www.ansa.it/campania/notizie/2026/03/28/si-rifiuta-di-dare-una-sigaretta-e-5-euro-e-viene-accoltellato_2b905552-2c48-4e07-9e6f-9c744224dec7.html",
+    "buzz": "✋ 23.456 menzioni stimate",
+    "buzzNum": 23456,
+    "trending": false,
+    "socials": [],
+    "detail": "Un 19enne è stato accoltellato a Napoli dopo aver rifiutato di dare una sigaretta e 5 euro."
+  },
+  {
+    "id": 1,
+    "score": 8,
+    "cat": "esteri",
+    "date": "Sat, 28 Mar 2026",
+    "title": "L'India acquista armi per 25 miliardi",
+    "desc": "Anche i sistemi S-400 russi, fonti alla Pti",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/28/lindia-acquista-armi-per-25-miliardi-anche-i-sistemi-s-400-russi_b7709762-e472-478d-b61d-070c93ed1197.html",
+    "buzz": "✋ 9.876 menzioni stimate",
+    "buzzNum": 9876,
+    "trending": false,
+    "socials": [
+      "Facebook"
+    ],
+    "detail": "L'India ha acquistato armi per 25 miliardi, compresi i sistemi S-400 russi."
+  },
+  {
+    "id": 11,
+    "score": 7,
+    "cat": "esteri",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Guerra in Iran, le news",
+    "desc": "Attacco a base Usa in Arabia, 12 feriti. Houthi si uniscono al conflitto",
+    "source": "Repubblica",
+    "sourceUrl": "https://www.repubblica.it/esteri/2026/03/28/diretta/guerra_iran_usa_israele_news_oggi-425249267/",
+    "buzz": "✋ 6.543 menzioni stimate",
+    "buzzNum": 6543,
+    "trending": false,
+    "socials": [],
+    "detail": "La guerra in Iran continua, con un attacco a una base Usa in Arabia e 12 feriti."
+  },
+  {
+    "id": 45,
+    "score": 6,
+    "cat": "sport",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Sinner senza macchia",
+    "desc": "Batte Zverev in due set e vola in finale a Miami",
+    "source": "Il Fatto",
+    "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/28/sinner-zverev-semifinale-miami-analisi-finale-domenica-lehecka/8338266/",
+    "buzz": "✋ 4.321 menzioni stimate",
+    "buzzNum": 4321,
+    "trending": false,
+    "socials": [],
+    "detail": "Sinner ha battuto Zverev in due set e si è qualificato per la finale a Miami."
+  },
+  {
+    "id": 10,
+    "score": 6,
+    "cat": "sport",
+    "date": "Sat, 28 Mar 2026",
+    "title": "Sinner in finale a Miami",
+    "desc": "Zverev battuto in due set",
+    "source": "ANSA",
+    "sourceUrl": "https://www.ansa.it/sito/notizie/topnews/2026/03/28/sinner-in-finale-a-miami-zverev-battuto-in-due-set_234bd959-8916-4225-986c-400d794ad4c6.html",
+    "buzz": "✋ 2.123 menzioni stimate",
+    "buzzNum": 2123,
+    "trending": false,
+    "socials": [],
+    "detail": "Sinner è in finale a Miami dopo aver battuto Zverev in due set."
   }
 ]
